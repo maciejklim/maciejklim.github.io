@@ -1,12 +1,12 @@
 ---
 weight: 4
-title: "Basic Markdown Syntax"
-date: 2025-05-10T21:57:40+08:00
-lastmod: 2025-05-10T21:57:40+08:00
+title: "Hello World"
+date: 2025-05-10T16:40:20-5:00
+lastmod: 2025-05-10T16:40:20-5:00
 draft: false
 author: "Maciej Klim"
 authorLink: "https://maciejklim.github.io"
-description: "This article shows the basic Markdown syntax and format."
+description: "Hello World."
 images: []
 resources:
 - name: "featured-image"
@@ -21,4 +21,4 @@ lightgallery: true
 Hello World! 
 <!--more-->
 
-Placeholder.
+Welcome to my blog.
