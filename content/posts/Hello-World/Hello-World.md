@@ -1,8 +1,8 @@
 ---
 weight: 4
 title: "Hello World"
-date: 2025-05-10T16:40:20-5:00
-lastmod: 2025-05-10T16:40:20-5:00
+date: 2025-05-10T16:40:20+0000
+lastmod: 2025-05-10T16:40:20+0000
 draft: false
 author: "Maciej Klim"
 authorLink: "https://maciejklim.github.io"
