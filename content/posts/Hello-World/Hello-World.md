@@ -1,8 +1,8 @@
 ---
 weight: 4
 title: "Basic Markdown Syntax"
-date: 2025-05-101T21:57:40+08:00
-lastmod: 2025-05-101T21:57:40+08:00
+date: 2025-05-10T21:57:40+08:00
+lastmod: 2025-05-10T21:57:40+08:00
 draft: false
 author: "Maciej Klim"
 authorLink: "https://maciejklim.github.io"
