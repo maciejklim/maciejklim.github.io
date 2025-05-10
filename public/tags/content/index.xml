@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/content/</link>
+    <description>Recent content in Content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Mar 2020 15:58:26 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Documentation - Content</title>
+      <link>http://localhost:1313/2020/theme-documentation-content/</link>
+      <pubDate>Thu, 05 Mar 2020 15:58:26 +0800</pubDate>
+      <guid>http://localhost:1313/2020/theme-documentation-content/</guid>
+      <description>&lt;p&gt;Find out how to create and organize your content quickly and intuitively in &lt;strong&gt;LoveIt&lt;/strong&gt; theme.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
