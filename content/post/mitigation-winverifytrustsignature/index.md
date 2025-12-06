@@ -1,8 +1,7 @@
 ---
-# title: "Mitigating CVE-2013-3900 WinVerifyTrust Signature Validation"
 title: "CVE 2013-3900: WinVerifyTrust Signature Validation"
 date: "2025-05-09"
-description: "Hello World."
+description: "Coming soon..."
 categories: "Mitigation"
 ---
 
