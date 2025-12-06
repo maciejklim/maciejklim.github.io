@@ -10,3 +10,36 @@
 }
 */
 
+.article-details {
+    padding:10px 20px 10px 20px;
+}
+.article-title {
+    font-size: 20px;
+}
+.article-subtitle {
+    font-size: 16px;
+}
+.article-category a{
+    padding: 5px 15px 5px 15px;
+}
+
+
+/* custom sort elements
+.article-details {
+    display: flex;
+    gap: 6px;
+    align-items: left;
+} 
+
+
+.article-details .article-time {
+    order: 1;
+}
+
+.article-details .article-time--reading {
+    order: 2;
+}
+
+.article-details .article-category {
+    order: 3;
+} */

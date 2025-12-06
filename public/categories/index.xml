@@ -23,22 +23,6 @@
         <description></description>
         </item>
         <item>
-        <title>Syntax</title>
-        <link>http://localhost:1313/categories/syntax/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>http://localhost:1313/categories/themes/</link>
-        <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/themes/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Example Category</title>
         <link>http://localhost:1313/categories/example-category/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
