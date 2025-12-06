@@ -2,10 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on My New Hugo Site</title>
-        <link>https://example.org/posts/</link>
+        <link>https://maciejklim.github.io/posts/</link>
         <description>Recent content in Posts on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate></lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sat, 06 Dec 2025 13:00:00 +0000</lastBuildDate><atom:link href="https://maciejklim.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My First Post</title>
+        <link>https://maciejklim.github.io/posts/my-first-post/</link>
+        <pubDate>Sat, 06 Dec 2025 13:00:00 +0000</pubDate>
+        
+        <guid>https://maciejklim.github.io/posts/my-first-post/</guid>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.&lt;/p&gt;
+&lt;p&gt;Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.&lt;/p&gt;
+&lt;p&gt;Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper.&lt;/p&gt;
+</description>
+        </item>
+        
     </channel>
 </rss>
