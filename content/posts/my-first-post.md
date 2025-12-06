@@ -1,5 +1,11 @@
-+++
-date = '2025-12-06T14:02:07-05:00'
-draft = true
-title = 'My First Post'
-+++
+---
+title: "My First Post"
+date: 2025-12-06T13:00:00Z
+draft: false
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.  
+
+Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.  
+
+Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper.  
