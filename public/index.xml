@@ -1,38 +1,192 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Hugo Theme Stack Starter</title>
+        <title>Maciej Klim</title>
         <link>http://localhost:1313/</link>
-        <description>Recent content on Hugo Theme Stack Starter</description>
+        <description>Recent content on Maciej Klim</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Dec 2025 13:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>http://localhost:1313/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Phishing Trends: End of 2025 Review</title>
+        <link>http://localhost:1313/p/phishing-trends-end-of-2025-review/</link>
+        <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hello-world/</guid>
-        <description>&lt;img src="http://localhost:1313/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+        <guid>http://localhost:1313/p/phishing-trends-end-of-2025-review/</guid>
+        <description>&lt;img src="http://localhost:1313/p/phishing-trends-end-of-2025-review/terracotta-soldiers.jpg" alt="Featured image of post Phishing Trends: End of 2025 Review" /&gt;&lt;h2 id=&#34;hackers-are-outselling-your-security-training&#34;&gt;Hackers Are Outselling Your Security Training
+&lt;/h2&gt;&lt;p&gt;Phishing attacks used to be a laughable Nigerian prince scam. Today? Not so much. The game has changed, the attackers have leveled up, and the average user is still relying on outdated “look for spelling errors” advice that hasn’t mattered in years.&lt;/p&gt;
+&lt;p&gt;Modern phishing isn’t sloppy. It’s smart and engineered to convert. Right now, threat actors have better sales funnels than most companies. The most common phishing attacks have one thing in common: they look exactly like the real thing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;eoy-trends-observed&#34;&gt;EOY Trends Observed
+&lt;/h2&gt;&lt;p&gt;With AI and automation at attacker fingertips, phishing campaigns are hitting faster, smarter, and at a growing scale. The FBI reported over $262 million in phishing-related losses this year, and that’s just what was reported. As attackers continue to automate, more under-protected businesses are getting swept up.&lt;/p&gt;
+&lt;p&gt;Here are the major phishing trends we’ve seen unfold:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fake M365 Login Pages&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed to look like real email &amp;amp; SaaS solution login portals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;QR Code Phishing&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Bypasses most email spam filter solutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business Email Compromise&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Attackers are scraping your LinkedIn to better target your organization’s employees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fake-m365-login-pages&#34;&gt;Fake M365 Login Pages
+&lt;/h2&gt;&lt;p&gt;There’s a huge uptick in fake login portals that mimic Microsoft 365, Google Workspace, Docusign, and every tool your employees trust. Hackers build these sites like a landing page designed to close million-dollar deals.&lt;/p&gt;
+&lt;p&gt;What’s making it even harder to spot is these campaigns are hosted behind legitimate services. Instead of shady URLs, they are OneDrive links, legitimate-looking domains. Threat actors monitor these attacks in real-time, and act within minutes to start hurting businesses.&lt;/p&gt;
+&lt;p&gt;In many cases, once attackers gain access to an employee’s inbox, they immediately search for company-branded documents, invoices, signatures, or vendor communications. They then use that information to craft highly targeted invoice fraud schemes that can quietly drain organizations of substantial funds before anyone realizes something is wrong.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;qr-code-phishing&#34;&gt;QR-Code Phishing
+&lt;/h2&gt;&lt;p&gt;Another trend that is exploding is QR-code phishing (quishing). The attacker sends a clean email, maybe an invoice or an invitation. Instead of a link, they will throw in a QR code image. Users pull out their phone, scan it in a hurry, and are funneled into bad sites. No malicious link for the email filtering solution to catch.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;business-email-compromise&#34;&gt;Business Email Compromise
+&lt;/h2&gt;&lt;p&gt;The apex predator of phishing. These attacks impersonate your CEO asking for a quick favor, a vendor checking on a late payment, or HR requesting urgent information. They mimic real communication patterns to slip past your instinctive defenses.&lt;/p&gt;
+&lt;p&gt;Threat actors are scraping your LinkedIn and company website to identify employee names &amp;amp; job titles. Easily a targeted email is created to look like it came from Jane Doe, your HR director.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;lets-talk-defense&#34;&gt;Let’s Talk Defense
+&lt;/h2&gt;&lt;p&gt;You need layered protection that assumes attackers will get past the first line. MFA compliance is essential, but even that isn’t bulletproof (see: MFA fatigue). Consider implementing strategies such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong identity controls&lt;/li&gt;
+&lt;li&gt;Conditional access policies&lt;/li&gt;
+&lt;li&gt;Web filtering to identify newly registered domains&lt;/li&gt;
+&lt;li&gt;Tackle ‘shadow IT’ tools your employees are using outside of IT department’s scope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Awareness training needs a full makeover too. Stop showing users 2008-era Phish Sim emails. Train your staff in what is seen in the wild. Cybersecurity analysis and IT departments know what these phishing websites look like from exposure, but employees don’t know.&lt;/p&gt;
+&lt;p&gt;Create awareness campaigns on what these phishing campaigns look like, and how they can be identified. Further critical to employee education, is having users motivated to report suspicious emails to the proper internal department, rather than asking their office-buddy “does this email look legit”.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;defensive-controls&#34;&gt;Defensive Controls
+&lt;/h2&gt;&lt;p&gt;Let’s talk about practical advice you can implement to harden your environment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Require phishing-resistant MFA in Entra &amp;amp; audit your MFA enrollment&lt;/strong&gt;&lt;br&gt;
+A chain is only as strong as its weakest link. And in most organizations, that link is an unprotected user account. Do you know whether every user in your tenant is enrolled in MFA? Do you have a recurring audit process? Do you have the Entra policy to enforce it?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block sign-ins from new countries &amp;amp; unauthorized VPNs&lt;/strong&gt;&lt;br&gt;
+Conditional access policies are mandatory. Threat actors almost always operate using proxies and VPNs originating from unusual geographical locations, like Kenya. By enforcing location-based and risk-based policies, you can automatically block a sign-in that doesn’t match a user’s normal behavior. Even if credentials are compromised, these controls make it harder for attackers to move forward.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Detect QR codes with Microsoft Defender for Office 365 license&lt;/strong&gt;&lt;br&gt;
+Microsoft Defender for Office 365 Plan 1 and Plan 2 include native QR-code inspection. Microsoft uses image extraction to isolate the QR code, analyze the encoded URL, and run it through the same detonation and URL reputation engine used for standard links. Users should never be the first line of defense against malicious QR codes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block newly registered domains on the DNS level&lt;/strong&gt;&lt;br&gt;
+Tools like DNSFilter and Zorus (now newly acquired by DNSFilter) provide protection against domains that attackers spin up only hours before their phishing campaigns. These services maintain threat feeds, classify suspicious and newly registered domains, and allow you to enforce policies that automatically block them. When combined with email filtering and endpoint protection, DNS filtering stops entire categories of attacks before they ever reach the user.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;in-closing&#34;&gt;In Closing
+&lt;/h2&gt;&lt;p&gt;As phishing campaigns evolve, so must our defenses. Organizations that treat awareness training as a checkbox will continue to fall behind, while those that invest in modern identity controls, stronger detection, and real-world user education will stay resilient.&lt;/p&gt;
+&lt;p&gt;My goal with this post is to break down these trends and help businesses understand what’s actually happening in the field.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>My First Post</title>
-        <link>http://localhost:1313/posts/my-first-post/</link>
-        <pubDate>Sat, 06 Dec 2025 13:00:00 +0000</pubDate>
+        <title>CVE 2013-3900: WinVerifyTrust Signature Validation</title>
+        <link>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</link>
+        <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/my-first-post/</guid>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.&lt;/p&gt;
-&lt;p&gt;Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.&lt;/p&gt;
-&lt;p&gt;Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper.&lt;/p&gt;
+        <guid>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</guid>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Base Score&lt;/th&gt;
+          &lt;th&gt;Base Severity&lt;/th&gt;
+          &lt;th&gt;CVSS Vector&lt;/th&gt;
+          &lt;th&gt;Exploitability Score&lt;/th&gt;
+          &lt;th&gt;Impact Score&lt;/th&gt;
+          &lt;th&gt;Score Source&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.6&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;AV:N/AC:H/Au:N/C:C/I:C/A:C&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.9&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;10.0&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;NIST&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;8.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.9&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;134c704f-9b21-4f2e-91b3-4a467353bcc0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;8.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.9&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;NIST&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.5&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;MEDIUM&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:yellow; color:black; padding:2px 6px; border-radius:6px;&#34;&gt;1.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:yellow; color:black; padding:2px 6px; border-radius:6px;&#34;&gt;3.6&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Microsoft Corporation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.4&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.0&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;Microsoft Corporation&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>CVE-2023-3438: Unquoted Service Path</title>
+        <link>http://localhost:1313/p/cve-2023-3438-unquoted-service-path/</link>
+        <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/cve-2023-3438-unquoted-service-path/</guid>
+        <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Base Score&lt;/th&gt;
+          &lt;th&gt;Base Severity&lt;/th&gt;
+          &lt;th&gt;CVSS Vector&lt;/th&gt;
+          &lt;th&gt;Exploitability Score&lt;/th&gt;
+          &lt;th&gt;Impact Score&lt;/th&gt;
+          &lt;th&gt;Total Score&lt;/th&gt;
+          &lt;th&gt;Source&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.8&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/td&gt;
+          &lt;td&gt;HIGH&lt;/td&gt;
+          &lt;td&gt;1.8&lt;/td&gt;
+          &lt;td&gt;5.9&lt;/td&gt;
+          &lt;td&gt;NIST&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.4&lt;/span&gt;&lt;/td&gt;
+          &lt;td&gt;MEDIUM&lt;/td&gt;
+          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&lt;/td&gt;
+          &lt;td&gt;MEDIUM&lt;/td&gt;
+          &lt;td&gt;0.8&lt;/td&gt;
+          &lt;td&gt;3.6&lt;/td&gt;
+          &lt;td&gt;Trellix&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 </description>
         </item>
         <item>
@@ -41,7 +195,7 @@
         <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/markdown-syntax-guide/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/p/markdown-syntax-guide/2.jpg" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
 &lt;h2 id=&#34;headings&#34;&gt;Headings
 &lt;/h2&gt;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
 &lt;h1 id=&#34;h1&#34;&gt;H1
@@ -236,194 +390,6 @@
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>Image gallery</title>
-        <link>http://localhost:1313/p/image-gallery/</link>
-        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/image-gallery/</guid>
-        <description>&lt;img src="http://localhost:1313/p/image-gallery/2.jpg" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;syntax&#34;&gt;Syntax
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Image 1&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;1.jpg&lt;/span&gt;) ![&lt;span class=&#34;nt&#34;&gt;Image 2&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;2.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/image-gallery/1.jpg&#34;
-	width=&#34;2000&#34;
-	height=&#34;1400&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/1_hu_811b671457ffff1f.jpg 480w, http://localhost:1313/p/image-gallery/1_hu_c74af69dd7c1dcda.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 1&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;142&#34;
-		data-flex-basis=&#34;342px&#34;
-	
-&gt; &lt;img src=&#34;http://localhost:1313/p/image-gallery/2.jpg&#34;
-	width=&#34;1500&#34;
-	height=&#34;2250&#34;
-	srcset=&#34;http://localhost:1313/p/image-gallery/2_hu_42f6436cb1637265.jpg 480w, http://localhost:1313/p/image-gallery/2_hu_27862a49608da0d9.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Image 2&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;66&#34;
-		data-flex-basis=&#34;160px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mymind&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;mymind&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@lukechesser&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Luke Chesser&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>Shortcodes</title>
-        <link>http://localhost:1313/p/shortcodes/</link>
-        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/shortcodes/</guid>
-        <description>&lt;img src="http://localhost:1313/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video
-&lt;/h2&gt;
-
-
-
-
-
-    
-
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD&#34;
-            scrolling=&#34;no&#34;
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34;
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;tencent-video&#34;&gt;Tencent video
-&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0&#34; 
-            scrolling=&#34;no&#34; 
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34; 
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;youtube-video&#34;&gt;YouTube video
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/0qwALOOvUik&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;generic-video-file&#34;&gt;Generic video file
-&lt;/h2&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;video
-    controls
-    src=&#34;https://www.w3schools.com/tags/movie.mp4&#34;
-    
-    
-    &gt;
-        &lt;p&gt;
-            Your browser doesn&#39;t support HTML5 video. Here is a
-            &lt;a href=&#34;https://www.w3schools.com/tags/movie.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
-        &lt;/p&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;gist&#34;&gt;Gist
-&lt;/h2&gt;&lt;script src=&#34;https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;gitlab&#34;&gt;GitLab
-&lt;/h2&gt;&lt;script
-    type=&#34;application/javascript&#34;
-    src=&#34;https://gitlab.com/-/snippets/2589724.js&#34;
-&gt;&lt;/script&gt;
-&lt;h2 id=&#34;quote&#34;&gt;Quote
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>Math Typesetting</title>
-        <link>http://localhost:1313/p/math-typesetting/</link>
-        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline math
-&lt;/h2&gt;&lt;p&gt;This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;block-math&#34;&gt;Block math
-&lt;/h2&gt;$$
-    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;$$
-    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>Archives</title>
         <link>http://localhost:1313/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
@@ -432,38 +398,12 @@ $$&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <title>Link</title>
+        <link>http://localhost:1313/link/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+        <guid>http://localhost:1313/link/</guid>
+        <description>&lt;p&gt;A curated list of recommended blogs, tools, and resources.&lt;/p&gt;
 </description>
         </item>
         <item>

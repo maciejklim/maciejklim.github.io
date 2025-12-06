@@ -1,12 +1,8 @@
 ---
 title: Markdown Syntax Guide
 date: 2023-09-07
+image: 2.jpg
 description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-tags: 
-    - markdown
-    - css
-    - html
-    - themes
 categories:
     - themes
     - syntax
