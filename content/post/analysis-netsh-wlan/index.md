@@ -29,7 +29,7 @@ To view the details, including the password for one of these networks, run:
 
 Want to dump everything at once?
 
-```netsh wlan export profile folder =C:\wifi_dump key=clear```
+```netsh wlan export profile folder=C:\ key=clear```
 
 ## Here's the scary part
 
