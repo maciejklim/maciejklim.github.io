@@ -1,7 +1,7 @@
 ---
 title: "CVE-2023-3438: Unquoted Service Path"
 date: "2025-05-09"
-image: banner2.webp
+image: banner3.jpg
 description: "Coming soon..."
 categories: "Mitigation"
 ---
