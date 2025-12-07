@@ -6,7 +6,15 @@
         <description>Recent content in Categories on Maciej Klim</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Forensics</title>
+        <link>http://localhost:1313/categories/forensics/</link>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/forensics/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Phishing</title>
         <link>http://localhost:1313/categories/phishing/</link>
         <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>

@@ -6,7 +6,50 @@
         <description>Recent content on Maciej Klim</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Your computer knows exactly how much data every single app has sent to the internet</title>
+        <link>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</link>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</guid>
+        <description>&lt;img src="http://localhost:1313/p/srudb.dat-your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet./banner934.jpg" alt="Featured image of post Your computer knows exactly how much data every single app has sent to the internet" /&gt;&lt;h2 id=&#34;heres-something-wild&#34;&gt;Here&amp;rsquo;s something wild
+&lt;/h2&gt;&lt;p&gt;Your Windows device knows exactly how much data every single app has sent to the internet.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s called &lt;strong&gt;System Resoruce Usage Monitor&lt;/strong&gt; (SRUM)&lt;/p&gt;
+&lt;p&gt;Windows logs the network usage of every process for the last 30-60d to a database located &lt;code&gt;C:\Windows\System32\sru\SRUDB.dat&lt;/code&gt;. Forensics teams use this to prove Exfiltration. It can also be analyzed to see what applications are sending data, how much data, and at what time the data was sent.&lt;/p&gt;
+&lt;p&gt;The suspect: &amp;ldquo;I didn&amp;rsquo;t steal the company data!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The SRUM: &amp;ldquo;Then why did Edge.exe upload 20Gb of data at 1am on a Saturday?&lt;/p&gt;
+&lt;p&gt;SRUM is a reminder that transparency isn&amp;rsquo;t optional on centralized systems&amp;hellip;it&amp;rsquo;s built in. The device becomes an investigator long before any investigator arrives. Even if you wipe the footprints, the terrain still shows where you ran.&lt;/p&gt;
+&lt;h2 id=&#34;accessing-the-srum-database&#34;&gt;Accessing the SRUM database
+&lt;/h2&gt;&lt;p&gt;You can use open-source tool srum-dump &lt;a class=&#34;link&#34; href=&#34;https://github.com/MarkBaggett/srum-dump&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/MarkBaggett/srum-dump&lt;/a&gt;. As the tool suggests, it extracts all records from the SRUM database file, and exports them into an Excel spreadsheet.&lt;/p&gt;
+&lt;p&gt;Download the binary and run it as an administrator. Follow the prompts to select your &lt;code&gt;srubd.dat&lt;/code&gt; file and wait for the application to generate your report.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This utility also supports CLI commands, which can be found documented on the vendor&amp;rsquo;s Github.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example of the generated output:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/srudb.dat-your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet./EXCEL_OQc6vgmBO6.png&#34;
+	width=&#34;1406&#34;
+	height=&#34;590&#34;
+	srcset=&#34;http://localhost:1313/p/srudb.dat-your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet./EXCEL_OQc6vgmBO6_hu_9aeb2ac9ae21ec3f.png 480w, http://localhost:1313/p/srudb.dat-your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet./EXCEL_OQc6vgmBO6_hu_aaee6159e8409763.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;srum-dump report&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;238&#34;
+		data-flex-basis=&#34;571px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;From here, the &lt;code&gt;Application/Process&lt;/code&gt; column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.&lt;/p&gt;
+&lt;h3 id=&#34;common-next-steps&#34;&gt;Common next steps
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sorting by &lt;code&gt;Total Bytes&lt;/code&gt; to identify processes consuming unexpected amounts of network bandwidth.&lt;/li&gt;
+&lt;li&gt;Filtering timestamps to show activity occurring outside normal business hours.&lt;/li&gt;
+&lt;li&gt;Using Excel formulas or pivot tables to highlight anomalies, correlate processes, or enrich findings with other telemetry sources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This forms the foundation for spotting persistence mechanisms, unauthorized data transfers, or binaries that simply don’t belong on the system.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Phishing Trends: End of 2025 Review</title>
         <link>http://localhost:1313/p/phishing-trends-end-of-2025-review/</link>
         <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
