@@ -1,7 +1,7 @@
 ---
 title: "Phishing Trends: End of 2025 Review"
 date: 2025-12-06
-image: terracotta-soldiers.jpg
+image: banner10.jpg
 description: Exploring the top phishing trends of 2025. From fake M365 login pages to QR-code scams, and learn practical defenses to protect your organization.
 categories:
     - Phishing
