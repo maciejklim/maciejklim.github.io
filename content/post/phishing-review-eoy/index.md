@@ -8,7 +8,7 @@ categories:
 ---
 
 
-## Hackers Are Outselling Your Security Training
+## Hackers Are Outperforming Your Security Training
 Phishing attacks used to be a laughable Nigerian prince scam. Today? Not so much. The game has changed, the attackers have leveled up, and the average user is still relying on outdated “look for spelling errors” advice that hasn’t mattered in years.
 
 Modern phishing isn’t sloppy. It’s smart and engineered to convert. Right now, threat actors have better sales funnels than most companies. The most common phishing attacks have one thing in common: they look exactly like the real thing. 
@@ -30,9 +30,9 @@ Here are the major phishing trends we’ve seen unfold:
 ---
 
 ## Fake M365 Login Pages
-There’s a huge uptick in fake login portals that mimic Microsoft 365, Google Workspace, Docusign, and every tool your employees trust. Hackers build these sites like a landing page designed to close million-dollar deals.  
+There’s a huge uptick in fake login portals that mimic Microsoft 365, Google Workspace, Docusign, and all the tools your employees trust. Hackers build these sites like a landing page designed to close million-dollar deals.  
 
-What’s making it even harder to spot is these campaigns are hosted behind legitimate services. Instead of shady URLs, they are OneDrive links, legitimate-looking domains. Threat actors monitor these attacks in real-time, and act within minutes to start hurting businesses.
+What’s making it even harder to spot is these campaigns are hosted behind legitimate services. Instead of shady URLs, they are OneDrive links, and real-looking domains. Threat actors monitor these attacks in real-time, and act within minutes to start hurting businesses.
 
 In many cases, once attackers gain access to an employee’s inbox, they immediately search for company-branded documents, invoices, signatures, or vendor communications. They then use that information to craft highly targeted invoice fraud schemes that can quietly drain organizations of substantial funds before anyone realizes something is wrong.
 
