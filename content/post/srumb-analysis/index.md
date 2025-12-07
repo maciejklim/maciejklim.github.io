@@ -11,9 +11,9 @@ draft: false
 
 Your Windows device knows exactly how much data every single app has sent to the internet.
 
-It's called **System Resoruce Usage Monitor** (SRUM)
+It's called **System Resoruce Usage Monitor** (SRUM).
 
-Windows logs the network usage of every process for the last 30-60d to a database located ```C:\Windows\System32\sru\SRUDB.dat```. Forensics teams use this to prove Exfiltration. It can also be analyzed to see what applications are sending data, how much data, and at what time the data was sent.
+Windows logs the network usage of every process for the last 30-60d to a database located ```C:\Windows\System32\sru\SRUDB.dat```. Forensics teams use this to prove exfiltration. It can also be analyzed to see what applications are sending data, how much data, and at what time the data was sent.
 
 The suspect: "I didn't steal the company data!"
 
