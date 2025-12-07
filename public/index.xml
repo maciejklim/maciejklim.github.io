@@ -70,7 +70,7 @@
 &lt;p&gt;To view the details, including the password for one of these networks, run:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;netsh wlan show profile name=&amp;quot;SSID_NAME&amp;quot; key=clear&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Want to dump everything at once?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netsh wlan export profile folder =C:\wifi_dump key=clear&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;netsh wlan export profile folder=C:\ key=clear&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;heres-the-scary-part&#34;&gt;Here&amp;rsquo;s the scary part
 &lt;/h2&gt;&lt;p&gt;BSSID is a &lt;strong&gt;physical device ID&lt;/strong&gt;. It&amp;rsquo;s tied to real, physical router sitting in a real, physical location.&lt;/p&gt;
 &lt;p&gt;And here&amp;rsquo;s where it gets wild:&lt;/p&gt;

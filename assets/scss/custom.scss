@@ -43,3 +43,25 @@
 .article-details .article-category {
     order: 3;
 } */
+
+/* Archive: Hide article thumbnails */
+.archives-group .article-image {
+    display: none !important;
+}
+
+/* Archive: Hide mm-dd-yyyy timestamp */
+.archives-group .article-time {
+    display: none;
+}
+
+/*( Archive: Compact */
+.article-list--compact article .article-details{
+    min-height: 0px;
+}
+.article-list--compact article>a{
+    padding: 10px
+}
+.archives-group .article-list--compact article .article-title {
+    font-weight: normal !important;
+    font-size: 1.6rem;
+}

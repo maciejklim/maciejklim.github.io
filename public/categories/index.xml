@@ -15,22 +15,6 @@
         <description></description>
         </item>
         <item>
-        <title>Linux</title>
-        <link>http://localhost:1313/categories/linux/</link>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/linux/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Red Team</title>
-        <link>http://localhost:1313/categories/red-team/</link>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/red-team/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Phishing</title>
         <link>http://localhost:1313/categories/phishing/</link>
         <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>

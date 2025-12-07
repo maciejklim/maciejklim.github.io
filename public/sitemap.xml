@@ -8,19 +8,10 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/cve-2019-14287-sudo-shell-escaping/</loc>
-    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/forensics/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux/</loc>
-    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/red-team/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</loc>
