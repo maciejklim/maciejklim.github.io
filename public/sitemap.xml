@@ -8,13 +8,25 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/p/cve-2019-14287-sudo-shell-escaping/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/forensics/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/linux/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/srudb.dat-your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet./</loc>
+    <loc>http://localhost:1313/categories/red-team/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/your-wifi-connection-history-exposed/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/phishing/</loc>
@@ -22,6 +34,9 @@
   </url><url>
     <loc>http://localhost:1313/p/phishing-trends-end-of-2025-review/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blue-team/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>

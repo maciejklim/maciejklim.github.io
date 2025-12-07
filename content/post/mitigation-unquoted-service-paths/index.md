@@ -3,7 +3,9 @@ title: "CVE-2023-3438: Unquoted Service Path"
 date: "2025-05-09"
 image: banner9.jpg
 description: "Coming soon..."
-categories: "Mitigation"
+categories:
+    - Mitigation
+    - Blue Team
 ---
 
 | Base Score | Base Severity | CVSS Vector | Exploitability Score | Impact Score | Total Score | Source |

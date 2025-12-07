@@ -3,7 +3,9 @@ title: "CVE 2013-3900: WinVerifyTrust Signature Validation"
 date: "2025-05-09"
 image: banner8.jpg 
 description: "Coming soon..."
-categories: "Mitigation"
+categories:
+    - Mitigation
+    - Blue Team
 ---
 
 | Base Score | Base Severity | CVSS Vector | Exploitability Score | Impact Score | Score Source |

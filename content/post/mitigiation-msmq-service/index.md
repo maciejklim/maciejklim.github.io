@@ -2,7 +2,9 @@
 title: "CVE 2024-300800: Microsoft Message Queueing (MSMQ) Remote Code Execution"
 date: "2025-05-09"
 description: "Coming soon..."
-categories: "Mitigation"
+categories:
+    - Mitigation
+    - Blue Team
 draft: true
 ---
 
