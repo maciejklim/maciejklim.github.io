@@ -39,10 +39,10 @@
 		data-flex-basis=&#34;571px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;From here, the &lt;code&gt;Application/Process&lt;/code&gt; column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.&lt;/p&gt;
+&lt;p&gt;From here, the &lt;em&gt;Application/Process&lt;/em&gt; column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.&lt;/p&gt;
 &lt;h3 id=&#34;common-next-steps&#34;&gt;Common next steps
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Sorting by &lt;code&gt;Total Bytes&lt;/code&gt; to identify processes consuming unexpected amounts of network bandwidth.&lt;/li&gt;
+&lt;li&gt;Sorting by &lt;em&gt;Total Bytes&lt;/em&gt; to identify processes consuming unexpected amounts of network bandwidth.&lt;/li&gt;
 &lt;li&gt;Filtering timestamps to show activity occurring outside normal business hours.&lt;/li&gt;
 &lt;li&gt;Using Excel formulas or pivot tables to highlight anomalies, correlate processes, or enrich findings with other telemetry sources.&lt;/li&gt;
 &lt;/ul&gt;
@@ -67,6 +67,8 @@
 &lt;h3 id=&#34;how-to-see-the-data&#34;&gt;How to see the data
 &lt;/h3&gt;&lt;p&gt;Open an &lt;strong&gt;elevated command prompt&lt;/strong&gt; and run:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;netsh wlan show profiles&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To see BSSID addresses:
+&lt;code&gt;netsh wlan show networks mode=bsid&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;To view the details, including the password for one of these networks, run:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;netsh wlan show profile name=&amp;quot;SSID_NAME&amp;quot; key=clear&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Want to dump everything at once?&lt;/p&gt;
@@ -277,6 +279,15 @@ Tools like DNSFilter and Zorus (now newly acquired by DNSFilter) provide protect
         
         <guid>http://localhost:1313/archives/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>Projects</title>
+        <link>http://localhost:1313/projects/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/projects/</guid>
+        <description>&lt;p&gt;Coming soon&amp;hellip;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Linkroll</title>

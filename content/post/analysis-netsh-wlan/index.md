@@ -1,7 +1,7 @@
 ---
 title: "Your WiFi connection history, exposed"
 date: "2025-12-07"
-description: "Use NETSH to see every network ever connected to. Passwords (in plain text). And geolocation."
+description: "Use NETSH to see every network you've connected to. Passwords in plain text. And even geolocation."
 image: "banner4905.jpg"
 categories: "Forensics"
 ---
@@ -22,6 +22,9 @@ All of it can be revealed with a single built-in command.
 Open an **elevated command prompt** and run:
 
 ```netsh wlan show profiles```
+
+To see BSSID addresses:
+```netsh wlan show networks mode=bsid```
 
 To view the details, including the password for one of these networks, run:
 

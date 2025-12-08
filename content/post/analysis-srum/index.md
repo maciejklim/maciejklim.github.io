@@ -33,11 +33,11 @@ Here's an example of the generated output:
 
 ![srum-dump report](EXCEL_OQc6vgmBO6.png)
 
-From here, the `Application/Process` column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.
+From here, the *Application/Process* column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.
 
 ### Common next steps
 
-- Sorting by `Total Bytes` to identify processes consuming unexpected amounts of network bandwidth.
+- Sorting by *Total Bytes* to identify processes consuming unexpected amounts of network bandwidth.
 - Filtering timestamps to show activity occurring outside normal business hours.
 - Using Excel formulas or pivot tables to highlight anomalies, correlate processes, or enrich findings with other telemetry sources.
 
