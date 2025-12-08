@@ -1,0 +1,14 @@
+{{ define "main" }}
+    {{ $pages := where .Pages "Section" "projects" }}
+    {{ $notHidden := where $pages "Params.hidden" "!=" true }}
+    {{ $pag := .Paginate $notHidden }}
+
+    <section class="article-list">
+        {{ range $pag.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{ partial "pagination.html" . }}
+    {{ partial "footer/footer" . }}
+{{ end }}
