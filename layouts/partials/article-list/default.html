@@ -1,6 +1,8 @@
 {{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
 <article class="article-list-item minimal">
-    <a href="{{ .RelPermalink }}" class="minimal-link">
+    <a href="{{ .Params.redirect | default .RelPermalink }}"
+       class="minimal-link"
+       {{ with .Params.redirect }}target="_blank" rel="noopener noreferrer"{{ end }}>
         <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
         <span class="post-title">{{ .Title }}</span>
     </a>
