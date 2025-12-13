@@ -2,8 +2,8 @@
 title: "Your computer knows exactly how much data every single app has sent to the internet"
 date: "2025-12-07"
 description: "Learn how to analyze the SRUBD.dat file."
-image: "banner934.jpg"
 categories: "Forensics"
+image: banner934.jpg
 draft: false
 ---
 

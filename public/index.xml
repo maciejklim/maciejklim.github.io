@@ -6,13 +6,22 @@
         <description>Recent content on Maciej Klim</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Dark Web Email Checker</title>
+        <link>http://localhost:1313/projects/dark-web-email-checker/</link>
+        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/projects/dark-web-email-checker/</guid>
+        <description>&lt;p&gt;Project content&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>M365 Phish Email Removal Tool</title>
-        <link>http://localhost:1313/projects/project-a/</link>
+        <link>http://localhost:1313/projects/m365-phish-removal-tool/</link>
         <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/projects/project-a/</guid>
-        <description>&lt;img src="http://localhost:1313/projects/project-a/banner-34923.jpg" alt="Featured image of post M365 Phish Email Removal Tool" /&gt;&lt;p&gt;Project content&amp;hellip;&lt;/p&gt;
+        <guid>http://localhost:1313/projects/m365-phish-removal-tool/</guid>
+        <description>&lt;img src="http://localhost:1313/projects/m365-phish-removal-tool/banner-34923.jpg" alt="Featured image of post M365 Phish Email Removal Tool" /&gt;&lt;p&gt;Project content&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         <item>

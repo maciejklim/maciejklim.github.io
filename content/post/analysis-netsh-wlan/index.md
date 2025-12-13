@@ -2,8 +2,8 @@
 title: "Your WiFi connection history, exposed"
 date: "2025-12-07"
 description: "Use NETSH to see every network you've connected to. Passwords in plain text. And even geolocation."
-image: "banner4905.jpg"
 categories: "Forensics"
+image: "banner4905.jpg"
 ---
 
 ## You probably weren't told this, but...
