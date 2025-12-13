@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Forensics on Maciej Klim</title><link>https://maciejklim.github.io/categories/forensics/</link><description>Recent content in Forensics on Maciej Klim</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://maciejklim.github.io/categories/forensics/index.xml" rel="self" type="application/rss+xml"/><item><title>Your computer knows exactly how much data every single app has sent to the internet</title><link>https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</link><pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate><guid>https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</guid><description>&lt;img src="https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/banner934.jpg" alt="Featured image of post Your computer knows exactly how much data every single app has sent to the internet" /&gt;&lt;h2 id="heres-something-wild"&gt;Here&amp;rsquo;s something wild
+&lt;/h2&gt;&lt;p&gt;Your Windows device knows exactly how much data every single app has sent to the internet.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s called &lt;strong&gt;System Resoruce Usage Monitor&lt;/strong&gt; (SRUM).&lt;/p&gt;
+&lt;p&gt;Windows logs the network usage of every process for the last 30-60d to a database located &lt;code&gt;C:\Windows\System32\sru\SRUDB.dat&lt;/code&gt;. Forensics teams use this to prove exfiltration. It can also be analyzed to see what applications are sending data, how much data, and at what time the data was sent.&lt;/p&gt;
+&lt;p&gt;The suspect: &amp;ldquo;I didn&amp;rsquo;t steal the company data!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The SRUM: &amp;ldquo;Then why did Edge.exe upload 20Gb of data at 1am on a Saturday?&lt;/p&gt;
+&lt;p&gt;SRUM is a reminder that transparency isn&amp;rsquo;t optional on centralized systems&amp;hellip;it&amp;rsquo;s built in. The device becomes an investigator long before any investigator arrives. Even if you wipe the footprints, the terrain still shows where you ran.&lt;/p&gt;
+&lt;h2 id="accessing-the-srum-database"&gt;Accessing the SRUM database
+&lt;/h2&gt;&lt;p&gt;You can use open-source tool srum-dump &lt;a class="link" href="https://github.com/MarkBaggett/srum-dump" target="_blank" rel="noopener"
+&gt;https://github.com/MarkBaggett/srum-dump&lt;/a&gt;. As the tool suggests, it extracts all records from the SRUM database file, and exports them into an Excel spreadsheet.&lt;/p&gt;
+&lt;p&gt;Download the binary and run it as an administrator. Follow the prompts to select your &lt;code&gt;srubd.dat&lt;/code&gt; file and wait for the application to generate your report.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This utility also supports CLI commands, which can be found documented on the vendor&amp;rsquo;s Github.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example of the generated output:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6.png"
+width="1406"
+height="590"
+srcset="https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6_hu_9aeb2ac9ae21ec3f.png 480w, https://maciejklim.github.io/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6_hu_aaee6159e8409763.png 1024w"
+loading="lazy"
+alt="srum-dump report"
+class="gallery-image"
+data-flex-grow="238"
+data-flex-basis="571px"
+&gt;&lt;/p&gt;
+&lt;p&gt;From here, the &lt;em&gt;Application/Process&lt;/em&gt; column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.&lt;/p&gt;
+&lt;h3 id="common-next-steps"&gt;Common next steps
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Sorting by &lt;em&gt;Total Bytes&lt;/em&gt; to identify processes consuming unexpected amounts of network bandwidth.&lt;/li&gt;
+&lt;li&gt;Filtering timestamps to show activity occurring outside normal business hours.&lt;/li&gt;
+&lt;li&gt;Using Excel formulas or pivot tables to highlight anomalies, correlate processes, or enrich findings with other telemetry sources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This forms the foundation for spotting persistence mechanisms, unauthorized data transfers, or binaries that simply don’t belong on the system.&lt;/p&gt;</description></item><item><title>Your WiFi connection history, exposed</title><link>https://maciejklim.github.io/p/your-wifi-connection-history-exposed/</link><pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate><guid>https://maciejklim.github.io/p/your-wifi-connection-history-exposed/</guid><description>&lt;img src="https://maciejklim.github.io/p/your-wifi-connection-history-exposed/banner4905.jpg" alt="Featured image of post Your WiFi connection history, exposed" /&gt;&lt;h2 id="you-probably-werent-told-this-but"&gt;You probably weren&amp;rsquo;t told this, but&amp;hellip;
+&lt;/h2&gt;&lt;p&gt;Your Windows laptop is keeping a &lt;strong&gt;five-year diary&lt;/strong&gt; of everywhere you&amp;rsquo;ve ever taken it.&lt;/p&gt;
+&lt;p&gt;Every time you connect to WiFi, Windows quietly logs three things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SSID (network MAC)&lt;/li&gt;
+&lt;li&gt;BSSID (router MAC)&lt;/li&gt;
+&lt;li&gt;And yes&amp;hellip; the &lt;strong&gt;plain-text WiFi password&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of it can be revealed with a single built-in command.&lt;/p&gt;
+&lt;h3 id="how-to-see-the-data"&gt;How to see the data
+&lt;/h3&gt;&lt;p&gt;Open an &lt;strong&gt;elevated command prompt&lt;/strong&gt; and run:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;netsh wlan show profiles&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To see BSSID addresses:
+&lt;code&gt;netsh wlan show networks mode=bsid&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To view the details, including the password for one of these networks, run:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;netsh wlan show profile name=&amp;quot;SSID_NAME&amp;quot; key=clear&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Want to dump everything at once?&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;netsh wlan export profile folder=C:\ key=clear&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="heres-the-scary-part"&gt;Here&amp;rsquo;s the scary part
+&lt;/h2&gt;&lt;p&gt;BSSID is a &lt;strong&gt;physical device ID&lt;/strong&gt;. It&amp;rsquo;s tied to real, physical router sitting in a real, physical location.&lt;/p&gt;
+&lt;p&gt;And here&amp;rsquo;s where it gets wild:&lt;/p&gt;
+&lt;p&gt;Crowdsourced databases like &lt;a class="link" href="https://wigle.net/" target="_blank" rel="noopener"
+&gt;https://wigle.net/&lt;/a&gt; map millions of &lt;strong&gt;BSSIDs&lt;/strong&gt; to real-world coordinates.&lt;/p&gt;
+&lt;p&gt;Anyone with access to your WiFi history can dump those BSSIDs. Plug the MAC addresses into a public database&amp;hellip;&lt;/p&gt;
+&lt;p&gt;And instantly reconstruct a map of everywhere your laptop has been.&lt;/p&gt;
+&lt;p&gt;Your office. Your home. That hotel you stayed at two years ago. The cafe you visited once and forgot.&lt;/p&gt;
+&lt;p&gt;A full location trail - without ever touching GPS.&lt;/p&gt;
+&lt;h2 id="the-good-news-you-can-wipe-this-trail-clean"&gt;The good news: you can wipe this trail clean
+&lt;/h2&gt;&lt;p&gt;If you want to purge your WiFi history, open an &lt;strong&gt;elevated command prompt&lt;/strong&gt; and run:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;netsh wlan delete profile name=*&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Done. Your travel diary is gone.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re privacy-minded, take it a step further. Turn this into a &lt;strong&gt;daily scheduled task&lt;/strong&gt; using Windows Task Scheduler so your laptop never accumulates a trail again.&lt;/p&gt;</description></item></channel></rss>
