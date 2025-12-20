@@ -80,6 +80,8 @@ Only entries containing ```.xlsx``` in their referenced file will be highlighted
 
 ![PECmd Keyword Highlighting](Vn9opP9vCU.png)
 
+Here we see Excel was used to open an .XLSX file related to _SRUM DUMP_ activity.
+
 ## Applying PECmd to Malware Analysis
 
 Prefetch files aren't just useful for tracking legitimate programs. They're a goldmine for **malware forensics**. Even if a malicious file is deleted, its Prefetch entry can reveal:
