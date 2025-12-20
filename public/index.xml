@@ -1,328 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Maciej Klim</title>
-        <link>http://localhost:1313/</link>
-        <description>Recent content on Maciej Klim</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Dark Web Email Checker</title>
-        <link>http://localhost:1313/projects/dark-web-email-checker/</link>
-        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/projects/dark-web-email-checker/</guid>
-        <description>&lt;p&gt;Project content&amp;hellip;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>M365 Phish Email Removal Tool</title>
-        <link>http://localhost:1313/projects/m365-phish-removal-tool/</link>
-        <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/projects/m365-phish-removal-tool/</guid>
-        <description>&lt;img src="http://localhost:1313/projects/m365-phish-removal-tool/banner-34923.jpg" alt="Featured image of post M365 Phish Email Removal Tool" /&gt;</description>
-        </item>
-        <item>
-        <title>Your computer knows exactly how much data every single app has sent to the internet</title>
-        <link>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</link>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</guid>
-        <description>&lt;img src="http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/banner934.jpg" alt="Featured image of post Your computer knows exactly how much data every single app has sent to the internet" /&gt;&lt;h2 id=&#34;heres-something-wild&#34;&gt;Here&amp;rsquo;s something wild
-&lt;/h2&gt;&lt;p&gt;Your Windows device knows exactly how much data every single app has sent to the internet.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s called &lt;strong&gt;System Resoruce Usage Monitor&lt;/strong&gt; (SRUM).&lt;/p&gt;
-&lt;p&gt;Windows logs the network usage of every process for the last 30-60d to a database located &lt;code&gt;C:\Windows\System32\sru\SRUDB.dat&lt;/code&gt;. Forensics teams use this to prove exfiltration. It can also be analyzed to see what applications are sending data, how much data, and at what time the data was sent.&lt;/p&gt;
-&lt;p&gt;The suspect: &amp;ldquo;I didn&amp;rsquo;t steal the company data!&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;The SRUM: &amp;ldquo;Then why did Edge.exe upload 20Gb of data at 1am on a Saturday?&lt;/p&gt;
-&lt;p&gt;SRUM is a reminder that transparency isn&amp;rsquo;t optional on centralized systems&amp;hellip;it&amp;rsquo;s built in. The device becomes an investigator long before any investigator arrives. Even if you wipe the footprints, the terrain still shows where you ran.&lt;/p&gt;
-&lt;h2 id=&#34;accessing-the-srum-database&#34;&gt;Accessing the SRUM database
-&lt;/h2&gt;&lt;p&gt;You can use open-source tool srum-dump &lt;a class=&#34;link&#34; href=&#34;https://github.com/MarkBaggett/srum-dump&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/MarkBaggett/srum-dump&lt;/a&gt;. As the tool suggests, it extracts all records from the SRUM database file, and exports them into an Excel spreadsheet.&lt;/p&gt;
-&lt;p&gt;Download the binary and run it as an administrator. Follow the prompts to select your &lt;code&gt;srubd.dat&lt;/code&gt; file and wait for the application to generate your report.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This utility also supports CLI commands, which can be found documented on the vendor&amp;rsquo;s Github.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s an example of the generated output:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6.png&#34;
-	width=&#34;1406&#34;
-	height=&#34;590&#34;
-	srcset=&#34;http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6_hu_9aeb2ac9ae21ec3f.png 480w, http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/EXCEL_OQc6vgmBO6_hu_aaee6159e8409763.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;srum-dump report&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;238&#34;
-		data-flex-basis=&#34;571px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;From here, the &lt;em&gt;Application/Process&lt;/em&gt; column becomes one of the most valuable fields. It allows you to quickly identify unusual or suspicious binaries that may not align with normal workstation activity.&lt;/p&gt;
-&lt;h3 id=&#34;common-next-steps&#34;&gt;Common next steps
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Sorting by &lt;em&gt;Total Bytes&lt;/em&gt; to identify processes consuming unexpected amounts of network bandwidth.&lt;/li&gt;
-&lt;li&gt;Filtering timestamps to show activity occurring outside normal business hours.&lt;/li&gt;
-&lt;li&gt;Using Excel formulas or pivot tables to highlight anomalies, correlate processes, or enrich findings with other telemetry sources.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This forms the foundation for spotting persistence mechanisms, unauthorized data transfers, or binaries that simply don’t belong on the system.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Your WiFi connection history, exposed</title>
-        <link>http://localhost:1313/p/your-wifi-connection-history-exposed/</link>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/your-wifi-connection-history-exposed/</guid>
-        <description>&lt;img src="http://localhost:1313/p/your-wifi-connection-history-exposed/banner4905.jpg" alt="Featured image of post Your WiFi connection history, exposed" /&gt;&lt;h2 id=&#34;you-probably-werent-told-this-but&#34;&gt;You probably weren&amp;rsquo;t told this, but&amp;hellip;
-&lt;/h2&gt;&lt;p&gt;Your Windows laptop is keeping a &lt;strong&gt;five-year diary&lt;/strong&gt; of everywhere you&amp;rsquo;ve ever taken it.&lt;/p&gt;
-&lt;p&gt;Every time you connect to WiFi, Windows quietly logs three things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SSID (network MAC)&lt;/li&gt;
-&lt;li&gt;BSSID (router MAC)&lt;/li&gt;
-&lt;li&gt;And yes&amp;hellip; the &lt;strong&gt;plain-text WiFi password&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All of it can be revealed with a single built-in command.&lt;/p&gt;
-&lt;h3 id=&#34;how-to-see-the-data&#34;&gt;How to see the data
-&lt;/h3&gt;&lt;p&gt;Open an &lt;strong&gt;elevated command prompt&lt;/strong&gt; and run:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netsh wlan show profiles&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;To see BSSID addresses:
-&lt;code&gt;netsh wlan show networks mode=bsid&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;To view the details, including the password for one of these networks, run:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netsh wlan show profile name=&amp;quot;SSID_NAME&amp;quot; key=clear&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Want to dump everything at once?&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netsh wlan export profile folder=C:\ key=clear&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;heres-the-scary-part&#34;&gt;Here&amp;rsquo;s the scary part
-&lt;/h2&gt;&lt;p&gt;BSSID is a &lt;strong&gt;physical device ID&lt;/strong&gt;. It&amp;rsquo;s tied to real, physical router sitting in a real, physical location.&lt;/p&gt;
-&lt;p&gt;And here&amp;rsquo;s where it gets wild:&lt;/p&gt;
-&lt;p&gt;Crowdsourced databases like &lt;a class=&#34;link&#34; href=&#34;https://wigle.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wigle.net/&lt;/a&gt; map millions of &lt;strong&gt;BSSIDs&lt;/strong&gt; to real-world coordinates.&lt;/p&gt;
-&lt;p&gt;Anyone with access to your WiFi history can dump those BSSIDs. Plug the MAC addresses into a public database&amp;hellip;&lt;/p&gt;
-&lt;p&gt;And instantly reconstruct a map of everywhere your laptop has been.&lt;/p&gt;
-&lt;p&gt;Your office. Your home. That hotel you stayed at two years ago. The cafe you visited once and forgot.&lt;/p&gt;
-&lt;p&gt;A full location trail - without ever touching GPS.&lt;/p&gt;
-&lt;h2 id=&#34;the-good-news-you-can-wipe-this-trail-clean&#34;&gt;The good news: you can wipe this trail clean
-&lt;/h2&gt;&lt;p&gt;If you want to purge your WiFi history, open an &lt;strong&gt;elevated command prompt&lt;/strong&gt; and run:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netsh wlan delete profile name=*&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Done. Your travel diary is gone.&lt;/p&gt;
-&lt;p&gt;If you&amp;rsquo;re privacy-minded, take it a step further. Turn this into a &lt;strong&gt;daily scheduled task&lt;/strong&gt; using Windows Task Scheduler so your laptop never accumulates a trail again.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Phishing Trends: End of 2025 Review</title>
-        <link>http://localhost:1313/p/phishing-trends-end-of-2025-review/</link>
-        <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/phishing-trends-end-of-2025-review/</guid>
-        <description>&lt;img src="http://localhost:1313/p/phishing-trends-end-of-2025-review/terracotta-soldiers.jpg" alt="Featured image of post Phishing Trends: End of 2025 Review" /&gt;&lt;h2 id=&#34;hackers-are-outperforming-your-security-training&#34;&gt;Hackers Are Outperforming Your Security Training
-&lt;/h2&gt;&lt;p&gt;Phishing attacks used to be a laughable Nigerian prince scam. Today? Not so much. The game has changed, the attackers have leveled up, and the average user is still relying on outdated “look for spelling errors” advice that hasn’t mattered in years.&lt;/p&gt;
-&lt;p&gt;Modern phishing isn’t sloppy. It’s smart and engineered to convert. Right now, threat actors have better sales funnels than most companies. The most common phishing attacks have one thing in common: they look exactly like the real thing.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;eoy-trends-observed&#34;&gt;EOY Trends Observed
-&lt;/h2&gt;&lt;p&gt;With AI and automation at attacker fingertips, phishing campaigns are hitting faster, smarter, and at a growing scale. The FBI reported over $262 million in phishing-related losses this year, and that’s just what was reported. As attackers continue to automate, more under-protected businesses are getting swept up.&lt;/p&gt;
-&lt;p&gt;Here are the major phishing trends we’ve seen unfold:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Fake M365 Login Pages&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Designed to look like real email &amp;amp; SaaS solution login portals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;QR Code Phishing&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Bypasses most email spam filter solutions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business Email Compromise&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Attackers are scraping your LinkedIn to better target your organization’s employees.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fake-m365-login-pages&#34;&gt;Fake M365 Login Pages
-&lt;/h2&gt;&lt;p&gt;There’s a huge uptick in fake login portals that mimic Microsoft 365, Google Workspace, Docusign, and all the tools your employees trust. Hackers build these sites like a landing page designed to close million-dollar deals.&lt;/p&gt;
-&lt;p&gt;What’s making it even harder to spot is these campaigns are hosted behind legitimate services. Instead of shady URLs, they are OneDrive links, and real-looking domains. Threat actors monitor these attacks in real-time, and act within minutes to start hurting businesses.&lt;/p&gt;
-&lt;p&gt;In many cases, once attackers gain access to an employee’s inbox, they immediately search for company-branded documents, invoices, signatures, or vendor communications. They then use that information to craft highly targeted invoice fraud schemes that can quietly drain organizations of substantial funds before anyone realizes something is wrong.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;qr-code-phishing&#34;&gt;QR-Code Phishing
-&lt;/h2&gt;&lt;p&gt;Another trend that is exploding is QR-code phishing (quishing). The attacker sends a clean email, maybe an invoice or an invitation. Instead of a link, they will throw in a QR code image. Users pull out their phone, scan it in a hurry, and are funneled into bad sites. No malicious link for the email filtering solution to catch.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;business-email-compromise&#34;&gt;Business Email Compromise
-&lt;/h2&gt;&lt;p&gt;The apex predator of phishing. These attacks impersonate your CEO asking for a quick favor, a vendor checking on a late payment, or HR requesting urgent information. They mimic real communication patterns to slip past your instinctive defenses.&lt;/p&gt;
-&lt;p&gt;Threat actors are scraping your LinkedIn and company website to identify employee names &amp;amp; job titles. Easily a targeted email is created to look like it came from Jane Doe, your HR director.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;lets-talk-defense&#34;&gt;Let’s Talk Defense
-&lt;/h2&gt;&lt;p&gt;You need layered protection that assumes attackers will get past the first line. MFA compliance is essential, but even that isn’t bulletproof (see: MFA fatigue). Consider implementing strategies such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Strong identity controls&lt;/li&gt;
-&lt;li&gt;Conditional access policies&lt;/li&gt;
-&lt;li&gt;Web filtering to identify newly registered domains&lt;/li&gt;
-&lt;li&gt;Tackle ‘shadow IT’ tools your employees are using outside of IT department’s scope&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Awareness training needs a full makeover too. Stop showing users 2008-era Phish Sim emails. Train your staff in what is seen in the wild. Cybersecurity analysis and IT departments know what these phishing websites look like from exposure, but employees don’t know.&lt;/p&gt;
-&lt;p&gt;Create awareness campaigns on what these phishing campaigns look like, and how they can be identified. Further critical to employee education, is having users motivated to report suspicious emails to the proper internal department, rather than asking their office-buddy “does this email look legit”.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;defensive-controls&#34;&gt;Defensive Controls
-&lt;/h2&gt;&lt;p&gt;Let’s talk about practical advice you can implement to harden your environment:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Require phishing-resistant MFA in Entra &amp;amp; audit your MFA enrollment&lt;/strong&gt;&lt;br&gt;
-A chain is only as strong as its weakest link. And in most organizations, that link is an unprotected user account. Do you know whether every user in your tenant is enrolled in MFA? Do you have a recurring audit process? Do you have the Entra policy to enforce it?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Block sign-ins from new countries &amp;amp; unauthorized VPNs&lt;/strong&gt;&lt;br&gt;
-Conditional access policies are mandatory. Threat actors almost always operate using proxies and VPNs originating from unusual geographical locations, like Kenya. By enforcing location-based and risk-based policies, you can automatically block a sign-in that doesn’t match a user’s normal behavior. Even if credentials are compromised, these controls make it harder for attackers to move forward.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Detect QR codes with Microsoft Defender for Office 365 license&lt;/strong&gt;&lt;br&gt;
-Microsoft Defender for Office 365 Plan 1 and Plan 2 include native QR-code inspection. Microsoft uses image extraction to isolate the QR code, analyze the encoded URL, and run it through the same detonation and URL reputation engine used for standard links. Users should never be the first line of defense against malicious QR codes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Block newly registered domains on the DNS level&lt;/strong&gt;&lt;br&gt;
-Tools like DNSFilter and Zorus (now newly acquired by DNSFilter) provide protection against domains that attackers spin up only hours before their phishing campaigns. These services maintain threat feeds, classify suspicious and newly registered domains, and allow you to enforce policies that automatically block them. When combined with email filtering and endpoint protection, DNS filtering stops entire categories of attacks before they ever reach the user.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;in-closing&#34;&gt;In Closing
-&lt;/h2&gt;&lt;p&gt;As phishing campaigns evolve, so must our defenses. Organizations that treat awareness training as a checkbox will continue to fall behind, while those that invest in modern identity controls, stronger detection, and real-world user education will stay resilient.&lt;/p&gt;
-&lt;p&gt;My goal with this post is to break down these trends and help businesses understand what’s actually happening in the field.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>CVE 2013-3900: WinVerifyTrust Signature Validation</title>
-        <link>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</link>
-        <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</guid>
-        <description>&lt;img src="http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/banner8.jpg" alt="Featured image of post CVE 2013-3900: WinVerifyTrust Signature Validation" /&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Base Score&lt;/th&gt;
-          &lt;th&gt;Base Severity&lt;/th&gt;
-          &lt;th&gt;CVSS Vector&lt;/th&gt;
-          &lt;th&gt;Exploitability Score&lt;/th&gt;
-          &lt;th&gt;Impact Score&lt;/th&gt;
-          &lt;th&gt;Score Source&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.6&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;AV:N/AC:H/Au:N/C:C/I:C/A:C&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.9&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;10.0&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;NIST&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;8.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.9&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;134c704f-9b21-4f2e-91b3-4a467353bcc0&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;8.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.9&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;NIST&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;5.5&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;MEDIUM&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:yellow; color:black; padding:2px 6px; border-radius:6px;&#34;&gt;1.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:yellow; color:black; padding:2px 6px; border-radius:6px;&#34;&gt;3.6&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;Microsoft Corporation&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.4&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:green; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;2.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.0&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;Microsoft Corporation&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>CVE-2023-3438: Unquoted Service Path</title>
-        <link>http://localhost:1313/p/cve-2023-3438-unquoted-service-path/</link>
-        <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/p/cve-2023-3438-unquoted-service-path/</guid>
-        <description>&lt;img src="http://localhost:1313/p/cve-2023-3438-unquoted-service-path/banner9.jpg" alt="Featured image of post CVE-2023-3438: Unquoted Service Path" /&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Base Score&lt;/th&gt;
-          &lt;th&gt;Base Severity&lt;/th&gt;
-          &lt;th&gt;CVSS Vector&lt;/th&gt;
-          &lt;th&gt;Exploitability Score&lt;/th&gt;
-          &lt;th&gt;Impact Score&lt;/th&gt;
-          &lt;th&gt;Total Score&lt;/th&gt;
-          &lt;th&gt;Source&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:red; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;7.8&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&lt;/td&gt;
-          &lt;td&gt;HIGH&lt;/td&gt;
-          &lt;td&gt;1.8&lt;/td&gt;
-          &lt;td&gt;5.9&lt;/td&gt;
-          &lt;td&gt;NIST&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;span style=&#34;background-color:orange; color:white; padding:2px 6px; border-radius:6px;&#34;&gt;4.4&lt;/span&gt;&lt;/td&gt;
-          &lt;td&gt;MEDIUM&lt;/td&gt;
-          &lt;td&gt;CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H&lt;/td&gt;
-          &lt;td&gt;MEDIUM&lt;/td&gt;
-          &lt;td&gt;0.8&lt;/td&gt;
-          &lt;td&gt;3.6&lt;/td&gt;
-          &lt;td&gt;Trellix&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        </item>
-        <item>
-        <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Linkroll</title>
-        <link>http://localhost:1313/linkroll/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/linkroll/</guid>
-        <description>&lt;p&gt;A curated list of recommended blogs, tools, and resources.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Projects</title>
-        <link>http://localhost:1313/projects/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/projects/</guid>
-        <description>&lt;p&gt;Coming soon&amp;hellip;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>http://localhost:1313/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/search/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Maciej Klim</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Maciej Klim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 MACIEJ KLIM</copyright>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Uninstalling an app doesn&#39;t delete the proof you ran it</title>
+      <link>//localhost:1313/posts/analysis-prefetch/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-prefetch/</guid>
+      <description>Learn how to analyze the prefetch directory using PECmd.exe.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-prefetch/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Windows is saving every USB storage device you plug in</title>
+      <link>//localhost:1313/posts/analysis-usb-history/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-usb-history/</guid>
+      <description>Learn how to analyze the registry for USB storage history.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-usb-history/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>//localhost:1313/projects/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/</guid>
+      <description>&lt;p&gt;I always try to find time to work and learn something new. Usually, most of these  are used internally to increase productivity. They are great opportunities to try something in the real world and learn from it.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
+    &lt;a id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9&#34; target=&#34;_blank&#34; href=&#34;https://github.com/maciejklim/m365-phishing-email-removal-tool&#34; class=&#34;cursor-pointer&#34;&gt;
+      &lt;div
+        class=&#34;w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl&#34;&gt;&lt;div class=&#34;w-full md:w-auto pt-3 p-5&#34;&gt;
+          &lt;div class=&#34;flex items-center&#34;&gt;
+            &lt;span class=&#34;text-2xl text-neutral-800 dark:text-neutral me-2&#34;&gt;
+              &lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+            &lt;/span&gt;
+            &lt;div
+              id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9-full_name&#34;
+              class=&#34;m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;&gt;
+              maciejklim/m365-phishing-email-removal-tool
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;p id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
+            GUI to perform M365 Compliance search &amp;amp; purge jobs against phishing emails.
+          &lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Your computer knows exactly how much data every single app has sent to the internet</title>
+      <link>//localhost:1313/posts/analysis-srubd/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-srubd/</guid>
+      <description>Learn how to analyze the SRUBD.dat file.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-srubd/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Your WiFi connection history, exposed</title>
+      <link>//localhost:1313/posts/analysis-netsh-wlan-profiles/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-netsh-wlan-profiles/</guid>
+      <description>Use NETSH to see every network you&amp;rsquo;ve connected to. Passwords in plain text. And even geolocation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Phishing Trends: End of 2025 Review</title>
+      <link>//localhost:1313/posts/phishing-trends-eoy-2025/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/phishing-trends-eoy-2025/</guid>
+      <description>From fake M365 login pages to QR-code scams. Discover the top phishing trends seen this year.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/phishing-trends-eoy-2025/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>CVE 2013-3900: WinVerifyTrust Signature Validation</title>
+      <link>//localhost:1313/posts/mitigation-winverifytrustsignature/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mitigation-winverifytrustsignature/</guid>
+      <description>When signature validation is lax, detection breaks. See what defenders must do to close that gap</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-winverifytrustsignature/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>CVE 2024-30080: Microsoft Message Queueing (MSMQ) Remote Code Execution</title>
+      <link>//localhost:1313/posts/mitigiation-msmq-service/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mitigiation-msmq-service/</guid>
+      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how exposed MSMQ services listening on port 1801 put defenders at risk.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigiation-msmq-service/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>CVE-2023-3438: Unquoted Service Path</title>
+      <link>//localhost:1313/posts/mitigation-unquoted-service-paths/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mitigation-unquoted-service-paths/</guid>
+      <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate straight to SYSTEM.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-unquoted-service-paths/featured.jpg" />
+    </item>
+    
+  </channel>
 </rss>

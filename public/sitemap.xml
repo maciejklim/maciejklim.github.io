@@ -1,69 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/blue-team/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/dark-web-email-checker/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/project/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/m365-phish-removal-tool/</loc>
-    <lastmod>2025-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/forensics/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/analysis-prefetch/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/analysis-usb-history/</loc>
+    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/analysis-srubd/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/analysis-netsh-wlan-profiles/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/your-computer-knows-exactly-how-much-data-every-single-app-has-sent-to-the-internet/</loc>
-    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/your-wifi-connection-history-exposed/</loc>
-    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/phishing/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/phishing-trends-eoy-2025/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/phishing-trends-end-of-2025-review/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/cve-2013-3900-winverifytrust-signature-validation/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/mitigation-winverifytrustsignature/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/cve-2023-3438-unquoted-service-path/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/mitigiation-msmq-service/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/mitigation/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/mitigation-unquoted-service-paths/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/page/</loc>
-    <lastmod>2022-03-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/example-category/</loc>
-  </url><url>
-    <loc>http://localhost:1313/linkroll/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
