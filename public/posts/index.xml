@@ -65,7 +65,7 @@
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigation-winverifytrustsignature/</guid>
-      <description>When signature validation is lax, detection breaks. See what defenders must do to close that gap</description>
+      <description>When signature validation is lax, detection breaks. See what defenders must do to close that gap.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-winverifytrustsignature/featured.jpg" />
     </item>
     

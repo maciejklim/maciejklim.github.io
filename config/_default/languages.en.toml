@@ -22,6 +22,7 @@ title = "Maciej Klim"
    headline = "Cybersecurity professional. Documenting mitigation strategies, best practices, and hands-on research."
 #   bio = "A little bit about you"
    links = [
+      { rss = "https://maciejklim.github.io/index.xml"},
 #     { email = "mailto:maciejklim@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
