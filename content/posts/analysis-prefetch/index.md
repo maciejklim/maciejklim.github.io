@@ -74,7 +74,7 @@ Prefetch output can be overwhelming. If you already know what you're looking for
 In this example, we wil highlight all ```.xlsx``` files Excel has touched.
 
 ```Powershell
-\PECmd.exe -f "C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf" -k ".xlsx"
+.\PECmd.exe -f "C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf" -k ".xlsx"
 ```
 Only entries containing ```.xlsx``` in their referenced file will be highlighted, making it easier to focus on relevant activity.
 
@@ -85,7 +85,7 @@ Only entries containing ```.xlsx``` in their referenced file will be highlighted
 Prefetch files aren't just useful for tracking legitimate programs. They're a goldmine for **malware forensics**. Even if a malicious file is deleted, its Prefetch entry can reveal:
 * Filename and path
 * How many times it ran
-* Timestamp of exection
+* Timestamp of execution
 * Other files or DLL's it interacted with
 * Where it dumped payloads
 
