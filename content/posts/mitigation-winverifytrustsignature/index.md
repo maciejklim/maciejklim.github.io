@@ -1,7 +1,7 @@
 ---
 title: "CVE 2013-3900: WinVerifyTrust Signature Validation"
 date: "2025-05-09"
-summary: "When signature validation is lax, detection breaks. See what defenders must do to close that gap"
+summary: "When signature validation is lax, detection breaks. See what defenders must do to close that gap."
 categories:
     - Mitigation
     - Blue Team
