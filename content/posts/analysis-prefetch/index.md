@@ -78,9 +78,7 @@ In this example, we wil highlight all ```.xlsx``` files Excel has touched.
 ```
 Only entries containing ```.xlsx``` in their referenced file will be highlighted, making it easier to focus on relevant activity.
 
-![PECmd Keyword Highlighting](Vn9opP9vCU.png)
-
-Here we see Excel was used to open an .XLSX file related to _SRUM DUMP_ activity.
+![PECmd Keyword Highlighting](Vn9opP9vCU.png "Here we see Excel was used to open an .XLSX file related to _SRUM DUMP_ activity.")
 
 ## Applying PECmd to Malware Analysis
 
