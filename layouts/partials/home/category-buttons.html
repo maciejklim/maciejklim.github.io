@@ -1,5 +1,5 @@
 {{ if .Site.Taxonomies.categories }}
-<nav class="mt-4 flex flex-wrap justify-center gap-2">
+<nav class="flex flex-wrap justify-center gap-2 mt-0">
   {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     <a
       href="{{ $taxonomy.Page.RelPermalink }}"
