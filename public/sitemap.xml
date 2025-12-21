@@ -27,12 +27,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/</loc>
-    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/posts/analysis-srubd/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -65,6 +59,12 @@
   <url>
     <loc>//localhost:1313/posts/mitigation-unquoted-service-paths/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
