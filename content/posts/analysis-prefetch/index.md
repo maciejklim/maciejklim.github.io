@@ -18,7 +18,26 @@ Located in ```C:\Windows\Prefetch```, these .pf files log:
 
 > Forensics teams use this to prove you ran CCleaner or Malware.exe even after you attempted to cover their tracks.
 
-![Prefetch Directory](explorer_in0bJANqqv.png)
+```Powershell
+PS C:\windows\prefetch> ls | sort-object lastwritetime -descending
+
+
+    Directory: C:\windows\prefetch
+
+
+       LastWriteTime         Length Name
+       -------------         ------ ----
+12/21/2025   9:01 AM          39481 QBITTORRENT.EXE-97E1315C.pf
+12/21/2025   9:01 AM          21287 TASKHOSTW.EXE-1EAF2222.pf
+12/21/2025   9:01 AM           6012 SVCHOST.EXE-C6F1CF5D.pf
+12/21/2025   9:01 AM           4374 VDSLDR.EXE-35269815.pf
+12/21/2025   9:00 AM           4556 RUNTIMEBROKER.EXE-FEEAFD19.pf
+12/21/2025   9:00 AM          12451 SVCHOST.EXE-874EA4F5.pf
+12/21/2025   9:00 AM          21124 MOUSOCOREWORKER.EXE-0BC6369F.pf
+12/21/2025   9:00 AM           4196 SVCHOST.EXE-7C2F6448.pf
+12/21/2025   9:00 AM          34081 RUFUS-4.11.EXE-198A8DA7.pf
+12/21/2025   9:00 AM           8810 VDS.EXE-F11BF333.pf
+```
 
 Prefetch is a nice reminder that "no .exe on disk" does not equal "no evidence". 
 
@@ -56,7 +75,40 @@ Now you're ready to use PECmd. You have two options:
 
 Let's analyze the ```EXCEL.EXE-36952AF2.pf``` file.
 
-![PECmd Output](WindowsTerminal_OVm9Gs5ssA.png)
+```Powershell
+PS C:\users\user\documents\pecmd> .\PECmd.exe -f "C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf"
+PECmd version 1.5.1.0
+
+Author: Eric Zimmerman (saericzimmerman@gmail.com)
+https://github.com/EricZimmerman/PECmd
+
+Command line: -f C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf
+
+Warning: Administrator privileges not found!
+
+Keywords: temp, tmp
+
+Processing C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf
+
+Created on: 2025-09-28 18:54:49
+Modified on: 2025-12-21 13:49:29
+Last accessed on: 2025-12-21 14:04:52
+
+Executable name: EXCEL.EXE
+Hash: 36952AF2
+File size (bytes): 496,182
+Version: null
+
+Run count: 33
+Last run: 2025-12-21 13:49:24
+Other run times: 2025-12-20 17:12:17, 2025-12-20 17:05:24, 2025-12-20 16:40:07, 2025-12-19 18:57:40, 2025-12-18 19:49:49, 2025-12-17 22:51:20, 2025-12-17 13:30:15
+
+Volume information:
+
+#0: Name: \VOLUME{01db5db3a2ac64d5-7af4eb28} Serial: 2CF4FF26 Created: 2024-12-13 23:08:43 Directories: 88 File references: 339
+
+Directories referenced: 88
+```
 
 ### What to Look For
 

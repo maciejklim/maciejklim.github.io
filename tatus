@@ -1,0 +1,192 @@
+warning: in the working copy of 'config/_default/params.toml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/404.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/authors/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/authors/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/blue-team/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/blue-team/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/forensics/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/forensics/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/mitigation/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/mitigation/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/phishing/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/categories/phishing/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/analysis-netsh-wlan-profiles/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/analysis-prefetch/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/analysis-srubd/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/analysis-usb-history/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/mitigation-unquoted-service-paths/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/mitigation-winverifytrustsignature/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/mitigiation-msmq-service/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/posts/phishing-trends-eoy-2025/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/projects/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/series/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/series/index.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/tags/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/tags/index.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/config/_default/params.toml b/config/_default/params.toml[m
+[1mindex 8c4f0e0..b82fcee 100644[m
+[1m--- a/config/_default/params.toml[m
+[1m+++ b/config/_default/params.toml[m
+[36m@@ -5,7 +5,7 @@[m
+ # Refer to the theme docs for more details about each of these parameters.[m
+ # https://blowfish.page/docs/configuration/#theme-parameters[m
+ [m
+[31m-colorScheme = "github"[m
+[32m+[m[32mcolorScheme = "forest"[m
+ defaultAppearance = "light" # valid options: light or dark[m
+ autoSwitchAppearance = true[m
+ [m
+[1mdiff --git a/content/posts/analysis-prefetch/index.md b/content/posts/analysis-prefetch/index.md[m
+[1mindex 15d44d5..096ef6d 100644[m
+[1m--- a/content/posts/analysis-prefetch/index.md[m
+[1m+++ b/content/posts/analysis-prefetch/index.md[m
+[36m@@ -18,7 +18,26 @@[m [mLocated in ```C:\Windows\Prefetch```, these .pf files log:[m
+ [m
+ > Forensics teams use this to prove you ran CCleaner or Malware.exe even after you attempted to cover their tracks.[m
+ [m
+[31m-![Prefetch Directory](explorer_in0bJANqqv.png)[m
+[32m+[m[32m```Powershell[m
+[32m+[m[32mPS C:\windows\prefetch> ls | sort-object lastwritetime -descending[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    Directory: C:\windows\prefetch[m
+[32m+[m
+[32m+[m
+[32m+[m[32m       LastWriteTime         Length Name[m
+[32m+[m[32m       -------------         ------ ----[m
+[32m+[m[32m12/21/2025   9:01 AM          39481 QBITTORRENT.EXE-97E1315C.pf[m
+[32m+[m[32m12/21/2025   9:01 AM          21287 TASKHOSTW.EXE-1EAF2222.pf[m
+[32m+[m[32m12/21/2025   9:01 AM           6012 SVCHOST.EXE-C6F1CF5D.pf[m
+[32m+[m[32m12/21/2025   9:01 AM           4374 VDSLDR.EXE-35269815.pf[m
+[32m+[m[32m12/21/2025   9:00 AM           4556 RUNTIMEBROKER.EXE-FEEAFD19.pf[m
+[32m+[m[32m12/21/2025   9:00 AM          12451 SVCHOST.EXE-874EA4F5.pf[m
+[32m+[m[32m12/21/2025   9:00 AM          21124 MOUSOCOREWORKER.EXE-0BC6369F.pf[m
+[32m+[m[32m12/21/2025   9:00 AM           4196 SVCHOST.EXE-7C2F6448.pf[m
+[32m+[m[32m12/21/2025   9:00 AM          34081 RUFUS-4.11.EXE-198A8DA7.pf[m
+[32m+[m[32m12/21/2025   9:00 AM           8810 VDS.EXE-F11BF333.pf[m
+[32m+[m[32m```[m
+ [m
+ Prefetch is a nice reminder that "no .exe on disk" does not equal "no evidence". [m
+ [m
+[36m@@ -56,7 +75,40 @@[m [mNow you're ready to use PECmd. You have two options:[m
+ [m
+ Let's analyze the ```EXCEL.EXE-36952AF2.pf``` file.[m
+ [m
+[31m-![PECmd Output](WindowsTerminal_OVm9Gs5ssA.png)[m
+[32m+[m[32m```Powershell[m
+[32m+[m[32mPS C:\users\user\documents\pecmd> .\PECmd.exe -f "C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf"[m
+[32m+[m[32mPECmd version 1.5.1.0[m
+[32m+[m
+[32m+[m[32mAuthor: Eric Zimmerman (saericzimmerman@gmail.com)[m
+[32m+[m[32mhttps://github.com/EricZimmerman/PECmd[m
+[32m+[m
+[32m+[m[32mCommand line: -f C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf[m
+[32m+[m
+[32m+[m[32mWarning: Administrator privileges not found![m
+[32m+[m
+[32m+[m[32mKeywords: temp, tmp[m
+[32m+[m
+[32m+[m[32mProcessing C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf[m
+[32m+[m
+[32m+[m[32mCreated on: 2025-09-28 18:54:49[m
+[32m+[m[32mModified on: 2025-12-21 13:49:29[m
+[32m+[m[32mLast accessed on: 2025-12-21 14:04:52[m
+[32m+[m
+[32m+[m[32mExecutable name: EXCEL.EXE[m
+[32m+[m[32mHash: 36952AF2[m
+[32m+[m[32mFile size (bytes): 496,182[m
+[32m+[m[32mVersion: null[m
+[32m+[m
+[32m+[m[32mRun count: 33[m
+[32m+[m[32mLast run: 2025-12-21 13:49:24[m
+[32m+[m[32mOther run times: 2025-12-20 17:12:17, 2025-12-20 17:05:24, 2025-12-20 16:40:07, 2025-12-19 18:57:40, 2025-12-18 19:49:49, 2025-12-17 22:51:20, 2025-12-17 13:30:15[m
+[32m+[m
+[32m+[m[32mVolume information:[m
+[32m+[m
+[32m+[m[32m#0: Name: \VOLUME{01db5db3a2ac64d5-7af4eb28} Serial: 2CF4FF26 Created: 2024-12-13 23:08:43 Directories: 88 File references: 339[m
+[32m+[m
+[32m+[m[32mDirectories referenced: 88[m
+[32m+[m[32m```[m
+ [m
+ ### What to Look For[m
+ [m
+[1mdiff --git a/content/posts/analysis-usb-history/index.md b/content/posts/analysis-usb-history/index.md[m
+[1mindex 5288ceb..0044fa9 100644[m
+[1m--- a/content/posts/analysis-usb-history/index.md[m
+[1m+++ b/content/posts/analysis-usb-history/index.md[m
+[36m@@ -24,7 +24,28 @@[m [mWindows records USB storage devices under:[m
+ [m
+ ```HKLM\SYSTEM\CurrentControlSet\Enum\USBSTOR```[m
+ [m
+[31m-![USBSTOR Registry](regedit_6LeRlKqUrq.png)[m
+[32m+[m[32m```Powershell[m
+[32m+[m[32mPS C:\> Get-ChildItem 'HKLM:\SYSTEM\CurrentControlSet\Enum\USBSTOR' | Get-childitem[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    Hive: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\Disk&Ven_PNY&Prod_USB_2.0_FD&Rev_1100[m
+[32m+[m
+[32m+[m
+[32m+[m[32mName                           Property[m
+[32m+[m[32m----                           --------[m
+[32m+[m[32m0510101000022047&0             DeviceDesc    : @disk.inf,%disk_devdesc%;Disk drive[m
+[32m+[m[32m                               Capabilities  : 16[m
+[32m+[m[32m                               Address       : 3[m
+[32m+[m[32m                               ContainerID   : {9cd1b6f2-c2a4-5ea2-ace7-55fc22be3323}[m
+[32m+[m[32m                               HardwareID    : {USBSTOR\DiskPNY_____USB_2.0_FD______1100, USBSTOR\DiskPNY_____USB_2.0_FD______, USBSTOR\DiskPNY_____, USBSTOR\PNY_____USB_2.0_FD______1...}[m
+[32m+[m[32m                               CompatibleIDs : {USBSTOR\Disk, USBSTOR\RAW, GenDisk}[m
+[32m+[m[32m                               ClassGUID     : {4d36e967-e325-22ce-bfc1-08002be10428}[m
+[32m+[m[32m                               Service       : disk[m
+[32m+[m[32m                               Driver        : {4d36e967-e325-22ce-bfc1-08002be10428}\0002[m
+[32m+[m[32m                               Mfg           : @disk.inf,%genmanufacturer%;(Standard disk drives)[m
+[32m+[m[32m                               FriendlyName  : PNY USB 2.0 FD USB Device[m
+[32m+[m[32m                               ConfigFlags   : 0[m
+[32m+[m[32m```[m
+ [m
+ This key reveals:[m
+ [m
+[36m@@ -40,4 +61,53 @@[m [mEach plugged-in USB gets its own persistent entry.[m
+ [m
+ > **Windows:** Writes 15 artifacts, 3 logs, 2 prefetch files, and DF/IR timeline[m
+ [m
+[31m-Portable doesn't mean invisible. Removable doesn't mean untraceable. Windows is watching, and it's taking notes.[m
+\ No newline at end of file[m
+[32m+[m[32mPortable doesn't mean invisible. Removable doesn't mean untraceable. Windows is watching, and it's taking notes.[m
+[32m+[m
+[32m+[m[32m## Investigating Timestamps[m
+[32m+[m
+[32m+[m[32mPowershell on it's own cannot provide time metadata. We'll use RECmd from https://github.com/EricZimmerman/RECmd.[m
+[32m+[m
+[32m+[m[32mSince we identified the regsitry path of our PNY USB, we'll pass a portion of the hive path to RECmd.[m
+[32m+[m
+[32m+[m[32m```Powershell[m
+[32m+[m[32mPS C:\users\user\documents\recmd> reg save HKLM\SYSTEM C:\Temp\SYSTEM.hive[m
+[32m+[m[32mThe operation completed successfully.[m
+[32m+[m[32mPS C:\users\user\documents\recmd> .\RECmd.exe -f C:\Temp\SYSTEM.hive --kn "ControlSet001\Enum\USBSTOR\Disk&Ven_PNY&Prod_USB_2.0_FD&Rev_1100"[m
+[32m+[m[32mRECmd version 2.1.0.0[m
+[32m+[m
+[32m+[m[32mAuthor: Eric Zimmerman (saericzimmerman@gmail.com)[m
+[32m+[m[32mhttps://github.com/EricZimmerman/RECmd[m
+[32m+[m
+[32m+[m[32mNote: Enclose all strings containing spaces (and all RegEx) with double quotes[m
+[32m+[m
+[32m+[m[32mCommand line: -f C:\Temp\SYSTEM.hive --kn ControlSet001\Enum\USBSTOR\Disk&Ven_PNY&Prod_USB_2.0_FD&Rev_1100[m
+[32m+[m
+[32m+[m
+[32m+[m[32mProcessing hive C:\Temp\SYSTEM.hive[m
+[32m+[m
+[32m+[m[32m        Key path: ControlSet001\Enum\USBSTOR\Disk&Ven_PNY&Prod_USB_2.0_FD&Rev_1100[m
+[32m+[m[32m        Last write time: 2025-11-30 18:13:46.2601654[m
+[32m+[m
+[32m+[m[32m        Subkey count: 1[m
+[32m+[m[32m        Values count: 0[m
+[32m+[m
+[32m+[m[32m        ------------ Subkey #0 ------------[m
+[32m+[m[32m        Name: 0410100000012047&0 (Last write: 2025-11-30 18:13:46.2785815) Value count: 12[m
+[32m

@@ -118,8 +118,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.84cee32f14f0dbd21bcc7c6f15f2fb9addf9ec83648d8a06ff3fb600a058740e83f82bc6c903d99c8b9e351a8cd10ae58373dd1b7153f6f54ed78f96e5e37dac.css"
-    integrity="sha512-hM7jLxTw29IbzHxvFfL7mt357INkjYoG/z&#43;2AKBYdA6D&#43;CvGyQPZnIueNRqM0Qrlg3PdG3FT9vVO14&#43;W5eN9rA==">
+    href="/css/main.bundle.min.c4865f52e803f421005b545f084b8dbc7ca7f0f5eb3bcfac28c34ddceb5894bd3350688d15f4118d1634c2fabdc369d79c478aa9770d0db449246aa51ce64980.css"
+    integrity="sha512-xIZfUugD9CEAW1RfCEuNvHyn8PXrO8&#43;sKMNN3OtYlL0zUGiNFfQRjRY0wvq9w2nXnEeKqXcNDbRJJGqlHOZJgA==">
 
   
   
@@ -250,7 +250,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "146"
+    "wordCount": "381"
   }]
   </script>
 
@@ -958,7 +958,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -1133,6 +1133,8 @@
     <li><a href="#windows-never-forgets-your-usb">Windows Never Forgets Your USB</a></li>
     <li><a href="#where-windows-stores-usb-history-in-registry">Where Windows Stores USB History In Registry</a></li>
     <li><a href="#the-myth-of-running-it-from-usb">The Myth Of Running It From USB</a></li>
+    <li><a href="#investigating-timestamps">Investigating Timestamps</a></li>
+    <li><a href="#what-about-last-insertion-time">What about last insertion time?</a></li>
   </ul>
 </nav>
   </div>
@@ -1149,6 +1151,8 @@
     <li><a href="#windows-never-forgets-your-usb">Windows Never Forgets Your USB</a></li>
     <li><a href="#where-windows-stores-usb-history-in-registry">Where Windows Stores USB History In Registry</a></li>
     <li><a href="#the-myth-of-running-it-from-usb">The Myth Of Running It From USB</a></li>
+    <li><a href="#investigating-timestamps">Investigating Timestamps</a></li>
+    <li><a href="#what-about-last-insertion-time">What about last insertion time?</a></li>
   </ul>
 </nav>
   </div>
@@ -1296,19 +1300,27 @@
 </h2>
 <p>Windows records USB storage devices under:</p>
 <p><code>HKLM\SYSTEM\CurrentControlSet\Enum\USBSTOR</code></p>
-<figure><img
-    class="my-0 rounded-md"
-    loading="lazy"
-    decoding="async"
-    fetchpriority="auto"
-    alt="USBSTOR Registry"
-    width="1236"
-    height="469"
-    src="/posts/analysis-usb-history/regedit_6LeRlKqUrq_hu_691e055bda1eb08f.png"
-    srcset="/posts/analysis-usb-history/regedit_6LeRlKqUrq_hu_691e055bda1eb08f.png 800w, /posts/analysis-usb-history/regedit_6LeRlKqUrq.png 1280w"
-    sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/posts/analysis-usb-history/regedit_6LeRlKqUrq.png"></figure>
-<p>This key reveals:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="nb">Get-ChildItem</span> <span class="s1">&#39;HKLM:\SYSTEM\CurrentControlSet\Enum\USBSTOR&#39;</span> <span class="p">|</span> <span class="nb">Get-childitem</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Hive</span><span class="err">:</span> <span class="n">HKEY_LOCAL_MACHINE</span><span class="p">\</span><span class="n">SYSTEM</span><span class="p">\</span><span class="n">CurrentControlSet</span><span class="p">\</span><span class="n">Enum</span><span class="p">\</span><span class="n">USBSTOR</span><span class="p">\</span><span class="n">Disk</span><span class="p">&amp;</span><span class="n">Ven_PNY</span><span class="p">&amp;</span><span class="n">Prod_USB_2</span><span class="p">.</span><span class="n">0_FD</span><span class="p">&amp;</span><span class="n">Rev_1100</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Name</span>                           <span class="n">Property</span>
+</span></span><span class="line"><span class="cl"><span class="p">----</span>                           <span class="p">--------</span>
+</span></span><span class="line"><span class="cl"><span class="mf">0510101000022047</span><span class="p">&amp;</span><span class="mf">0</span>             <span class="n">DeviceDesc</span>    <span class="err">:</span> <span class="nv">@disk</span><span class="p">.</span><span class="n">inf</span><span class="p">,</span><span class="k">%</span><span class="n">disk_devdesc</span><span class="p">%;</span><span class="n">Disk</span> <span class="n">drive</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">Capabilities</span>  <span class="err">:</span> <span class="mf">16</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">Address</span>       <span class="err">:</span> <span class="mf">3</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">ContainerID</span>   <span class="err">:</span> <span class="p">{</span><span class="n">9cd1b6f2-c2a4</span><span class="p">-</span><span class="n">5ea2-ace7</span><span class="p">-</span><span class="n">55fc22be3323</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">HardwareID</span>    <span class="err">:</span> <span class="p">{</span><span class="n">USBSTOR</span><span class="p">\</span><span class="n">DiskPNY_____USB_2</span><span class="p">.</span><span class="n">0_FD______1100</span><span class="p">,</span> <span class="n">USBSTOR</span><span class="p">\</span><span class="n">DiskPNY_____USB_2</span><span class="p">.</span><span class="n">0_FD______</span><span class="p">,</span> <span class="n">USBSTOR</span><span class="p">\</span><span class="n">DiskPNY_____</span><span class="p">,</span> <span class="n">USBSTOR</span><span class="p">\</span><span class="n">PNY_____USB_2</span><span class="p">.</span><span class="py">0_FD______1</span><span class="p">...}</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">CompatibleIDs</span> <span class="err">:</span> <span class="p">{</span><span class="n">USBSTOR</span><span class="p">\</span><span class="n">Disk</span><span class="p">,</span> <span class="n">USBSTOR</span><span class="p">\</span><span class="n">RAW</span><span class="p">,</span> <span class="n">GenDisk</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">ClassGUID</span>     <span class="err">:</span> <span class="p">{</span><span class="n">4d36e967-e325</span><span class="p">-</span><span class="n">22ce-bfc1</span><span class="p">-</span><span class="n">08002be10428</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">Service</span>       <span class="err">:</span> <span class="n">disk</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">Driver</span>        <span class="err">:</span> <span class="p">{</span><span class="n">4d36e967-e325</span><span class="p">-</span><span class="n">22ce-bfc1</span><span class="p">-</span><span class="n">08002be10428</span><span class="p">}\</span><span class="mf">0002</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">Mfg</span>           <span class="err">:</span> <span class="nv">@disk</span><span class="p">.</span><span class="n">inf</span><span class="p">,</span><span class="k">%</span><span class="n">genmanufacturer</span><span class="p">%;(</span><span class="n">Standard</span> <span class="n">disk</span> <span class="n">drives</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">FriendlyName</span>  <span class="err">:</span> <span class="n">PNY</span> <span class="n">USB</span> <span class="mf">2.0</span> <span class="n">FD</span> <span class="n">USB</span> <span class="n">Device</span>
+</span></span><span class="line"><span class="cl">                               <span class="n">ConfigFlags</span>   <span class="err">:</span> <span class="mf">0</span>
+</span></span></code></pre></div><p>This key reveals:</p>
 <ul>
 <li>Device make/model</li>
 <li>Vendor and product IDs</li>
@@ -1332,6 +1344,60 @@
 <p><strong>Windows:</strong> Writes 15 artifacts, 3 logs, 2 prefetch files, and DF/IR timeline</p>
 </blockquote>
 <p>Portable doesn&rsquo;t mean invisible. Removable doesn&rsquo;t mean untraceable. Windows is watching, and it&rsquo;s taking notes.</p>
+
+<h2 class="relative group">Investigating Timestamps
+    <div id="investigating-timestamps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#investigating-timestamps" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Powershell on it&rsquo;s own cannot provide time metadata. We&rsquo;ll use RECmd from <a
+  href="https://github.com/EricZimmerman/RECmd"
+    target="_blank"
+  >https://github.com/EricZimmerman/RECmd</a>.</p>
+<p>Since we identified the regsitry path of our PNY USB, we&rsquo;ll pass a portion of the hive path to RECmd.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\</span><span class="n">users</span><span class="p">\</span><span class="n">user</span><span class="p">\</span><span class="n">documents</span><span class="p">\</span><span class="n">recmd</span><span class="p">&gt;</span> <span class="n">reg</span> <span class="n">save</span> <span class="n">HKLM</span><span class="p">\</span><span class="n">SYSTEM</span> <span class="n">C:</span><span class="p">\</span><span class="n">Temp</span><span class="p">\</span><span class="n">SYSTEM</span><span class="p">.</span><span class="py">hive</span>
+</span></span><span class="line"><span class="cl"><span class="n">The</span> <span class="n">operation</span> <span class="n">completed</span> <span class="n">successfully</span><span class="p">.</span>
+</span></span><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\</span><span class="n">users</span><span class="p">\</span><span class="n">user</span><span class="p">\</span><span class="n">documents</span><span class="p">\</span><span class="n">recmd</span><span class="p">&gt;</span> <span class="p">.\</span><span class="n">RECmd</span><span class="p">.</span><span class="py">exe</span> <span class="o">-f</span> <span class="n">C:</span><span class="p">\</span><span class="n">Temp</span><span class="p">\</span><span class="n">SYSTEM</span><span class="p">.</span><span class="py">hive</span> <span class="p">-</span><span class="n">-kn</span> <span class="s2">&#34;ControlSet001\Enum\USBSTOR\Disk&amp;Ven_PNY&amp;Prod_USB_2.0_FD&amp;Rev_1100&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">RECmd</span> <span class="n">version</span> <span class="mf">2.1</span><span class="p">.</span><span class="py">0</span><span class="p">.</span><span class="py">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Author</span><span class="err">:</span> <span class="n">Eric</span> <span class="n">Zimmerman</span> <span class="p">(</span><span class="n">saericzimmerman</span><span class="nv">@gmail</span><span class="p">.</span><span class="n">com</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">EricZimmerman</span><span class="p">/</span><span class="n">RECmd</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Note</span><span class="err">:</span> <span class="n">Enclose</span> <span class="n">all</span> <span class="n">strings</span> <span class="n">containing</span> <span class="n">spaces</span> <span class="p">(</span><span class="n">and</span> <span class="n">all</span> <span class="n">RegEx</span><span class="p">)</span> <span class="n">with</span> <span class="n">double</span> <span class="n">quotes</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Command</span> <span class="n">line</span><span class="err">:</span> <span class="o">-f</span> <span class="n">C:</span><span class="p">\</span><span class="n">Temp</span><span class="p">\</span><span class="n">SYSTEM</span><span class="p">.</span><span class="py">hive</span> <span class="p">-</span><span class="n">-kn</span> <span class="n">ControlSet001</span><span class="p">\</span><span class="n">Enum</span><span class="p">\</span><span class="n">USBSTOR</span><span class="p">\</span><span class="n">Disk</span><span class="p">&amp;</span><span class="n">Ven_PNY</span><span class="p">&amp;</span><span class="n">Prod_USB_2</span><span class="p">.</span><span class="n">0_FD</span><span class="p">&amp;</span><span class="n">Rev_1100</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Processing</span> <span class="n">hive</span> <span class="n">C:</span><span class="p">\</span><span class="n">Temp</span><span class="p">\</span><span class="n">SYSTEM</span><span class="p">.</span><span class="py">hive</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Key</span> <span class="n">path</span><span class="err">:</span> <span class="n">ControlSet001</span><span class="p">\</span><span class="n">Enum</span><span class="p">\</span><span class="n">USBSTOR</span><span class="p">\</span><span class="n">Disk</span><span class="p">&amp;</span><span class="n">Ven_PNY</span><span class="p">&amp;</span><span class="n">Prod_USB_2</span><span class="p">.</span><span class="n">0_FD</span><span class="p">&amp;</span><span class="n">Rev_1100</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Last</span> <span class="nb">write </span><span class="n">time</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">11</span><span class="p">-</span><span class="mf">30</span> <span class="mf">18</span><span class="err">:</span><span class="mf">13</span><span class="err">:</span><span class="mf">46.2601654</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Subkey</span> <span class="n">count</span><span class="err">:</span> <span class="mf">1</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Values</span> <span class="n">count</span><span class="err">:</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="p">------------</span> <span class="n">Subkey</span> <span class="c">#0 ------------</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Name</span><span class="err">:</span> <span class="mf">0410100000012047</span><span class="p">&amp;</span><span class="mf">0</span> <span class="p">(</span><span class="n">Last</span> <span class="n">write</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">11</span><span class="p">-</span><span class="mf">30</span> <span class="mf">18</span><span class="err">:</span><span class="mf">13</span><span class="err">:</span><span class="mf">46.2785815</span><span class="p">)</span> <span class="n">Value</span> <span class="n">count</span><span class="err">:</span> <span class="mf">12</span>
+</span></span></code></pre></div><p>Let&rsquo;s analyze the output:</p>
+<p><strong>Last Write Time:</strong> FIRST time this USB was inserted. Timestamps are UTC.</p>
+
+<h2 class="relative group">What about last insertion time?
+    <div id="what-about-last-insertion-time" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-about-last-insertion-time" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Windows doesn&rsquo;t log every USB by default. You&rsquo;ll have to update your logging policy.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\&gt;</span> <span class="n">auditpol</span> <span class="p">/</span><span class="nb">set </span><span class="p">/</span><span class="n">subcategory</span><span class="err">:</span><span class="s2">&#34;Removable Storage&#34;</span> <span class="p">/</span><span class="n">success</span><span class="err">:</span><span class="n">enable</span> <span class="p">/</span><span class="n">failure</span><span class="err">:</span><span class="n">enable</span>
+</span></span><span class="line"><span class="cl"><span class="n">The</span> <span class="n">command</span> <span class="n">was</span> <span class="n">successfully</span> <span class="n">executed</span><span class="p">.</span>
+</span></span></code></pre></div><p>This makes Windows start recording <strong>device insertion/removal events</strong>. Events will appear in the <strong>Security log</strong>.</p>
 
           
           
@@ -1457,7 +1523,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -1900,22 +1966,8 @@
   <div class="flex items-center justify-between">
     
     
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          &copy;
-          2025
-          MACIEJ KLIM
-      </p>
-    
 
     
-    
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        
-        
-        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-      </p>
     
   </div>
   

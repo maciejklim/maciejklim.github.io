@@ -118,8 +118,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.84cee32f14f0dbd21bcc7c6f15f2fb9addf9ec83648d8a06ff3fb600a058740e83f82bc6c903d99c8b9e351a8cd10ae58373dd1b7153f6f54ed78f96e5e37dac.css"
-    integrity="sha512-hM7jLxTw29IbzHxvFfL7mt357INkjYoG/z&#43;2AKBYdA6D&#43;CvGyQPZnIueNRqM0Qrlg3PdG3FT9vVO14&#43;W5eN9rA==">
+    href="/css/main.bundle.min.c4865f52e803f421005b545f084b8dbc7ca7f0f5eb3bcfac28c34ddceb5894bd3350688d15f4118d1634c2fabdc369d79c478aa9770d0db449246aa51ce64980.css"
+    integrity="sha512-xIZfUugD9CEAW1RfCEuNvHyn8PXrO8&#43;sKMNN3OtYlL0zUGiNFfQRjRY0wvq9w2nXnEeKqXcNDbRJJGqlHOZJgA==">
 
   
   
@@ -250,7 +250,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "522"
+    "wordCount": "680"
   }]
   </script>
 
@@ -958,7 +958,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -1301,19 +1301,25 @@
 <blockquote>
 <p>Forensics teams use this to prove you ran CCleaner or Malware.exe even after you attempted to cover their tracks.</p>
 </blockquote>
-<figure><img
-    class="my-0 rounded-md"
-    loading="lazy"
-    decoding="async"
-    fetchpriority="auto"
-    alt="Prefetch Directory"
-    width="955"
-    height="648"
-    src="/posts/analysis-prefetch/explorer_in0bJANqqv_hu_440394daa7972a41.png"
-    srcset="/posts/analysis-prefetch/explorer_in0bJANqqv_hu_440394daa7972a41.png 800w, /posts/analysis-prefetch/explorer_in0bJANqqv.png 1280w"
-    sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/posts/analysis-prefetch/explorer_in0bJANqqv.png"></figure>
-<p>Prefetch is a nice reminder that &ldquo;no .exe on disk&rdquo; does not equal &ldquo;no evidence&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\</span><span class="n">windows</span><span class="p">\</span><span class="n">prefetch</span><span class="p">&gt;</span> <span class="nb">ls </span><span class="p">|</span> <span class="nb">sort-object</span> <span class="n">lastwritetime</span> <span class="n">-descending</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">Directory</span><span class="err">:</span> <span class="n">C:</span><span class="p">\</span><span class="n">windows</span><span class="p">\</span><span class="n">prefetch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">       <span class="n">LastWriteTime</span>         <span class="n">Length</span> <span class="n">Name</span>
+</span></span><span class="line"><span class="cl">       <span class="p">-------------</span>         <span class="p">------</span> <span class="p">----</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">01</span> <span class="n">AM</span>          <span class="mf">39481</span> <span class="n">QBITTORRENT</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">97E1315C</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">01</span> <span class="n">AM</span>          <span class="mf">21287</span> <span class="n">TASKHOSTW</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">1EAF2222</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">01</span> <span class="n">AM</span>           <span class="mf">6012</span> <span class="n">SVCHOST</span><span class="p">.</span><span class="nb">EXE-C6F1CF5D</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">01</span> <span class="n">AM</span>           <span class="mf">4374</span> <span class="n">VDSLDR</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="mf">35269815</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>           <span class="mf">4556</span> <span class="n">RUNTIMEBROKER</span><span class="p">.</span><span class="nb">EXE-FEEAFD19</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>          <span class="mf">12451</span> <span class="n">SVCHOST</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">874EA4F5</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>          <span class="mf">21124</span> <span class="n">MOUSOCOREWORKER</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">0BC6369F</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>           <span class="mf">4196</span> <span class="n">SVCHOST</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">7C2F6448</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>          <span class="mf">34081</span> <span class="n">RUFUS</span><span class="p">-</span><span class="mf">4.11</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">198A8DA7</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl"><span class="mf">12</span><span class="p">/</span><span class="mf">21</span><span class="p">/</span><span class="mf">2025</span>   <span class="mf">9</span><span class="err">:</span><span class="mf">00</span> <span class="n">AM</span>           <span class="mf">8810</span> <span class="n">VDS</span><span class="p">.</span><span class="nb">EXE-F11BF333</span><span class="p">.</span><span class="py">pf</span>
+</span></span></code></pre></div><p>Prefetch is a nice reminder that &ldquo;no .exe on disk&rdquo; does not equal &ldquo;no evidence&rdquo;.</p>
 <p>And it&rsquo;s only one artifact. Amcache, Shimcache, SRUM, registry, event logs&hellip; Windows is basically one big timeline generator, if you know where to look.</p>
 <p>You wipe the Prefetch? Shimcache got you. You clear the Shimcache? SRUM logged the network packets.</p>
 
@@ -1369,19 +1375,39 @@
     
 </h2>
 <p>Let&rsquo;s analyze the <code>EXCEL.EXE-36952AF2.pf</code> file.</p>
-<figure><img
-    class="my-0 rounded-md"
-    loading="lazy"
-    decoding="async"
-    fetchpriority="auto"
-    alt="PECmd Output"
-    width="1113"
-    height="607"
-    src="/posts/analysis-prefetch/WindowsTerminal_OVm9Gs5ssA_hu_9beb388ee3a9b040.png"
-    srcset="/posts/analysis-prefetch/WindowsTerminal_OVm9Gs5ssA_hu_9beb388ee3a9b040.png 800w, /posts/analysis-prefetch/WindowsTerminal_OVm9Gs5ssA.png 1280w"
-    sizes="(min-width: 768px) 50vw, 65vw"
-    data-zoom-src="/posts/analysis-prefetch/WindowsTerminal_OVm9Gs5ssA.png"></figure>
-
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Powershell" data-lang="Powershell"><span class="line"><span class="cl"><span class="nb">PS </span><span class="n">C:</span><span class="p">\</span><span class="n">users</span><span class="p">\</span><span class="n">user</span><span class="p">\</span><span class="n">documents</span><span class="p">\</span><span class="n">pecmd</span><span class="p">&gt;</span> <span class="p">.\</span><span class="n">PECmd</span><span class="p">.</span><span class="py">exe</span> <span class="o">-f</span> <span class="s2">&#34;C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">PECmd</span> <span class="n">version</span> <span class="mf">1.5</span><span class="p">.</span><span class="py">1</span><span class="p">.</span><span class="py">0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Author</span><span class="err">:</span> <span class="n">Eric</span> <span class="n">Zimmerman</span> <span class="p">(</span><span class="n">saericzimmerman</span><span class="nv">@gmail</span><span class="p">.</span><span class="n">com</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">EricZimmerman</span><span class="p">/</span><span class="n">PECmd</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Command</span> <span class="n">line</span><span class="err">:</span> <span class="o">-f</span> <span class="n">C:</span><span class="p">\</span><span class="n">Windows</span><span class="p">\</span><span class="n">Prefetch</span><span class="p">\</span><span class="n">EXCEL</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">36952AF2</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Warning</span><span class="err">:</span> <span class="n">Administrator</span> <span class="n">privileges</span> <span class="n">not</span> <span class="n">found</span><span class="p">!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Keywords</span><span class="err">:</span> <span class="n">temp</span><span class="p">,</span> <span class="n">tmp</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Processing</span> <span class="n">C:</span><span class="p">\</span><span class="n">Windows</span><span class="p">\</span><span class="n">Prefetch</span><span class="p">\</span><span class="n">EXCEL</span><span class="p">.</span><span class="n">EXE</span><span class="p">-</span><span class="n">36952AF2</span><span class="p">.</span><span class="py">pf</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Created</span> <span class="n">on</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">09</span><span class="p">-</span><span class="mf">28</span> <span class="mf">18</span><span class="err">:</span><span class="mf">54</span><span class="err">:</span><span class="mf">49</span>
+</span></span><span class="line"><span class="cl"><span class="n">Modified</span> <span class="n">on</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">21</span> <span class="mf">13</span><span class="err">:</span><span class="mf">49</span><span class="err">:</span><span class="mf">29</span>
+</span></span><span class="line"><span class="cl"><span class="n">Last</span> <span class="n">accessed</span> <span class="n">on</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">21</span> <span class="mf">14</span><span class="err">:</span><span class="mf">04</span><span class="err">:</span><span class="mf">52</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Executable</span> <span class="n">name</span><span class="err">:</span> <span class="n">EXCEL</span><span class="p">.</span><span class="py">EXE</span>
+</span></span><span class="line"><span class="cl"><span class="n">Hash</span><span class="err">:</span> <span class="n">36952AF2</span>
+</span></span><span class="line"><span class="cl"><span class="n">File</span> <span class="n">size</span> <span class="p">(</span><span class="n">bytes</span><span class="p">)</span><span class="err">:</span> <span class="mf">496</span><span class="p">,</span><span class="mf">182</span>
+</span></span><span class="line"><span class="cl"><span class="n">Version</span><span class="err">:</span> <span class="n">null</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Run</span> <span class="n">count</span><span class="err">:</span> <span class="mf">33</span>
+</span></span><span class="line"><span class="cl"><span class="n">Last</span> <span class="n">run</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">21</span> <span class="mf">13</span><span class="err">:</span><span class="mf">49</span><span class="err">:</span><span class="mf">24</span>
+</span></span><span class="line"><span class="cl"><span class="n">Other</span> <span class="n">run</span> <span class="n">times</span><span class="err">:</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">20</span> <span class="mf">17</span><span class="err">:</span><span class="mf">12</span><span class="err">:</span><span class="mf">17</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">20</span> <span class="mf">17</span><span class="err">:</span><span class="mf">05</span><span class="err">:</span><span class="mf">24</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">20</span> <span class="mf">16</span><span class="err">:</span><span class="mf">40</span><span class="err">:</span><span class="mf">07</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">19</span> <span class="mf">18</span><span class="err">:</span><span class="mf">57</span><span class="err">:</span><span class="mf">40</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">18</span> <span class="mf">19</span><span class="err">:</span><span class="mf">49</span><span class="err">:</span><span class="mf">49</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">17</span> <span class="mf">22</span><span class="err">:</span><span class="mf">51</span><span class="err">:</span><span class="mf">20</span><span class="p">,</span> <span class="mf">2025</span><span class="p">-</span><span class="mf">12</span><span class="p">-</span><span class="mf">17</span> <span class="mf">13</span><span class="err">:</span><span class="mf">30</span><span class="err">:</span><span class="mf">15</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Volume</span> <span class="n">information</span><span class="err">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#0: Name: \VOLUME{01db5db3a2ac64d5-7af4eb28} Serial: 2CF4FF26 Created: 2024-12-13 23:08:43 Directories: 88 File references: 339</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Directories</span> <span class="n">referenced</span><span class="err">:</span> <span class="mf">88</span>
+</span></span></code></pre></div>
 <h3 class="relative group">What to Look For
     <div id="what-to-look-for" class="anchor"></div>
     
@@ -1570,7 +1596,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2025-12-20T00:00:00&#43;00:00">20 December 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -2000,22 +2026,8 @@
   <div class="flex items-center justify-between">
     
     
-      <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          &copy;
-          2025
-          MACIEJ KLIM
-      </p>
-    
 
     
-    
-      <p class="text-xs text-neutral-500 dark:text-neutral-400">
-        
-        
-        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-      </p>
     
   </div>
   
