@@ -95,7 +95,10 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/projects/</guid>
-      <description>&lt;p&gt;I always try to find time to work and learn something new. Usually, most of these  are used internally to increase productivity. They are great opportunities to try something in the real world and learn from it.&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Never send a human to do a machine&amp;rsquo;s job. -Agent Smith&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Programs are made to make your life easier. The goal of all projects is to enhance productivity by automation.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
     &lt;a id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9&#34; target=&#34;_blank&#34; href=&#34;https://github.com/maciejklim/m365-phishing-email-removal-tool&#34; class=&#34;cursor-pointer&#34;&gt;
       &lt;div

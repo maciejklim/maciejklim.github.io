@@ -23,9 +23,9 @@ layoutBackgroundHeaderSpace: false
 
 ---
 
+>Never send a human to do a machine's job. -Agent Smith
 
-I always try to find time to work and learn something new. Usually, most of these  are used internally to increase productivity. They are great opportunities to try something in the real world and learn from it.
-
+Programs are made to make your life easier. The goal of all projects is to enhance productivity by automation.
 
 {{< github repo="maciejklim/m365-phishing-email-removal-tool" showThumbnail=false >}}
 <br>
