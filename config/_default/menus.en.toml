@@ -75,11 +75,21 @@
   weight = 10
 
 [[main]]
-  name = "✎ Posts"
+  name = "✒️ Posts"
   pageRef = "Posts"
   weight = 20
 
 [[main]]
-  name = "⌯⌲ Projects"
+  name = "📂 Projects"
   pageRef = "projects"
   weight = 30
+
+[[main]]
+  name = "🎓 Certs"
+  pageRef = "certifications"
+  Weight = 40
+
+[[main]]
+  name = "👤 About"
+  pageRef = "about"
+  weight = 50

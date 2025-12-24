@@ -1,3 +1,26 @@
+/* Home Background */
+#background-image {
+  display: none;
+}
+
+/* Light mode */
+html:not(.dark) body {
+  background-color: #E7FEFB;
+}
+
+/* Dark mode */
+html.dark body {
+  background-color: #011816;
+}
+
+/* Remove background gradients */
+.bg-gradient-to-b,
+.bg-gradient-to-r,
+.bg-gradient-to-t {
+  display: none !important;
+}
+
+/* Category Buttons */
 .category-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -16,4 +39,9 @@
 
 .category-btn:hover {
   background-color: var(--color-bg-secondary);
+}
+
+/* Tables */
+table td {
+  vertical-align: middle;
 }

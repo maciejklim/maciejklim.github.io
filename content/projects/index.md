@@ -18,16 +18,12 @@ showEdit: false
 showViews: false
 showLikes: false
 layoutBackgroundHeaderSpace: false
-
+showAuthor: false
 #groupByYear : false
 
 ---
-Programs are made to make your life easier. The goal of all projects is to enhance productivity by automation.
->Never send a human to do a machine's job. -Agent Smith
-
-
+The goal of all projects is to enhance productivity by automation.
 
 {{< github repo="maciejklim/m365-phishing-email-removal-tool" showThumbnail=false >}}
 <br>
-
 {{< github repo="maciejklim/darkweb-email-checker" showThumbnail=false >}}

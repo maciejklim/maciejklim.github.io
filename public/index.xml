@@ -90,15 +90,243 @@
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;Maciej Klim&#34;
+    width=&#34;300&#34;
+    height=&#34;300&#34;
+    src=&#34;//localhost:1313/img/avatar.png&#34;
+    srcset=&#34;//localhost:1313/img/avatar.png 800w, //localhost:1313/img/avatar.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/img/avatar.png&#34;&gt;&lt;figcaption&gt;Maciej Klim&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I’m a cybersecurity professional working in MSP environments, supporting small and mid-sized organizations with a focus on practical defense, risk reduction, and operational stability. My experience aligns with Security Engineer and Tier 2–3 Analyst responsibilities, including vulnerability management, security operations, and automation across Microsoft-centric environments.&lt;/p&gt;
+&lt;p&gt;I have a strong interest in vulnerability management and have led sustained remediation efforts to meaningfully reduce organizational exposure. I enjoy building and improving processes that make security work more efficient and repeatable, whether through PowerShell automation, refining response workflows, or leading Windows 10 to Windows 11 upgrade initiatives to modernize and standardize endpoints.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Certifications</title>
+      <link>//localhost:1313/certifications/</link>
+      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/certifications/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
+    &lt;div id=&#34;industry-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Logo&lt;/th&gt;
+          &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;Issuer&lt;/th&gt;
+          &lt;th&gt;Year&lt;/th&gt;
+          &lt;th&gt;URL&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;Comptia Security Plus Logo&#34;
+    width=&#34;80&#34;
+    height=&#34;80&#34;
+    src=&#34;//localhost:1313/cert-comptia-sec-plus.png&#34;
+    srcset=&#34;//localhost:1313/cert-comptia-sec-plus.png 800w, //localhost:1313/cert-comptia-sec-plus.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/cert-comptia-sec-plus.png&#34;&gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;CompTIA Security+&lt;/td&gt;
+          &lt;td&gt;CompTIA&lt;/td&gt;
+          &lt;td&gt;TBA&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://...&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Microsoft Trophies
+    &lt;div id=&#34;microsoft-trophies&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Logo&lt;/th&gt;
+          &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;Issuer&lt;/th&gt;
+          &lt;th&gt;Year&lt;/th&gt;
+          &lt;th&gt;URL&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;MS-102 Logo&#34;
+    src=&#34;//localhost:1313/cert-ms-102.svg&#34;
+    &gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;MS-102 Configure your Microsoft 365 tenant&lt;/td&gt;
+          &lt;td&gt;Microsoft&lt;/td&gt;
+          &lt;td&gt;2025&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://learn.microsoft.com/en-us/users/maciejklim-1838/&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;low&#34;
+    alt=&#34;Active Directory Domain Services Logo&#34;
+    src=&#34;//localhost:1313/cert-adds.svg&#34;
+    &gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;Active Directory Domain Services&lt;/td&gt;
+          &lt;td&gt;Microsoft&lt;/td&gt;
+          &lt;td&gt;2025&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://learn.microsoft.com/en-us/users/maciejklim-1838/&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Vendor Certifications
+    &lt;div id=&#34;vendor-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Logo&lt;/th&gt;
+          &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;Issuer&lt;/th&gt;
+          &lt;th&gt;Year&lt;/th&gt;
+          &lt;th&gt;URL&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;DNSFilter Logo&#34;
+    width=&#34;80&#34;
+    height=&#34;80&#34;
+    src=&#34;//localhost:1313/cert-dnsfilter.png&#34;
+    srcset=&#34;//localhost:1313/cert-dnsfilter.png 800w, //localhost:1313/cert-dnsfilter.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/cert-dnsfilter.png&#34;&gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;DNSFilter Certified&lt;/td&gt;
+          &lt;td&gt;DNSFilter&lt;/td&gt;
+          &lt;td&gt;2024&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://dnsfilter.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;Connectsecure Logo&#34;
+    width=&#34;80&#34;
+    height=&#34;73&#34;
+    src=&#34;//localhost:1313/cert-connectsecure.png&#34;
+    srcset=&#34;//localhost:1313/cert-connectsecure.png 800w, //localhost:1313/cert-connectsecure.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/cert-connectsecure.png&#34;&gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;ConnectSecure Certified Administrator&lt;/td&gt;
+          &lt;td&gt;ConnectSecure&lt;/td&gt;
+          &lt;td&gt;2024&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://connectsecure.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;Sophos Logo&#34;
+    width=&#34;79&#34;
+    height=&#34;80&#34;
+    src=&#34;//localhost:1313/cert-sophos.png&#34;
+    srcset=&#34;//localhost:1313/cert-sophos.png 800w, //localhost:1313/cert-sophos.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/cert-sophos.png&#34;&gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
+          &lt;td&gt;SOPHOS&lt;/td&gt;
+          &lt;td&gt;2023-25&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://sophos.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;figure&gt;&lt;img
+    class=&#34;my-0 rounded-md&#34;
+    loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    fetchpriority=&#34;auto&#34;
+    alt=&#34;Sophos Logo&#34;
+    width=&#34;79&#34;
+    height=&#34;80&#34;
+    src=&#34;//localhost:1313/cert-sophos.png&#34;
+    srcset=&#34;//localhost:1313/cert-sophos.png 800w, //localhost:1313/cert-sophos.png 1280w&#34;
+    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
+    data-zoom-src=&#34;//localhost:1313/cert-sophos.png&#34;&gt;&lt;/figure&gt;
+&lt;/td&gt;
+          &lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
+          &lt;td&gt;SOPHOS&lt;/td&gt;
+          &lt;td&gt;2023-25&lt;/td&gt;
+          &lt;td&gt;&lt;a
+  href=&#34;https://sophos.com&#34;
+    target=&#34;_blank&#34;
+  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>//localhost:1313/projects/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/projects/</guid>
-      <description>&lt;p&gt;Programs are made to make your life easier. The goal of all projects is to enhance productivity by automation.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Never send a human to do a machine&amp;rsquo;s job. -Agent Smith&lt;/p&gt;
-&lt;/blockquote&gt;
+      <description>&lt;p&gt;The goal of all projects is to enhance productivity by automation.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
     &lt;a id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9&#34; target=&#34;_blank&#34; href=&#34;https://github.com/maciejklim/m365-phishing-email-removal-tool&#34; class=&#34;cursor-pointer&#34;&gt;
       &lt;div
