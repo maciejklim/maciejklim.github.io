@@ -20,15 +20,15 @@ showLikes: false
 layoutBackgroundHeaderSpace: false
 showAuthor: false
 showSimilar: false
-
+lightbox: false
 #groupByYear : false
 
 ---
 ## Industry Certifications
 
-| Logo                                                     | Certification     | Issuer  | Year | URL                  |
-| -------------------------------------------------------- | ----------------- | ------- | ---- | -------------------- |
-| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA | TBA  | [Visit](https://...) |
+| Logo                                                     | Certification     | Issuer  | Year | URL                                                             |
+| -------------------------------------------------------- | ----------------- | ------- | ---- | --------------------------------------------------------------- |
+| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA | TBA  | [Visit](https://www.comptia.org/en-us/certifications/security/) |
 
 ## Microsoft Trophies
 
