@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maciej Klim</title><link>/</link><description>Recent content on Maciej Klim</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Uninstalling an app doesn't delete the proof you ran it</title><link>/posts/analysis-prefetch/</link><pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate><guid>/posts/analysis-prefetch/</guid><description>Learn how to analyze the prefetch directory using PECmd.exe.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/analysis-prefetch/featured.jpg"/></item><item><title>Windows is saving every USB storage device you plug in</title><link>/posts/analysis-usb-history/</link><pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate><guid>/posts/analysis-usb-history/</guid><description>Learn how to analyze the registry for USB storage history.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/analysis-usb-history/featured.jpg"/></item><item><title>Your computer knows exactly how much data every single app has sent to the internet</title><link>/posts/analysis-srubd/</link><pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate><guid>/posts/analysis-srubd/</guid><description>Learn how to analyze the SRUBD.dat file.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/analysis-srubd/featured.jpg"/></item><item><title>Your WiFi connection history, exposed</title><link>/posts/analysis-netsh-wlan-profiles/</link><pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate><guid>/posts/analysis-netsh-wlan-profiles/</guid><description>Use NETSH to see every network you&amp;rsquo;ve connected to. Passwords in plain text. And even geolocation.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/analysis-netsh-wlan-profiles/featured.jpg"/></item><item><title>Phishing Trends: End of 2025 Review</title><link>/posts/phishing-trends-eoy-2025/</link><pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate><guid>/posts/phishing-trends-eoy-2025/</guid><description>From fake M365 login pages to QR-code scams. Discover the top phishing trends seen this year.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/phishing-trends-eoy-2025/featured.jpg"/></item><item><title>CVE 2013-3900: WinVerifyTrust Signature Validation</title><link>/posts/mitigation-winverifytrustsignature/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>/posts/mitigation-winverifytrustsignature/</guid><description>When signature validation is lax, detection breaks. See what defenders must do to close that gap.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/mitigation-winverifytrustsignature/featured.jpg"/></item><item><title>CVE 2024-30080: Microsoft Message Queueing (MSMQ) Remote Code Execution</title><link>/posts/mitigiation-msmq-service/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>/posts/mitigiation-msmq-service/</guid><description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how exposed MSMQ services listening on port 1801 put defenders at risk.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/mitigiation-msmq-service/featured.jpg"/></item><item><title>CVE-2023-3438: Unquoted Service Path</title><link>/posts/mitigation-unquoted-service-paths/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>/posts/mitigation-unquoted-service-paths/</guid><description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate straight to SYSTEM.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/mitigation-unquoted-service-paths/featured.jpg"/></item><item><title>About Me</title><link>/about/</link><pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate><guid>/about/</guid><description>&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="Maciej Klim"
+width="300"
+height="300"
+src="/img/avatar.png"
+srcset="/img/avatar.png 800w, /img/avatar.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/img/avatar.png"&gt;&lt;figcaption&gt;Maciej Klim&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;I’m a cybersecurity professional working in MSP environments, supporting small and mid-sized organizations with a focus on practical defense, risk reduction, and operational stability. My experience aligns with Security Engineer and Tier 2–3 Analyst responsibilities, including vulnerability management, security operations, and automation across Microsoft-centric environments.&lt;/p&gt;
+&lt;p&gt;I have a strong interest in vulnerability management and have led sustained remediation efforts to meaningfully reduce organizational exposure. I enjoy building and improving processes that make security work more efficient and repeatable, whether through PowerShell automation, refining response workflows, or leading Windows 10 to Windows 11 upgrade initiatives to modernize and standardize endpoints.&lt;/p&gt;</description></item><item><title>Certifications</title><link>/certifications/</link><pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate><guid>/certifications/</guid><description>&lt;h2 class="relative group"&gt;Industry Certifications
+&lt;div id="industry-certifications" class="anchor"&gt;&lt;/div&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Logo&lt;/th&gt;
+&lt;th&gt;Certification&lt;/th&gt;
+&lt;th&gt;Issuer&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="Comptia Security Plus Logo"
+width="80"
+height="80"
+src="/cert-comptia-sec-plus.png"
+srcset="/cert-comptia-sec-plus.png 800w, /cert-comptia-sec-plus.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/cert-comptia-sec-plus.png"&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;CompTIA Security+&lt;/td&gt;
+&lt;td&gt;CompTIA&lt;/td&gt;
+&lt;td&gt;TBA&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://www.comptia.org/en-us/certifications/security/"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 class="relative group"&gt;Microsoft Trophies
+&lt;div id="microsoft-trophies" class="anchor"&gt;&lt;/div&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Logo&lt;/th&gt;
+&lt;th&gt;Certification&lt;/th&gt;
+&lt;th&gt;Issuer&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="MS-102 Logo"
+src="/cert-ms-102.svg"
+&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;MS-102 Configure your Microsoft 365 tenant&lt;/td&gt;
+&lt;td&gt;Microsoft&lt;/td&gt;
+&lt;td&gt;2025&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://learn.microsoft.com/en-us/users/maciejklim-1838/"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Active Directory Domain Services Logo"
+src="/cert-adds.svg"
+&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;Active Directory Domain Services&lt;/td&gt;
+&lt;td&gt;Microsoft&lt;/td&gt;
+&lt;td&gt;2025&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://learn.microsoft.com/en-us/users/maciejklim-1838/"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 class="relative group"&gt;Vendor Certifications
+&lt;div id="vendor-certifications" class="anchor"&gt;&lt;/div&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Logo&lt;/th&gt;
+&lt;th&gt;Certification&lt;/th&gt;
+&lt;th&gt;Issuer&lt;/th&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="DNSFilter Logo"
+width="80"
+height="80"
+src="/cert-dnsfilter.png"
+srcset="/cert-dnsfilter.png 800w, /cert-dnsfilter.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/cert-dnsfilter.png"&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;DNSFilter Certified&lt;/td&gt;
+&lt;td&gt;DNSFilter&lt;/td&gt;
+&lt;td&gt;2024&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://dnsfilter.com"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="Connectsecure Logo"
+width="80"
+height="73"
+src="/cert-connectsecure.png"
+srcset="/cert-connectsecure.png 800w, /cert-connectsecure.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/cert-connectsecure.png"&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;ConnectSecure Certified Administrator&lt;/td&gt;
+&lt;td&gt;ConnectSecure&lt;/td&gt;
+&lt;td&gt;2024&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://connectsecure.com"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="Sophos Logo"
+width="79"
+height="80"
+src="/cert-sophos.png"
+srcset="/cert-sophos.png 800w, /cert-sophos.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/cert-sophos.png"&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
+&lt;td&gt;SOPHOS&lt;/td&gt;
+&lt;td&gt;2023-25&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://sophos.com"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;figure&gt;&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="auto"
+alt="Sophos Logo"
+width="79"
+height="80"
+src="/cert-sophos.png"
+srcset="/cert-sophos.png 800w, /cert-sophos.png 1280w"
+sizes="(min-width: 768px) 50vw, 65vw"
+data-zoom-src="/cert-sophos.png"&gt;&lt;/figure&gt;
+&lt;/td&gt;
+&lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
+&lt;td&gt;SOPHOS&lt;/td&gt;
+&lt;td&gt;2023-25&lt;/td&gt;
+&lt;td&gt;&lt;a
+href="https://sophos.com"
+target="_blank"
+&gt;Visit&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Projects</title><link>/projects/</link><pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate><guid>/projects/</guid><description>&lt;p&gt;The goal of all projects is to enhance productivity by automation.&lt;/p&gt;
+&lt;p&gt;&lt;div class="github-card-wrapper"&gt;
+&lt;a id="github-9ef766b6fdae229f3b0804e0266c66d9" target="_blank" href="https://github.com/maciejklim/m365-phishing-email-removal-tool" class="cursor-pointer"&gt;
+&lt;div
+class="w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl"&gt;&lt;div class="w-full md:w-auto pt-3 p-5"&gt;
+&lt;div class="flex items-center"&gt;
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral me-2"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"&gt;&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;div
+id="github-9ef766b6fdae229f3b0804e0266c66d9-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"&gt;
+maciejklim/m365-phishing-email-removal-tool
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p id="github-9ef766b6fdae229f3b0804e0266c66d9-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral"&gt;
+GUI to perform M365 Compliance search &amp;amp; purge jobs against phishing emails.
+&lt;/p&gt;</description></item></channel></rss>
