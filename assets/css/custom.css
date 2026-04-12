@@ -1,7 +1,6 @@
-/* Home Background
-#background-image {
-  display: none;
-} */
+/* =========================
+   BACKGROUND / THEME
+========================= */
 
 /* Light mode */
 html:not(.dark) body {
@@ -20,7 +19,10 @@ html.dark body {
   display: none !important;
 }
 
-/* Category Buttons */
+/* =========================
+   CATEGORY BUTTONS
+========================= */
+
 .category-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -41,12 +43,24 @@ html.dark body {
   background-color: var(--color-bg-secondary);
 }
 
-/* Tables */
+/* =========================
+   GLOBAL TABLE STABILITY FIX
+   (IMPORTANT — prevents layout shift)
+========================= */
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
 table td {
   vertical-align: middle;
 }
 
-/* Homepage Headings */
+/* =========================
+   HOMEPAGE SECTIONS
+========================= */
+
 #projects {
   margin-top: 4rem;
 }
@@ -59,26 +73,29 @@ table td {
   padding-top: 4rem;
 }
 
-/* TYPOGRAPHY CONTAINER */
+/* =========================
+   ABOUT SECTION TYPOGRAPHY
+========================= */
+
 #about .prose {
   max-width: 80% !important;
 }
 
-/* HEADINGS — controlled spacing (NO negative margins) */
 #about .prose h2,
 #about .prose h3 {
   margin-top: 1.25rem;
-
 }
 
-/* PARAGRAPHS — tighter but consistent */
 #about .prose p {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
   line-height: 1.6;
 }
 
-/* BUTTONS — stable spacing model */
+/* =========================
+   ABOUT SKILLS BUTTONS
+========================= */
+
 .about-skills a {
   display: inline-flex;
   cursor: default;
@@ -86,7 +103,9 @@ table td {
   opacity: 0.95;
 }
 
-/* About Me Avatar */
+/* =========================
+   AVATAR
+========================= */
 
 .avatar {
   width: 160px;
@@ -99,50 +118,65 @@ table td {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 
-/* CERTIFICATIONS*/
+/* =========================
+   CERTIFICATIONS SECTION
+========================= */
 
 .certifications {
+  max-width: 100% !important;
   display: block;
 }
 
-.certifications img {
-  pointer-events: none;
+/* Center the markdown content container */
+.certifications .prose table {
+  width: 100% !important;
+  display: table !important;
+  table-layout: fixed !important;
 }
 
+/* Table itself */
 .certifications table {
-  width: 75%;
+  width: 100%;
   table-layout: fixed;
+}
+
+/* prevent image clicks */
+.certifications img {
+  pointer-events: none;
+  display: block;
   margin: 0 auto;
 }
 
-.certifications td:nth-child(1),
-.certifications th:nth-child(1) {
-  width: 20%;
-  /* logo column */
+
+/* Column 1: Logo */
+.certifications th:nth-child(1),
+.certifications td:nth-child(1) {
+  width: 18%;
 }
 
-.certifications td:nth-child(2),
-.certifications th:nth-child(2) {
-  width: 40%;
-  /* certification name */
+/* Column 2: Certification Name */
+.certifications th:nth-child(2),
+.certifications td:nth-child(2) {
+  width: 42%;
 }
 
-.certifications td:nth-child(3),
-.certifications th:nth-child(3) {
-  width: 10%;
-  /* issuer */
+/* Column 3: Issuer */
+.certifications th:nth-child(3),
+.certifications td:nth-child(3) {
+  width: 18%;
 }
 
-.certifications td:nth-child(4),
-.certifications th:nth-child(4) {
+/* Column 4: Year */
+.certifications th:nth-child(4),
+.certifications td:nth-child(4) {
   width: 20%;
   text-align: center;
   font-variant-numeric: tabular-nums;
-  /* year */
 }
 
-.certifications td:nth-child(5),
-.certifications th:nth-child(5) {
-  width: 30%;
-  /* URL */
+/* Column 5: Link / URL */
+.certifications th:nth-child(5),
+.certifications td:nth-child(5) {
+  width: 12%;
+  text-align: center;
 }

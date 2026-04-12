@@ -270,15 +270,15 @@
       <guid>//localhost:1313/certifications/</guid>
       <description>&lt;div class=&#34;certifications&#34;&gt;
 
-&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
+&lt;h3 class=&#34;relative group&#34;&gt;Industry Certifications
     &lt;div id=&#34;industry-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
-&lt;/h2&gt;
+&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Logo&lt;/th&gt;
           &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
           &lt;th&gt;Year&lt;/th&gt;
           &lt;th&gt;URL&lt;/th&gt;
@@ -310,15 +310,15 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 class=&#34;relative group&#34;&gt;Microsoft Trophies
+&lt;h3 class=&#34;relative group&#34;&gt;Microsoft Trophies
     &lt;div id=&#34;microsoft-trophies&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
-&lt;/h2&gt;
+&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Logo&lt;/th&gt;
           &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
           &lt;th&gt;Year&lt;/th&gt;
           &lt;th&gt;URL&lt;/th&gt;
@@ -364,15 +364,15 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 class=&#34;relative group&#34;&gt;Vendor Certifications
+&lt;h3 class=&#34;relative group&#34;&gt;Vendor Certifications
     &lt;div id=&#34;vendor-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
-&lt;/h2&gt;
+&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Logo&lt;/th&gt;
           &lt;th&gt;Certification&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
           &lt;th&gt;Year&lt;/th&gt;
           &lt;th&gt;URL&lt;/th&gt;
