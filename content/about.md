@@ -64,7 +64,7 @@ I work in cybersecurity operations within a managed service provider environment
 {{< button >}}Endpoint Support{{< /button >}}
 {{< button >}}Windows Imaging{{< /button >}}
 {{< button >}}Hardware Replacement{{< /button >}}
-{{< button >}}Automation{{< /button >}}
+{{< button >}}Automating Workflows{{< /button >}}
 
 </div>
 
