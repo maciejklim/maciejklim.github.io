@@ -32,7 +32,6 @@ I work in cybersecurity operations within a managed service provider environment
 
 {{< button >}}SOC Operations{{< /button >}}
 {{< button >}}SIEM Analysis{{< /button >}}
-{{< button >}}Alert Triage{{< /button >}}
 {{< button >}}Incident Response{{< /button >}}
 {{< button >}}Threat Hunting{{< /button >}}
 
@@ -43,9 +42,8 @@ I work in cybersecurity operations within a managed service provider environment
 <div class="about-skills text-center">
 
 {{< button >}}Phishing Analysis{{< /button >}}
-{{< button >}}Malware Triage{{< /button >}}
-{{< button >}}VirusTotal{{< /button >}}
-{{< button >}}Sandbox Analysis{{< /button >}}
+{{< button >}}Malware Analysis{{< /button >}}
+{{< button >}}Incident Response{{< /button >}}
 {{< button >}}IP Reputation Analysis{{< /button >}}
 
 </div>
@@ -57,19 +55,7 @@ I work in cybersecurity operations within a managed service provider environment
 {{< button >}}Vulnerability Management{{< /button >}}
 {{< button >}}Security Hardening{{< /button >}}
 {{< button >}}Cloud Security Policies{{< /button >}}
-{{< button >}}Remediation Enforcement{{< /button >}}
-
 </div>
-
-### Systems & Tools
-
-<div class="about-skills text-center">
-
-{{< button >}}Microsoft 365 Security{{< /button >}}
-{{< button >}}Active Directory{{< /button >}}
-{{< button >}}PowerShell{{< /button >}}
-{{< button >}}Splunk / SIEM Tools{{< /button >}}
-{{< button >}}Endpoint Security{{< /button >}}
 
 ### IT Operations
 
@@ -78,7 +64,7 @@ I work in cybersecurity operations within a managed service provider environment
 {{< button >}}Endpoint Support{{< /button >}}
 {{< button >}}Windows Imaging{{< /button >}}
 {{< button >}}Hardware Replacement{{< /button >}}
-{{< button >}}Password Resets{{< /button >}}
+{{< button >}}Automation{{< /button >}}
 
 </div>
 
