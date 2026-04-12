@@ -24,7 +24,10 @@ lightbox: false
 #groupByYear : false
 ---
 
+<img src="/img/avatar.png" alt="Maciej" class="avatar">
+
 I work in cybersecurity operations within a managed service provider environment, focusing on threat detection, vulnerability mitigation, and incident response. My responsibilities center around investigating security alerts, analyzing phishing and malware activity, and enforcing security posture improvements across client environments.
+
 
 ### Core Security Operations
 

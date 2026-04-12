@@ -95,7 +95,8 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;I work in cybersecurity operations within a managed service provider environment, focusing on threat detection, vulnerability mitigation, and incident response. My responsibilities center around investigating security alerts, analyzing phishing and malware activity, and enforcing security posture improvements across client environments.&lt;/p&gt;
+      <description>&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;
+&lt;p&gt;I work in cybersecurity operations within a managed service provider environment, focusing on threat detection, vulnerability mitigation, and incident response. My responsibilities center around investigating security alerts, analyzing phishing and malware activity, and enforcing security posture improvements across client environments.&lt;/p&gt;
 
 &lt;h3 class=&#34;relative group&#34;&gt;Core Security Operations
     &lt;div id=&#34;core-security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
@@ -267,9 +268,7 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/certifications/</guid>
-      <description>&lt;div class=&#34;certifications&#34;&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
     &lt;div id=&#34;industry-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h2&gt;
@@ -438,7 +437,7 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023&lt;/td&gt;
+          &lt;td&gt;2023-25&lt;/td&gt;
           &lt;td&gt;&lt;a
   href=&#34;https://sophos.com&#34;
     target=&#34;_blank&#34;
@@ -460,15 +459,14 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023&lt;/td&gt;
+          &lt;td&gt;2023-25&lt;/td&gt;
           &lt;td&gt;&lt;a
   href=&#34;https://sophos.com&#34;
     target=&#34;_blank&#34;
   &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;</description>
+&lt;/table&gt;</description>
       
     </item>
     
