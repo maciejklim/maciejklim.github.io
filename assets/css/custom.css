@@ -85,3 +85,48 @@ table td {
   margin: 5px 6px;
   opacity: 0.95;
 }
+
+
+/* CERTIFICATIONS*/
+
+.certifications img {
+  pointer-events: none;
+}
+
+.certifications table {
+  width: 75%;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+.certifications td:nth-child(1),
+.certifications th:nth-child(1) {
+  width: 20%;
+  /* logo column */
+}
+
+.certifications td:nth-child(2),
+.certifications th:nth-child(2) {
+  width: 40%;
+  /* certification name */
+}
+
+.certifications td:nth-child(3),
+.certifications th:nth-child(3) {
+  width: 10%;
+  /* issuer */
+}
+
+.certifications td:nth-child(4),
+.certifications th:nth-child(4) {
+  width: 20%;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  /* year */
+}
+
+.certifications td:nth-child(5),
+.certifications th:nth-child(5) {
+  width: 30%;
+  /* URL */
+}

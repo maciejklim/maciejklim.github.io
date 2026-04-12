@@ -126,15 +126,6 @@
   
   
   role=&#34;button&#34;&gt;
-  Alert Triage
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
   Incident Response
 &lt;/a&gt;
 
@@ -169,7 +160,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Malware Triage
+  Malware Analysis
 &lt;/a&gt;
 
 &lt;a
@@ -178,16 +169,7 @@
   
   
   role=&#34;button&#34;&gt;
-  VirusTotal
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Sandbox Analysis
+  Incident Response
 &lt;/a&gt;
 
 &lt;a
@@ -232,6 +214,22 @@
   role=&#34;button&#34;&gt;
   Cloud Security Policies
 &lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;IT Operations
+    &lt;div id=&#34;it-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h3&gt;
+&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;p&gt;&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Endpoint Support
+&lt;/a&gt;
 
 &lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
@@ -239,7 +237,25 @@
   
   
   role=&#34;button&#34;&gt;
-  Remediation Enforcement
+  Windows Imaging
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Hardware Replacement
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Automating Workflows
 &lt;/a&gt;
 &lt;/p&gt;</description>
       
@@ -251,7 +267,9 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/certifications/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
+      <description>&lt;div class=&#34;certifications&#34;&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Industry Certifications
     &lt;div id=&#34;industry-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h2&gt;
@@ -420,7 +438,7 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023-25&lt;/td&gt;
+          &lt;td&gt;2023&lt;/td&gt;
           &lt;td&gt;&lt;a
   href=&#34;https://sophos.com&#34;
     target=&#34;_blank&#34;
@@ -442,14 +460,15 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023-25&lt;/td&gt;
+          &lt;td&gt;2023&lt;/td&gt;
           &lt;td&gt;&lt;a
   href=&#34;https://sophos.com&#34;
     target=&#34;_blank&#34;
   &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</description>
+&lt;/table&gt;
+&lt;/div&gt;</description>
       
     </item>
     
