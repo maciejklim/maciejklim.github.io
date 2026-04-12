@@ -1,25 +1,19 @@
 ---
 title: "CVE-2023-3438: Unquoted Service Path"
 date: "2025-05-09"
-summary: "Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate straight to SYSTEM."
+summary: "Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM."
 categories:
     - Mitigation
     - Blue Team
 ---
 
-| Base Score | Base Severity | CVSS Vector | Exploitability Score | Impact Score | Total Score | Source |
-|------------|---------------|-------------|--------------------|--------------|-------------|--------|
-| <span style="background-color:red; color:white; padding:2px 6px; border-radius:6px;">7.8</span> | HIGH | CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H | HIGH | 1.8 | 5.9 | NIST |
-| <span style="background-color:orange; color:white; padding:2px 6px; border-radius:6px;">4.4</span> | MEDIUM | CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H | MEDIUM | 0.8 | 3.6 | Trellix |
-
-
-## Threat: Unquoted Service Path
+## Threat Overview
 
 On Windows, services often start executables automatically with **SYSTEM** privileges.
 
-If a service’s executable path _contains spaces_ and is _not wrapped in quotes_, Windows may interpret the path incorrectly.
+If a service’s executable path contains spaces and is not wrapped in quotes, Windows may interpret the path incorrectly.
 
-This allows an attacker to place a _malicious executable earlier in the path_, which Windows may run instead of the intended service binary.
+This creates an opportunity for attackers to place a malicious executable earlier in the resolved path chain.
 
 ## Why This Happens
 
@@ -27,7 +21,7 @@ When Windows sees a service path like:
 
 ```C:\Program Files\Mozilla Firefox\Updater.exe```
 
-And it is _not quoted_, Windows tries to execute the path in this order:
+And it is not quoted, Windows tries to execute the path in this order:
 
 1) ```C:\Program.exe```
 2) ```C:\Program Files\Mozilla.exe```
@@ -35,47 +29,69 @@ And it is _not quoted_, Windows tries to execute the path in this order:
 
 The attacker can write a file to one of those earlier locations. Windows will execute the attackers file first, often as SYSTEM.
 
-## Attacker Workflow
+## Threat Actor Workflow
 
-An attacker would typically follow these steps
+An attacker would typically follow these steps:
 
 **1) Identify vulnerable services**
-   
+
 ```powershell
-Get-WmiObject win32_service | select Name,PathName,StartMode,StartName | where {$_.StartMode -ne "Disabled" -and $_.StartName -eq "LocalSystem" -and $_.PathName -notmatch "`"" -and $_.PathName -notmatch "C:\\Windows"} | Format-List
+Get-WmiObject win32_service |
+Select-Object Name, PathName, StartMode, StartName |
+Where-Object {
+    $_.StartMode -ne "Disabled" -and
+    $_.StartName -eq "LocalSystem" -and
+    $_.PathName -notmatch "`"" -and
+    $_.PathName -notmatch "C:\\Windows"
+} | Format-List
 ```
 
 **2) Verify write permissions**
 
-```powershell
-icacls C:\Windows\Mozilla Firefox
-```
+```icacls C:\Windows\Mozilla Firefox```
 
 **3) Plant a malicious binary**
 
-```c:\Program Files\Mozilla.exe```
+Example: ```c:\Program Files\Mozilla.exe```
 
 **4) Trigger a service restart or system reboot.**
 
-When a a restart occurs, Windows executes the attackers binary _instead of_ the legitimate service binary.
+On restart, Windows executes the attacker-controlled binary instead of the real one.
 
 **5) Privileged escalation achieved**
 
-Because services often run as SYSTEM, the attackers code now runs with _full system privileges_.
+Because services often run as SYSTEM, the attackers code now runs with full system privileges.
 
-## Identification
+## What Defenders Should Look For
 
-A quick way to identify unquoted service paths is to run the following Powershell command:
+You can quickly enumerate potentially vulnerable services the same way a threat actor would.
 
 ```ps1
-Get-WmiObject win32_service | select Name,PathName,StartMode,StartName | where {$_.StartMode -ne "Disabled" -and $_.StartName -eq "LocalSystem" -and $_.PathName -notmatch "`"" -and $_.PathName -notmatch "C:\\Windows"} | Format-List
+Get-WmiObject win32_service |
+Select-Object Name, PathName, StartMode, StartName |
+Where-Object {
+    $_.StartMode -ne "Disabled" -and
+    $_.StartName -eq "LocalSystem" -and
+    $_.PathName -notmatch "`"" -and
+    $_.PathName -notmatch "C:\\Windows"
+} | Format-List
 ```
+
+Look specifically for:
+* Paths containing spaces
+* Missing quotation marks
+* Services running as LocalSystem
 
 ## Remediation
 
-The fix is simple: *always wrap service executable paths in quotes*.
+The fix is simple: **always wrap service executable paths in quotes**.
 
-Example (secure):
+* Secure:
 ```"C:\Program Files\Mozilla Firefox\Updater.exe"```
 
-This forces Windows to interpret the full path correctly and prevent path hijacking.
+
+* Not secure:
+```C:\Program Files\Mozilla Firefox\Updater.exe```
+
+
+This forces Windows to interpret the full path, and prevent path hijacking.

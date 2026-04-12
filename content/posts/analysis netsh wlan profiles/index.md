@@ -1,68 +1,93 @@
 ---
-title: "Your WiFi connection history, exposed"
+title: "Windows WiFi Forensics"
 date: "2025-12-07"
-summary: "Use NETSH to see every network you've connected to. Passwords in plain text. And even geolocation."
+summary: "Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history."
 categories: "Forensics"
-image: "banner4905.jpg"
+image: "featured.jpg"
 showTableOfContents: true
 
 ---
 
-## You probably weren't told this, but...
+## Windows records every WiFi network you joined
 
-Your Windows laptop is keeping a **five-year diary** of everywhere you've ever taken it.
+Your Windows laptop is keeping a **five-year diary** of everywhere you've ever taken it. Every time you connect to WiFi, Windows quietly logs three things:
 
-Every time you connect to WiFi, Windows quietly logs three things:
 - SSID (network MAC)
 - BSSID (router MAC)
-- And yes... the **plain-text WiFi password**
+- And yes... the plain-text WiFi password
 
 All of it can be revealed with a single built-in command.
 
-### How to see the data
+## How to see the data
 
 Open an **elevated command prompt** and run:
 
-**See every network your machine has ever connected to:**
 
-```netsh wlan show profiles```
+```powershell
+# See every network your machine has ever connected to:
+netsh wlan show profiles
+```
 
-**Scope out every access point in range right now:**
+```powershell
+# Scope out every access point in range right now:
+netsh wlan show networks mode=bssid
+```
 
-```netsh wlan show networks mode=bsid```
+```powershell
+# See the wireless password keys
+netsh wlan show profile name="SSID_NAME" key=clear
+```
 
-**See the wireless password keys:**
+```powershell
+# Want to dump everything at once?
+netsh wlan export profile folder=C:\ key=clear
+```
 
-```netsh wlan show profile name="SSID_NAME" key=clear```
+## Investigating BSSIDs (access points)
 
-**Want to dump everything at once?**
+WAPs can be analyzed using their BSSID (MAC address).
 
-```netsh wlan export profile folder=C:\ key=clear```
+They can sometimes be correlated to external datasets such as https://wigle.net.
 
-The catch: Windows doesn't store BSSIDs for past connections. Only the SSID names and keys live in memory. Want to track connection BSSID history? You'll need to use third-party tools.
+Wigle is a crowdsourced wireless geolocation database that contains:
 
-## Mapping BSSID using Wigle.net
-Found a BSSID? You can look it up on Wigle.net and see where that access point has been spotted in the real world.
+* SSID
+* BSSID
+* GPS coordinates
+* Observed timestamp
 
 How to check it:
-1. Go to wigle.net and login.
-2. Search > WiFi network search
-3. Drop the BSSID (aa:bb:cc:dd:ee:ff)
+* Go to https://wigle.net and login.
+* Click Search > WiFi network search
+* Enter the BSSID (aa:bb:cc:dd:ee:ff)
 
-If it's in their crowdsourced database, you'll get its **last known GPS location**, ssid, channel, and timestamps. It's quick, it's OSINT, and it turns a simple MAC address into geo-intel.
+If it's in their crowdsourced database, you'll see the **last known GPS location**, SSID, channel, and timestamps.
+
+It's quick, it's OSINT, and it turns a simple MAC address into geo-intel.
 
 
-## Want to disable Window's access to BSSID's? 
+## Disabling Windows access to BSSID metadata
 Turn off Windows privacy-location sharing.
+
 ```powershell
 start ms-settings:privacylocation
 ```
-## The good news: you can wipe this trail clean
+## Removing stored WiFi profiles
 
 If you want to purge your WiFi history, open an **elevated command prompt** and run:
 
-```netsh wlan delete profile name=*```
+```powershell
+netsh wlan delete profile name=*
+```
 
 Done. Your travel diary is gone.
 
 If you're privacy-minded, take it a step further. Turn this into a scheduled task using **Windows Task Scheduler** so your laptop never accumulates a trail again.
+
+## Closing insight
+
+Windows wireless artifacts are not designed as forensic logs. But they still form a record of network interactions.
+
+Even when users forget networks, the system retains enough data to reconstruct their connectivity history.
+
+In forensic investigations, WiFi profiles often become a supporting artifact in broader timeline reconstruction.

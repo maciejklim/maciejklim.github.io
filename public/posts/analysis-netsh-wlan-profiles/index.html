@@ -15,13 +15,13 @@
 
   
   
-    <title>Your WiFi connection history, exposed &middot; Maciej Klim</title>
-    <meta name="title" content="Your WiFi connection history, exposed &middot; Maciej Klim">
+    <title>Windows WiFi Forensics &middot; Maciej Klim</title>
+    <meta name="title" content="Windows WiFi Forensics &middot; Maciej Klim">
   
 
   
   
-    <meta name="description" content="Use NETSH to see every network you&#39;ve connected to. Passwords in plain text. And even geolocation.">
+    <meta name="description" content="Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.">
   
   
   
@@ -47,19 +47,13 @@
         
       
     
-      
-        
-          <link href="https://t.me/mm596" rel="me">
-        
-      
-    
   
 
   
   <meta property="og:url" content="//localhost:1313/posts/analysis-netsh-wlan-profiles/">
   <meta property="og:site_name" content="Maciej Klim">
-  <meta property="og:title" content="Your WiFi connection history, exposed">
-  <meta property="og:description" content="Use NETSH to see every network you’ve connected to. Passwords in plain text. And even geolocation.">
+  <meta property="og:title" content="Windows WiFi Forensics">
+  <meta property="og:description" content="Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -70,8 +64,8 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg">
-  <meta name="twitter:title" content="Your WiFi connection history, exposed">
-  <meta name="twitter:description" content="Use NETSH to see every network you’ve connected to. Passwords in plain text. And even geolocation.">
+  <meta name="twitter:title" content="Windows WiFi Forensics">
+  <meta name="twitter:description" content="Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.">
 
   
   
@@ -112,8 +106,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.92772afc481eb1a73680869866e30a96a10894252f34c9bba2fe47a4e66eb21174c36328150242d5d792d411cb29bcf827334ee4209a9f34b6f605c91c4b9565.css"
-    integrity="sha512-kncq/Egesac2gIaYZuMKlqEIlCUvNMm7ov5HpOZushF0w2MoFQJC1deS1BHLKbz4JzNO5CCanzS29gXJHEuVZQ==">
+    href="/css/main.bundle.min.532592b04f0965949d2533500d46129ec4fa30be4fca7d8335d2796618b94d6f772c723ce49b3457444e75dba3bdd4914dc6d7616ee1f9be52162bd9ead845f5.css"
+    integrity="sha512-UyWSsE8JZZSdJTNQDUYSnsT6ML5Pyn2DNdJ5Zhi5TW93LHI85Js0V0ROddujvdSRTcbXYW7h&#43;b5SFivZ6thF9Q==">
 
   
   
@@ -161,8 +155,8 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="/js/main.bundle.min.9cc802d09f28c6af56ceee7bc6e320a39251fdae98243f2a9942f221ac57a9f49c51609699a91794a7b2580ee1deaa8e4d794a68ffa94aa317c66e893ce51e02.js"
-      integrity="sha512-nMgC0J8oxq9Wzu57xuMgo5JR/a6YJD8qmULyIaxXqfScUWCWmakXlKeyWA7h3qqOTXlKaP&#43;pSqMXxm6JPOUeAg=="
+      src="/js/main.bundle.min.c586c752b99483da1d0b024cb91220f5defda40000f3549b073a52dea6c99c78c50d376eb71e78969112c5dbc24bc4001182bd096c47d2e025053efd92d91b4c.js"
+      integrity="sha512-xYbHUrmUg9odCwJMuRIg9d79pAAA81SbBzpS3qbJnHjFDTdutx54lpESxdvCS8QAEYK9CWxH0uAlBT79ktkbTA=="
       data-copy="Copy"
       data-copied="Copied"></script>
   
@@ -225,10 +219,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Your WiFi connection history, exposed",
-    "headline": "Your WiFi connection history, exposed",
+    "name": "Windows WiFi Forensics",
+    "headline": "Windows WiFi Forensics",
     
-    "abstract": "Use NETSH to see every network you\u0026rsquo;ve connected to. Passwords in plain text. And even geolocation.",
+    "abstract": "Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.",
     "inLanguage": "en",
     "url" : "//localhost:1313/posts/analysis-netsh-wlan-profiles/",
     "author" : {
@@ -244,7 +238,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "301"
+    "wordCount": "333"
   }]
   </script>
 
@@ -328,6 +322,10 @@
   <div class="flex flex-1 items-center justify-between">
     <nav class="flex space-x-3">
       
+        <a href="/" class="text-base font-medium">
+          Maciej Klim
+        </a>
+      
     </nav>
     
   <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
@@ -356,12 +354,12 @@
   href="/posts/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="✒️ Posts"
+  aria-label="Posts"
   title="Posts">
   
   
     <p class="text-base font-medium">
-      ✒️ Posts
+      Posts
     </p>
   
 </a>
@@ -371,52 +369,12 @@
       
         
   <a
-  href="/projects/"
+  href=""
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="📂 Projects"
-  title="Projects">
   
+  title="">
   
-    <p class="text-base font-medium">
-      📂 Projects
-    </p>
-  
-</a>
-
-
-
-      
-        
-  <a
-  href="/certifications/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="🎓 Certs"
-  title="Certifications">
-  
-  
-    <p class="text-base font-medium">
-      🎓 Certs
-    </p>
-  
-</a>
-
-
-
-      
-        
-  <a
-  href="/about/"
-  
-  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="👤 About"
-  title="About Me">
-  
-  
-    <p class="text-base font-medium">
-      👤 About
-    </p>
   
 </a>
 
@@ -473,22 +431,12 @@
           
         
         
-          
-        
           <div class="flex items-center justify-between">
             <label for="desktop-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
               Disable blur
             </label>
             <div class="ios-toggle">
               <input type="checkbox" id="desktop-disable-blur">
-            </div>
-          </div>
-          <div class="flex items-center justify-between">
-            <label for="desktop-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
-              Disable background image
-            </label>
-            <div class="ios-toggle">
-              <input type="checkbox" id="desktop-disable-images">
             </div>
           </div>
           <div class="flex items-center justify-between">
@@ -627,22 +575,12 @@
           
         
         
-          
-        
           <div class="flex items-center justify-between">
             <label for="mobile-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
               Disable blur
             </label>
             <div class="ios-toggle">
               <input type="checkbox" id="mobile-disable-blur">
-            </div>
-          </div>
-          <div class="flex items-center justify-between">
-            <label for="mobile-disable-images" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
-              Disable background image
-            </label>
-            <div class="ios-toggle">
-              <input type="checkbox" id="mobile-disable-images">
             </div>
           </div>
           <div class="flex items-center justify-between">
@@ -776,12 +714,12 @@
     href="/posts/"
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="✒️ Posts"
+    aria-label="Posts"
     title="Posts">
     
     
       <p class="text-bg font-bg">
-        ✒️ Posts
+        Posts
       </p>
     
   </a>
@@ -793,56 +731,12 @@
               
   <li class="mt-1">
   <a
-    href="/projects/"
+    href=""
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="📂 Projects"
-    title="Projects">
     
+    title="">
     
-      <p class="text-bg font-bg">
-        📂 Projects
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/certifications/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="🎓 Certs"
-    title="Certifications">
-    
-    
-      <p class="text-bg font-bg">
-        🎓 Certs
-      </p>
-    
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/about/"
-    
-    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="👤 About"
-    title="About Me">
-    
-    
-      <p class="text-bg font-bg">
-        👤 About
-      </p>
     
   </a>
 </li>
@@ -880,8 +774,8 @@
 
 <script
   type="text/javascript"
-  src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
-  integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
+  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
   data-blur-id="menu-blur"></script>
 
     
@@ -904,55 +798,46 @@
 
 
 
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
 
 
 
 
 
 
+  
+    
+    
+      
+      
+    
+  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="hero" class="h-[150px] md:h-[200px]"></div>
-
-<div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
   
   
   
-  <img id="background-image" src="/posts/analysis-netsh-wlan-profiles/featured_hu_cd16c1b53f7289e9.jpg" alt="Your WiFi connection history, exposed" loading="eager" decoding="async" fetchpriority="high"
-    class="absolute inset-0 w-full h-full object-cover" >
-  <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 "></div>
-  <div
-    class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
+    <img
+      src="/posts/analysis-netsh-wlan-profiles/featured_hu_8cccca4184579813.jpg"
+      alt="Featured image for Windows WiFi Forensics"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="w-full h-full nozoom object-cover"
+      >
   </div>
-</div>
 
-
-<div id="background-blur"
-  class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-
-
-<script type="text/javascript" src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js" integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
-  data-blur-id="background-blur" data-image-id="background-image" data-image-url="/posts/analysis-netsh-wlan-profiles/featured_hu_cd16c1b53f7289e9.jpg"></script>
 
       
     
@@ -961,7 +846,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Your WiFi connection history, exposed
+        Windows WiFi Forensics
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -1055,73 +940,9 @@
   
 
   
-    
-    
-<div class="flex author">
-  
-  <div class="place-self-center">
-    
-      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-        Author
-      </div>
-      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-        MACIEJ KLIM
-      </div>
-    
-    
-    <div class="text-2xl sm:text-lg">
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://maciejklim.github.io/index.xml"
-          target="_blank"
-          aria-label="Rss"
-          title="Rss"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM128 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg></span></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://learn.microsoft.com/en-us/users/maciejklim-1838/"
-          target="_blank"
-          aria-label="Microsoft"
-          title="Microsoft"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>
-</span></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://t.me/mm596"
-          target="_blank"
-          aria-label="Telegram"
-          title="Telegram"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
-</span></span></a
-        >
-      
-    
-  </div>
-
-</div>
-  </div>
-</div>
 
   
 
-  
-
-  
-    <div class="mb-5"></div>
   
 
       
@@ -1149,14 +970,12 @@
     class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#you-probably-werent-told-this-but">You probably weren&rsquo;t told this, but&hellip;</a>
-      <ul>
-        <li><a href="#how-to-see-the-data">How to see the data</a></li>
-      </ul>
-    </li>
-    <li><a href="#mapping-bssid-using-wiglenet">Mapping BSSID using Wigle.net</a></li>
-    <li><a href="#want-to-disable-windows-access-to-bssids">Want to disable Window&rsquo;s access to BSSID&rsquo;s?</a></li>
-    <li><a href="#the-good-news-you-can-wipe-this-trail-clean">The good news: you can wipe this trail clean</a></li>
+    <li><a href="#windows-records-every-wifi-network-you-joined">Windows records every WiFi network you joined</a></li>
+    <li><a href="#how-to-see-the-data">How to see the data</a></li>
+    <li><a href="#investigating-bssids-access-points">Investigating BSSIDs (access points)</a></li>
+    <li><a href="#disabling-windows-access-to-bssid-metadata">Disabling Windows access to BSSID metadata</a></li>
+    <li><a href="#removing-stored-wifi-profiles">Removing stored WiFi profiles</a></li>
+    <li><a href="#closing-insight">Closing insight</a></li>
   </ul>
 </nav>
   </div>
@@ -1170,14 +989,12 @@
     class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#you-probably-werent-told-this-but">You probably weren&rsquo;t told this, but&hellip;</a>
-      <ul>
-        <li><a href="#how-to-see-the-data">How to see the data</a></li>
-      </ul>
-    </li>
-    <li><a href="#mapping-bssid-using-wiglenet">Mapping BSSID using Wigle.net</a></li>
-    <li><a href="#want-to-disable-windows-access-to-bssids">Want to disable Window&rsquo;s access to BSSID&rsquo;s?</a></li>
-    <li><a href="#the-good-news-you-can-wipe-this-trail-clean">The good news: you can wipe this trail clean</a></li>
+    <li><a href="#windows-records-every-wifi-network-you-joined">Windows records every WiFi network you joined</a></li>
+    <li><a href="#how-to-see-the-data">How to see the data</a></li>
+    <li><a href="#investigating-bssids-access-points">Investigating BSSIDs (access points)</a></li>
+    <li><a href="#disabling-windows-access-to-bssid-metadata">Disabling Windows access to BSSID metadata</a></li>
+    <li><a href="#removing-stored-wifi-profiles">Removing stored WiFi profiles</a></li>
+    <li><a href="#closing-insight">Closing insight</a></li>
   </ul>
 </nav>
   </div>
@@ -1296,25 +1113,24 @@
 
         <div class="article-content max-w-prose mb-20">
           
-<h2 class="relative group">You probably weren&rsquo;t told this, but&hellip;
-    <div id="you-probably-werent-told-this-but" class="anchor"></div>
+<h2 class="relative group">Windows records every WiFi network you joined
+    <div id="windows-records-every-wifi-network-you-joined" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#you-probably-werent-told-this-but" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#windows-records-every-wifi-network-you-joined" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>Your Windows laptop is keeping a <strong>five-year diary</strong> of everywhere you&rsquo;ve ever taken it.</p>
-<p>Every time you connect to WiFi, Windows quietly logs three things:</p>
+<p>Your Windows laptop is keeping a <strong>five-year diary</strong> of everywhere you&rsquo;ve ever taken it. Every time you connect to WiFi, Windows quietly logs three things:</p>
 <ul>
 <li>SSID (network MAC)</li>
 <li>BSSID (router MAC)</li>
-<li>And yes&hellip; the <strong>plain-text WiFi password</strong></li>
+<li>And yes&hellip; the plain-text WiFi password</li>
 </ul>
 <p>All of it can be revealed with a single built-in command.</p>
 
-<h3 class="relative group">How to see the data
+<h2 class="relative group">How to see the data
     <div id="how-to-see-the-data" class="anchor"></div>
     
     <span
@@ -1322,61 +1138,88 @@
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-to-see-the-data" aria-label="Anchor">#</a>
     </span>
     
-</h3>
+</h2>
 <p>Open an <strong>elevated command prompt</strong> and run:</p>
-<p><strong>See every network your machine has ever connected to:</strong></p>
-<p><code>netsh wlan show profiles</code></p>
-<p><strong>Scope out every access point in range right now:</strong></p>
-<p><code>netsh wlan show networks mode=bsid</code></p>
-<p><strong>See the wireless password keys:</strong></p>
-<p><code>netsh wlan show profile name=&quot;SSID_NAME&quot; key=clear</code></p>
-<p><strong>Want to dump everything at once?</strong></p>
-<p><code>netsh wlan export profile folder=C:\ key=clear</code></p>
-<p>The catch: Windows doesn&rsquo;t store BSSIDs for past connections. Only the SSID names and keys live in memory. Want to track connection BSSID history? You&rsquo;ll need to use third-party tools.</p>
-
-<h2 class="relative group">Mapping BSSID using Wigle.net
-    <div id="mapping-bssid-using-wiglenet" class="anchor"></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># See every network your machine has ever connected to:</span>
+</span></span><span class="line"><span class="cl"><span class="n">netsh</span> <span class="n">wlan</span> <span class="n">show</span> <span class="n">profiles</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Scope out every access point in range right now:</span>
+</span></span><span class="line"><span class="cl"><span class="n">netsh</span> <span class="n">wlan</span> <span class="n">show</span> <span class="n">networks</span> <span class="n">mode</span><span class="p">=</span><span class="n">bssid</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># See the wireless password keys</span>
+</span></span><span class="line"><span class="cl"><span class="n">netsh</span> <span class="n">wlan</span> <span class="n">show</span> <span class="n">profile</span> <span class="n">name</span><span class="p">=</span><span class="s2">&#34;SSID_NAME&#34;</span> <span class="n">key</span><span class="p">=</span><span class="nb">clear
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Want to dump everything at once?</span>
+</span></span><span class="line"><span class="cl"><span class="n">netsh</span> <span class="n">wlan</span> <span class="n">export</span> <span class="n">profile</span> <span class="n">folder</span><span class="p">=</span><span class="n">C:</span><span class="p">\</span> <span class="n">key</span><span class="p">=</span><span class="nb">clear
+</span></span></span></code></pre></div>
+<h2 class="relative group">Investigating BSSIDs (access points)
+    <div id="investigating-bssids-access-points" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#mapping-bssid-using-wiglenet" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#investigating-bssids-access-points" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>Found a BSSID? You can look it up on Wigle.net and see where that access point has been spotted in the real world.</p>
+<p>WAPs can be analyzed using their BSSID (MAC address).</p>
+<p>They can sometimes be correlated to external datasets such as <a
+  href="https://wigle.net"
+    target="_blank"
+  >https://wigle.net</a>.</p>
+<p>Wigle is a crowdsourced wireless geolocation database that contains:</p>
+<ul>
+<li>SSID</li>
+<li>BSSID</li>
+<li>GPS coordinates</li>
+<li>Observed timestamp</li>
+</ul>
 <p>How to check it:</p>
-<ol>
-<li>Go to wigle.net and login.</li>
-<li>Search &gt; WiFi network search</li>
-<li>Drop the BSSID (aa:bb:cc:dd:ee:ff)</li>
-</ol>
-<p>If it&rsquo;s in their crowdsourced database, you&rsquo;ll get its <strong>last known GPS location</strong>, ssid, channel, and timestamps. It&rsquo;s quick, it&rsquo;s OSINT, and it turns a simple MAC address into geo-intel.</p>
+<ul>
+<li>Go to <a
+  href="https://wigle.net"
+    target="_blank"
+  >https://wigle.net</a> and login.</li>
+<li>Click Search &gt; WiFi network search</li>
+<li>Enter the BSSID (aa:bb:cc:dd:ee:ff)</li>
+</ul>
+<p>If it&rsquo;s in their crowdsourced database, you&rsquo;ll see the <strong>last known GPS location</strong>, SSID, channel, and timestamps.</p>
+<p>It&rsquo;s quick, it&rsquo;s OSINT, and it turns a simple MAC address into geo-intel.</p>
 
-<h2 class="relative group">Want to disable Window&rsquo;s access to BSSID&rsquo;s?
-    <div id="want-to-disable-windows-access-to-bssids" class="anchor"></div>
+<h2 class="relative group">Disabling Windows access to BSSID metadata
+    <div id="disabling-windows-access-to-bssid-metadata" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#want-to-disable-windows-access-to-bssids" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#disabling-windows-access-to-bssid-metadata" aria-label="Anchor">#</a>
     </span>
     
 </h2>
 <p>Turn off Windows privacy-location sharing.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">start ms-settings</span><span class="err">:</span><span class="n">privacylocation</span>
 </span></span></code></pre></div>
-<h2 class="relative group">The good news: you can wipe this trail clean
-    <div id="the-good-news-you-can-wipe-this-trail-clean" class="anchor"></div>
+<h2 class="relative group">Removing stored WiFi profiles
+    <div id="removing-stored-wifi-profiles" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-good-news-you-can-wipe-this-trail-clean" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#removing-stored-wifi-profiles" aria-label="Anchor">#</a>
     </span>
     
 </h2>
 <p>If you want to purge your WiFi history, open an <strong>elevated command prompt</strong> and run:</p>
-<p><code>netsh wlan delete profile name=*</code></p>
-<p>Done. Your travel diary is gone.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="n">netsh</span> <span class="n">wlan</span> <span class="n">delete</span> <span class="n">profile</span> <span class="n">name</span><span class="p">=*</span>
+</span></span></code></pre></div><p>Done. Your travel diary is gone.</p>
 <p>If you&rsquo;re privacy-minded, take it a step further. Turn this into a scheduled task using <strong>Windows Task Scheduler</strong> so your laptop never accumulates a trail again.</p>
+
+<h2 class="relative group">Closing insight
+    <div id="closing-insight" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#closing-insight" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Windows wireless artifacts are not designed as forensic logs. But they still form a record of network interactions.</p>
+<p>Even when users forget networks, the system retains enough data to reconstruct their connectivity history.</p>
+<p>In forensic investigations, WiFi profiles often become a supporting artifact in broader timeline reconstruction.</p>
 
           
           
@@ -1435,8 +1278,8 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/analysis-srubd/featured_hu_1ad6801c48169628.jpg"
-        alt="Your computer knows exactly how much data every single app has sent to the internet"
+        src="/posts/analysis-srubd/featured_hu_c2eb1c1f6b417469.jpg"
+        alt="Windows SRUM Forensics"
         loading="lazy"
         decoding="async"
         fetchpriority="low"
@@ -1452,7 +1295,7 @@
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          Your computer knows exactly how much data every single app has sent to the internet
+          Windows SRUM Forensics
           
         </h2>
       </a>
@@ -1535,7 +1378,7 @@
 
     </div>
     
-      <div class="prose dark:prose-invert py-1">Learn how to analyze the SRUBD.dat file.</div>
+      <div class="prose dark:prose-invert py-1">Analyzing SRUM database to reconstruct per-process network usage and system activity.</div>
     
   </div>
   <div class="px-6 pt-4 pb-2"></div>
@@ -1584,8 +1427,8 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/phishing-trends-eoy-2025/featured_hu_d72c1c50288befd9.jpg"
-        alt="Phishing Trends: End of 2025 Review"
+        src="/posts/phishing-trends-eoy-2025/featured_hu_234af0586bc6a910.jpg"
+        alt="Phishing Trends Observed in 2025: A Field Report"
         loading="lazy"
         decoding="async"
         fetchpriority="low"
@@ -1601,7 +1444,7 @@
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
-          Phishing Trends: End of 2025 Review
+          Phishing Trends Observed in 2025: A Field Report
           
         </h2>
       </a>
@@ -1733,7 +1576,7 @@
   
     <div class="flex-none relative overflow-hidden thumbnail_card_related">
       <img
-        src="/posts/mitigation-winverifytrustsignature/featured_hu_4feff1c2b0c59e68.jpg"
+        src="/posts/mitigation-winverifytrustsignature/featured_hu_96312d04f66bb872.jpg"
         alt="CVE 2013-3900: WinVerifyTrust Signature Validation"
         loading="lazy"
         decoding="async"
@@ -1890,7 +1733,7 @@
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
               href="/posts/phishing-trends-eoy-2025/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Phishing Trends: End of 2025 Review
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Phishing Trends Observed in 2025: A Field Report
               </span>
             </a>
             
@@ -1906,7 +1749,7 @@
               class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
               href="/posts/analysis-srubd/">
               <span class="leading-6">
-                Your computer knows exactly how much data every single app has sent to the internet&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                Windows SRUM Forensics&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
               </span>
             </a>
             

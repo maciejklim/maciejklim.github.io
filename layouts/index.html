@@ -1,8 +1,55 @@
 {{ define "main" }}
-  {{ $partial := print "home/" .Site.Params.homepage.layout ".html" }}
-  {{ if templates.Exists ( printf "partials/%s" $partial ) }}
-    {{ partial $partial . }}
-  {{ else }}
-    {{ partial "home/profile.html" . }}
-  {{ end }}
+
+<!-- Dynamic homepage layout (keeps recent posts, etc.) -->
+{{ $partial := print "home/" .Site.Params.homepage.layout ".html" }}
+{{ if templates.Exists (printf "partials/%s" $partial) }}
+{{ partial $partial . }}
+{{ else }}
+{{ partial "home/profile.html" . }}
+{{ end }}
+
+<!-- Add about section -->
+{{ with .Site.GetPage "section" "about" }}
+<section id="about" class="my-8">
+  <div class="w-full text-center">
+    <h1 class="m-16 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+      ABOUT MACIEJ
+    </h1>
+    <div class="prose dark:prose-invert max-w-none mx-auto">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Projects Section
+{{ with .Site.GetPage "section" "projects" }}
+<section id="projects" class="text-center my-8">
+  <h1 class="m-16 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+    PROJECTS
+  </h1>
+  {{ .Content }}
+</section>
+{{ end }} -->
+
+<!-- Certifications Section
+{{ with .Site.GetPage "section" "certifications" }}
+<section id="certifications" class="text-center my-8">
+  <h1 class="m-16 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+    CERTIFICATIONS
+  </h1>
+  {{ .Content }}
+</section>
+{{ end }} -->
+
+<!-- About Section
+{{ with .Site.GetPage "page" "about" }}
+<section id="certifications" class="text-center my-8">
+  <h1 class="m-16 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+    ABOUT
+  </h1>
+  {{ .Content }}
+</section>
+{{ end }} -->
+
 {{ end }}

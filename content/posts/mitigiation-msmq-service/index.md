@@ -7,15 +7,10 @@ categories:
     - Blue Team
 ---
 
-| Base Score                                                                                       | Base Severity | CVSS Vector                                      | Exploitability Score                                                                             | Impact Score                                                                                     | Score Source          |
-| ------------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------- |
-| <span style="background-color:#ff4d4d;color:white;padding:2px 6px;border-radius:4px;">9.8</span> | **CRITICAL**  | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H     | <span style="background-color:#90ee90;color:black;padding:2px 6px;border-radius:4px;">3.9</span> | <span style="background-color:#fff59d;color:black;padding:2px 6px;border-radius:4px;">5.9</span> | Microsoft Corporation |
-| <span style="background-color:#ff4d4d;color:white;padding:2px 6px;border-radius:4px;">9.8</span> | **CRITICAL**  | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/... | N/A                                                                                              | N/A                                                                                              | MS-CVE-2024-30080     |
+## Threat Overview
 
+CVE‑2024‑30080 is a **remote code execution (RCE)** vulnerability in Microsoft Message Queueing (MSMQ).
 
-## Threat
-
-CVE‑2024‑30080 is a **remote code execution (RCE)** vulnerability in **Microsoft Message Queueing (MSMQ)**.
 If MSMQ is enabled, an unauthenticated attacker can send a specially crafted network request and execute code on the target system.
 
 No credentials. No user interaction. Just network access.
@@ -24,13 +19,13 @@ No credentials. No user interaction. Just network access.
 
 MSMQ listens on **TCP port 1801** to receive and process queued messages.
 
-The vulnerability exists in how MSMQ **parses incoming messages**, allowing malformed data to trigger memory corruption and code execution.
+The vulnerability exists in how MSMQ parses incoming messages, allowing malformed data to trigger memory corruption and code execution.
 
-* MSMQ is often installed but unused
+* MSMQ is often installed but not used
 * The service listens by default
 * Systems inherit risk simply by having the feature enabled
 
-## Attacker Workflow
+## How Threat Actors Abuse It
 
 From an attacker’s perspective, exploitation is straightforward:
 
@@ -48,50 +43,57 @@ Code executes in the context of the MSMQ service
 
 **4) Post‑exploitation**
 
+Once inside, attackers typically move quickly to:
+
+* Credential access
 * Lateral movement
 * Persistence
-* Credential access
 
-This vulnerability is *wormable in nature* when exposed across a network segment.
+This vulnerability is **wormable in nature** when exposed across a network segment.
 
 ## Identification
 
-Blue teams should focus on **exposure**, not just patch state.
+Blue teams should focus on **exposure first**, not just patch status.
 
 ### Key Checks:
 * Is MSMQ Installed?
 * Is TCP 1801 listening?
 * Is MSMQ actually required by the business?
 
-### Quick Validation (Powershell)
+### Quick Validation
 
 ```Powershell
+# MSMQ Service Enabled?
 Get-WindowsFeature MSMQ*
 ```
 
 ```Powershell
+# Port 1801 Listening?
 netstat -ano | findstr :1801
 ```
 
-If MSMQ is installed and port 1801 is listening, the system is **in scope**.
+If MSMQ is installed and port 1801 is listening, the system is **in scope** for review.
 
 ## Remediation
 
-If MSMQ is **not required by the  business**, the strongest mitigation is remove the feature entirely.
+If MSMQ is not required, the best mitigation is remove the feature entirely.
 
 ```Powershell
+# Disable MSMQ Service
 Remove-WindowsFeature MSMQ
 ```
 
 ### Defense In Depth
 
 If MSMQ must remain installed:
-* Restrict network access to **TCP 1801**
-* Verify port 1801 is **blocked at the host and network level**
-* Monitor for unexpected MSMQ traffic.
+* Restrict access to TCP 1801 at host and network level
+* Verify port 1801 is blocked at the host and network level
+* Monitor for unexpected or anomalous MSMQ traffic.
 
 ## Verification
+
 After remediation:
-* Confirm MSMQ Feature is removed
+
+* Confirm MSMQ Feature is removed (if not required)
 * Validate port 1801 is no longer listening
 * Document business justification if MSMQ must remain enabled

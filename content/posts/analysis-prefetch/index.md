@@ -1,30 +1,35 @@
 ---
-title: "Uninstalling an app doesn't delete the proof you ran it"
+title: "Windows Prefetch Forensics"
 date: "2025-12-20"
-summary: "Learn how to analyze the prefetch directory using PECmd.exe."
+summary: "Understanding binary execution artifacts and how to analyze them using PECmd.exe."
 categories: "Forensics"
 ---
 
 ## Did you know?
 
-Uninstalling an app doesn't delete the proof you ran it.
+Windows keeps a *ghost file* of every program you executed to speed up loading times. It's called **prefetch**.
 
-Windows keeps a *ghost file* of every program you executed to speed up loading times. It's called Prefetch.
+
 
 Located in ```C:\Windows\Prefetch```, these .pf files log:
-* The exact date & time you ran it.
-* The file path it ran from
-* The run count (How many times you executed it)
+* The exact date & time you ran it
+* The path it ran from
+* The run count (how many times you ran it)
+* Execution timestamps (time entry of each time you ran it)
+* Referenced files & directories
 
-> Forensics teams use this to prove you ran CCleaner or Malware.exe even after you attempted to cover their tracks.
+> Uninstalling an application does not remove evidence that it was ever executed. Windows preserves execution artifacts to optimize performance, and those artifacts are often valuable in forensic analysis.
 
-```Powershell
+From a forensic perspective, this means execution history often persists even when binaries are removed or renamed.
+
+## What's in your prefetch?
+
+You can open your prefetch directory by running ```prefetch```, or with Powershell. Here we see all recently executed binaries and their timestamp.
+
+```powershell
 PS C:\windows\prefetch> ls | sort-object lastwritetime -descending
 
-
-    Directory: C:\windows\prefetch
-
-
+Directory: C:\windows\prefetch
        LastWriteTime         Length Name
        -------------         ------ ----
 12/21/2025   9:01 AM          39481 QBITTORRENT.EXE-97E1315C.pf
@@ -39,13 +44,13 @@ PS C:\windows\prefetch> ls | sort-object lastwritetime -descending
 12/21/2025   9:00 AM           8810 VDS.EXE-F11BF333.pf
 ```
 
-Prefetch is a nice reminder that "no .exe on disk" does not equal "no evidence". 
+Prefetch is a nice reminder that *file deleted* does not equal *no evidence*.
 
 And it's only one artifact. Amcache, Shimcache, SRUM, registry, event logs... Windows is basically one big timeline generator, if you know where to look.
 
-You wipe the Prefetch? Shimcache got you. You clear the Shimcache? SRUM logged the network packets.
+Prefetch was deleted? Shimcache got you. Shimchache deleted? SRUM logged the network packets.
 
-## Analyzing Prefetch (.PF) Files
+## Analyzing prefetch files
 
 We'll use PECmd, a well-known tool to analyze Windows Prefetch data. PECmd is a **command-line** utility that parses prefetch files and extracts forensics metadata such as:
 * Executable name and file path
@@ -105,32 +110,33 @@ Other run times: 2025-12-20 17:12:17, 2025-12-20 17:05:24, 2025-12-20 16:40:07, 
 
 Volume information:
 
-#0: Name: \VOLUME{01db5db3a2ac64d5-7af4eb28} Serial: 2CF4FF26 Created: 2024-12-13 23:08:43 Directories: 88 File references: 339
+#0: Name: \VOLUME{01db52b3a2ac64d5-7af4eb28} Serial: 2CF4FF26 Created: 2024-12-13 23:08:43 Directories: 88 File references: 339
 
 Directories referenced: 88
+<SNIP>
 ```
 
-### What to Look For
+### What to look for
 
 * **Executable Name:** Confirms what program was run.
 * **Run Count:** Tells you how many times it was executed. Great for spotting repeated or suspicious activity.
-* **Last Run Timestamp**: User for for timeline reconstruction in investigations. _Times are in UTC_
+* **Last Run Timestamp**: Used for for timeline reconstruction in investigations. _Times are in UTC_
 * **Other Run Times Timestamp:**: Shows the last times the file was executed. _Times are in UTC_
-* **Volume Information:**: Confirms which isk the file was from and help verify file integrity.
+* **Volume Information:**: Confirms which disk the file was from and help verify file integrity.
 * **Directories/Files Referenced:** Demonstrates all the directories and files that the binary has touched.
 
-### Highlighting Keywords
+### Filtering keywords
 
-Prefetch output can be overwhelming. If you already know what you're looking for, for example, investigating Excel activity and the file it opened, you can use the ```-k``` flag to **highlight keywords**.
+Prefetch output can be overwhelming. If you already know what you're looking for, e.g., investigating Excel activity to find the file it opened, you can use the ```-k``` flag to **highlight keywords**.
 
-In this example, we wil highlight all ```.xlsx``` files Excel has touched.
+In this example, we will highlight all ```.xlsx``` files Excel has touched.
 
 ```Powershell
 .\PECmd.exe -f "C:\Windows\Prefetch\EXCEL.EXE-36952AF2.pf" -k ".xlsx"
 ```
 Only entries containing ```.xlsx``` in their referenced file will be highlighted, making it easier to focus on relevant activity.
 
-![PECmd Keyword Highlighting](Vn9opP9vCU.png "Here we see Excel was used to open an .XLSX file related to _SRUM DUMP_ activity.")
+![PECmd Keyword Highlighting](Vn9opP9vCU.png "We see Excel was used to open file related to _SRUM-DUMP.xlsx_")
 
 ## Applying PECmd to Malware Analysis
 
@@ -143,4 +149,4 @@ Prefetch files aren't just useful for tracking legitimate programs. They're a go
 
 This data lets analysis help reconstruct malware activity on the system, even if the binary itself is gone.
 
-Prefetch essentially acts like a "ghost footprint" of malware, showing where it ran, and what it touched. Making it a key artifact in post-infection investigations.
+Prefetch essentially acts like a "ghost footprint" of system activity, showing where it ran, and what it touched. Making it a key artifact in post-infection investigations.

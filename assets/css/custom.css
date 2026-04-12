@@ -1,16 +1,16 @@
-/* Home Background */
+/* Home Background
 #background-image {
   display: none;
-}
+} */
 
 /* Light mode */
 html:not(.dark) body {
-  background-color: #E7FEFB;
+  background-color: #f0f0f0;
 }
 
 /* Dark mode */
 html.dark body {
-  background-color: #011816;
+  background-color: #333333;
 }
 
 /* Remove background gradients */
@@ -44,4 +44,44 @@ html.dark body {
 /* Tables */
 table td {
   vertical-align: middle;
+}
+
+/* Homepage Headings */
+#projects {
+  margin-top: 4rem;
+}
+
+#certifications {
+  margin-top: 4rem;
+}
+
+#about {
+  padding-top: 4rem;
+}
+
+/* TYPOGRAPHY CONTAINER */
+#about .prose {
+  max-width: 80% !important;
+}
+
+/* HEADINGS — controlled spacing (NO negative margins) */
+#about .prose h2,
+#about .prose h3 {
+  margin-top: 1.25rem;
+
+}
+
+/* PARAGRAPHS — tighter but consistent */
+#about .prose p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+/* BUTTONS — stable spacing model */
+.about-skills a {
+  display: inline-flex;
+  cursor: default;
+  margin: 5px 6px;
+  opacity: 0.95;
 }

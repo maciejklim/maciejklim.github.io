@@ -10,17 +10,17 @@
     <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/forensics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Uninstalling an app doesn&#39;t delete the proof you ran it</title>
+      <title>Windows Prefetch Forensics</title>
       <link>//localhost:1313/posts/analysis-prefetch/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-prefetch/</guid>
-      <description>Learn how to analyze the prefetch directory using PECmd.exe.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-prefetch/featured.jpg" />
+      <description>Understanding binary execution artifacts and how to analyze them using PECmd.exe.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-prefetch/feature.jpg" />
     </item>
     
     <item>
-      <title>Windows is saving every USB storage device you plug in</title>
+      <title>Windows USB Forensics</title>
       <link>//localhost:1313/posts/analysis-usb-history/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
@@ -30,22 +30,22 @@
     </item>
     
     <item>
-      <title>Your computer knows exactly how much data every single app has sent to the internet</title>
+      <title>Windows SRUM Forensics</title>
       <link>//localhost:1313/posts/analysis-srubd/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-srubd/</guid>
-      <description>Learn how to analyze the SRUBD.dat file.</description>
+      <description>Analyzing SRUM database to reconstruct per-process network usage and system activity.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-srubd/featured.jpg" />
     </item>
     
     <item>
-      <title>Your WiFi connection history, exposed</title>
+      <title>Windows WiFi Forensics</title>
       <link>//localhost:1313/posts/analysis-netsh-wlan-profiles/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-netsh-wlan-profiles/</guid>
-      <description>Use NETSH to see every network you&amp;rsquo;ve connected to. Passwords in plain text. And even geolocation.</description>
+      <description>Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg" />
     </item>
     

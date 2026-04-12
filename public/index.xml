@@ -10,17 +10,17 @@
     <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Uninstalling an app doesn&#39;t delete the proof you ran it</title>
+      <title>Windows Prefetch Forensics</title>
       <link>//localhost:1313/posts/analysis-prefetch/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-prefetch/</guid>
-      <description>Learn how to analyze the prefetch directory using PECmd.exe.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-prefetch/featured.jpg" />
+      <description>Understanding binary execution artifacts and how to analyze them using PECmd.exe.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-prefetch/feature.jpg" />
     </item>
     
     <item>
-      <title>Windows is saving every USB storage device you plug in</title>
+      <title>Windows USB Forensics</title>
       <link>//localhost:1313/posts/analysis-usb-history/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
@@ -30,27 +30,27 @@
     </item>
     
     <item>
-      <title>Your computer knows exactly how much data every single app has sent to the internet</title>
+      <title>Windows SRUM Forensics</title>
       <link>//localhost:1313/posts/analysis-srubd/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-srubd/</guid>
-      <description>Learn how to analyze the SRUBD.dat file.</description>
+      <description>Analyzing SRUM database to reconstruct per-process network usage and system activity.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-srubd/featured.jpg" />
     </item>
     
     <item>
-      <title>Your WiFi connection history, exposed</title>
+      <title>Windows WiFi Forensics</title>
       <link>//localhost:1313/posts/analysis-netsh-wlan-profiles/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-netsh-wlan-profiles/</guid>
-      <description>Use NETSH to see every network you&amp;rsquo;ve connected to. Passwords in plain text. And even geolocation.</description>
+      <description>Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg" />
     </item>
     
     <item>
-      <title>Phishing Trends: End of 2025 Review</title>
+      <title>Phishing Trends Observed in 2025: A Field Report</title>
       <link>//localhost:1313/posts/phishing-trends-eoy-2025/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
@@ -85,30 +85,163 @@
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigation-unquoted-service-paths/</guid>
-      <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate straight to SYSTEM.</description>
+      <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-unquoted-service-paths/featured.jpg" />
     </item>
     
     <item>
-      <title>About Me</title>
+      <title>About Maciej</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;Maciej Klim&#34;
-    width=&#34;300&#34;
-    height=&#34;300&#34;
-    src=&#34;//localhost:1313/img/avatar.png&#34;
-    srcset=&#34;//localhost:1313/img/avatar.png 800w, //localhost:1313/img/avatar.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/img/avatar.png&#34;&gt;&lt;figcaption&gt;Maciej Klim&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;I’m a cybersecurity professional working in MSP environments, supporting small and mid-sized organizations with a focus on practical defense, risk reduction, and operational stability. My experience aligns with Security Engineer and Tier 2–3 Analyst responsibilities, including vulnerability management, security operations, and automation across Microsoft-centric environments.&lt;/p&gt;
-&lt;p&gt;I have a strong interest in vulnerability management and have led sustained remediation efforts to meaningfully reduce organizational exposure. I enjoy building and improving processes that make security work more efficient and repeatable, whether through PowerShell automation, refining response workflows, or leading Windows 10 to Windows 11 upgrade initiatives to modernize and standardize endpoints.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I work in cybersecurity operations within a managed service provider environment, focusing on threat detection, vulnerability mitigation, and incident response. My responsibilities center around investigating security alerts, analyzing phishing and malware activity, and enforcing security posture improvements across client environments.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Core Security Operations
+    &lt;div id=&#34;core-security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h3&gt;
+&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;p&gt;&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  SOC Operations
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  SIEM Analysis
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Alert Triage
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Incident Response
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Threat Hunting
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Threat Intelligence &amp;amp; Investigation
+    &lt;div id=&#34;threat-intelligence--investigation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h3&gt;
+&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;p&gt;&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Phishing Analysis
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Malware Triage
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  VirusTotal
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Sandbox Analysis
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  IP Reputation Analysis
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Vulnerability &amp;amp; Cloud Security
+    &lt;div id=&#34;vulnerability--cloud-security&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h3&gt;
+&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;p&gt;&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Vulnerability Management
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Security Hardening
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Cloud Security Policies
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Remediation Enforcement
+&lt;/a&gt;
+&lt;/p&gt;</description>
       
     </item>
     
@@ -151,7 +284,7 @@
           &lt;td&gt;CompTIA&lt;/td&gt;
           &lt;td&gt;TBA&lt;/td&gt;
           &lt;td&gt;&lt;a
-  href=&#34;https://...&#34;
+  href=&#34;https://www.comptia.org/en-us/certifications/security/&#34;
     target=&#34;_blank&#34;
   &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
@@ -326,8 +459,7 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/projects/</guid>
-      <description>&lt;p&gt;The goal of all projects is to enhance productivity by automation.&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
+      <description>&lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
     &lt;a id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9&#34; target=&#34;_blank&#34; href=&#34;https://github.com/maciejklim/m365-phishing-email-removal-tool&#34; class=&#34;cursor-pointer&#34;&gt;
       &lt;div
         class=&#34;w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl&#34;&gt;&lt;div class=&#34;w-full md:w-auto pt-3 p-5&#34;&gt;

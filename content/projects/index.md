@@ -22,8 +22,7 @@ showAuthor: false
 #groupByYear : false
 
 ---
-The goal of all projects is to enhance productivity by automation.
 
 {{< github repo="maciejklim/m365-phishing-email-removal-tool" showThumbnail=false >}}
-<br>
+\
 {{< github repo="maciejklim/darkweb-email-checker" showThumbnail=false >}}

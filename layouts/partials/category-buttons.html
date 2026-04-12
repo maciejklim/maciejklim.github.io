@@ -1,16 +1,14 @@
 {{ if .Site.Taxonomies.categories }}
 <nav class="flex flex-wrap justify-center gap-2 mt-0">
   {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-    <a
-      href="{{ $taxonomy.Page.RelPermalink }}"
-      class="px-4 py-2 rounded-full hover:rounded-full
+  <a href="{{ $taxonomy.Page.RelPermalink }}" class="px-4 py-2 rounded-full hover:rounded-full
              text-base font-semibold
              text-neutral-700 hover:bg-neutral-200
              dark:text-neutral-300 dark:hover:bg-neutral-800
              transition-colors transition-all duration-200
              capitalize">
-      {{ $name }}
-    </a>
+    {{ $name }}
+  </a>
   {{ end }}
 </nav>
 {{ end }}

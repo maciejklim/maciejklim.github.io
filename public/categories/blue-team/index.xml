@@ -35,7 +35,7 @@
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigation-unquoted-service-paths/</guid>
-      <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate straight to SYSTEM.</description>
+      <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-unquoted-service-paths/featured.jpg" />
     </item>
     
