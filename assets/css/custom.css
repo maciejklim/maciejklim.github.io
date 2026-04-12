@@ -101,6 +101,10 @@ table td {
 
 /* CERTIFICATIONS*/
 
+.certifications {
+  display: block;
+}
+
 .certifications img {
   pointer-events: none;
 }
