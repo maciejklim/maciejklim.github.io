@@ -1,7 +1,7 @@
 ---
-title: "CVE 2024-30080: Microsoft Message Queueing (MSMQ) Remote Code Execution"
+title: "CVE 2024-30080: Microsoft Message Queueing Remote Code Execution"
 date: "2025-05-09"
-summary: "Unused Windows features can quietly become RCE's. See how exposed MSMQ services listening on port 1801 put defenders at risk."
+summary: "Unused Windows features can quietly become RCE's. See how MSMQ services can put defenders at risk."
 categories:
     - Mitigation
     - Blue Team
