@@ -1,7 +1,7 @@
 ---
 title: "Certifications"
 date: 2022-06-13T20:55:37+01:00
-draft: false
+draft: true
 
 showDate : false
 showDateOnlyInArticle : false
@@ -29,24 +29,24 @@ lightbox: false
 
 ### Industry Certifications
 
-| Certification                                            |                   | Issuer  | Year | URL                                                             |
-| -------------------------------------------------------- | ----------------- | ------- | ---- | --------------------------------------------------------------- |
-| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA | TBA  | [Visit](https://www.comptia.org/en-us/certifications/security/) |
+| Certification                                            |                   | Issuer  | Year |
+| -------------------------------------------------------- | ----------------- | ------- | ---- |
+| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA | TBA  |
 
 ### Microsoft Trophies
 
-| Certification                                           |                                            | Issuer    | Year | URL                                                               |
-| ------------------------------------------------------- | ------------------------------------------ | --------- | ---- | ----------------------------------------------------------------- |
-| ![MS-102 Logo](cert-ms-102.svg)                         | MS-102 Configure your Microsoft 365 tenant | Microsoft | 2025 | [Visit](https://learn.microsoft.com/en-us/users/maciejklim-1838/) |
-| ![Active Directory Domain Services Logo](cert-adds.svg) | Active Directory Domain Services           | Microsoft | 2025 | [Visit](https://learn.microsoft.com/en-us/users/maciejklim-1838/) |
+| Certification                                           |                                            | Issuer    | Year |
+| ------------------------------------------------------- | ------------------------------------------ | --------- | ---- |
+| ![MS-102 Logo](cert-ms-102.svg)                         | MS-102 Configure your Microsoft 365 tenant | Microsoft | 2025 |
+| ![Active Directory Domain Services Logo](cert-adds.svg) | Active Directory Domain Services           | Microsoft | 2025 |
 
 ### Vendor Certifications
 
-| Certification                                 |                                       | Issuer        | Year | URL                                |
-| --------------------------------------------- | ------------------------------------- | ------------- | ---- | ---------------------------------- |
-| ![DNSFilter Logo](cert-dnsfilter.png)         | DNSFilter Certified                   | DNSFilter     | 2024 | [Visit](https://dnsfilter.com)     |
-| ![Connectsecure Logo](cert-connectsecure.png) | ConnectSecure Certified Administrator | ConnectSecure | 2024 | [Visit](https://connectsecure.com) |
-| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Engineer              | SOPHOS        | 2023 | [Visit](https://sophos.com)        |
-| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Technician            | SOPHOS        | 2023 | [Visit](https://sophos.com)        |
+| Certification                                 |                                       | Issuer        | Year    |
+| --------------------------------------------- | ------------------------------------- | ------------- | ------- |
+| ![DNSFilter Logo](cert-dnsfilter.png)         | DNSFilter Certified                   | DNSFilter     | 2024    |
+| ![Connectsecure Logo](cert-connectsecure.png) | ConnectSecure Certified Administrator | ConnectSecure | 2024    |
+| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Engineer              | SOPHOS        | 2023-25 |
+| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Technician            | SOPHOS        | 2023-25 |
 
 </div>
