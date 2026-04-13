@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Windows Active Directory Checkup</title>
-      <link>//localhost:1313/posts/activedirectory-review/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/activedirectory-review/</guid>
-      <description>xx</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/activedirectory-review/featured.jpg" />
-    </item>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Windows Prefetch Forensics</title>
@@ -105,14 +95,22 @@
       <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;
-&lt;p&gt;I work in cybersecurity operations within a managed service provider environment, focusing on threat detection, vulnerability mitigation, and incident response. My responsibilities center around investigating security alerts, analyzing phishing and malware activity, and enforcing security posture improvements across client environments.&lt;/p&gt;
+      <description>&lt;div class=&#34;about-grid&#34;&gt;
+&lt;div class=&#34;about-left&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;
+&lt;p&gt;I’ve always had a strong curiosity for cybersecurity. Both how attacks happen and how defenders detect them. Over time that curiosity turned into a career working in security operations.&lt;/p&gt;
+&lt;p&gt;Early on I spent a lot of time studying offensive techniques used by modern attackers. Understanding how attackers operate, how phishing campaigns are built, how malware spreads, how access is established, made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.&lt;/p&gt;
+&lt;p&gt;My day-to-day work focuses on monitoring and investigating security alerts across client environments, analyzing phishing and malware activity, and helping remediate vulnerabilities before they turn into incidents.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;about-right&#34;&gt;
+&lt;div class=&#34;skills-grid&#34;&gt;
+&lt;div&gt;
 
 &lt;h3 class=&#34;relative group&#34;&gt;Core Security Operations
     &lt;div id=&#34;core-security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h3&gt;
-&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;div class=&#34;about-skills&#34;&gt;
 &lt;p&gt;&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
@@ -150,12 +148,14 @@
 &lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
 
 &lt;h3 class=&#34;relative group&#34;&gt;Threat Intelligence &amp;amp; Investigation
     &lt;div id=&#34;threat-intelligence--investigation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h3&gt;
-&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;div class=&#34;about-skills&#34;&gt;
 &lt;p&gt;&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
@@ -180,25 +180,18 @@
   
   
   role=&#34;button&#34;&gt;
-  Incident Response
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
   IP Reputation Analysis
 &lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
 
 &lt;h3 class=&#34;relative group&#34;&gt;Vulnerability &amp;amp; Cloud Security
     &lt;div id=&#34;vulnerability--cloud-security&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h3&gt;
-&lt;div class=&#34;about-skills text-center&#34;&gt;
+&lt;div class=&#34;about-skills&#34;&gt;
 &lt;p&gt;&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
@@ -224,49 +217,6 @@
   
   role=&#34;button&#34;&gt;
   Cloud Security Policies
-&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;IT Operations
-    &lt;div id=&#34;it-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
-&lt;div class=&#34;about-skills text-center&#34;&gt;
-&lt;p&gt;&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Endpoint Support
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Windows Imaging
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Hardware Replacement
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Automating Workflows
 &lt;/a&gt;
 &lt;/p&gt;</description>
       

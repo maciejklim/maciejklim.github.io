@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/blue-team/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Windows Active Directory Checkup</title>
-      <link>//localhost:1313/posts/activedirectory-review/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/activedirectory-review/</guid>
-      <description>xx</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/activedirectory-review/featured.jpg" />
-    </item>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/blue-team/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CVE 2013-3900: WinVerifyTrust Signature Validation</title>

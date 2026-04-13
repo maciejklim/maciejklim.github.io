@@ -19,6 +19,7 @@ html.dark body {
   display: none !important;
 }
 
+
 /* =========================
    CATEGORY BUTTONS
 ========================= */
@@ -97,10 +98,13 @@ table td {
 ========================= */
 
 .about-skills a {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: default;
   margin: 5px 6px;
   opacity: 0.95;
+  font-weight: 400;
 }
 
 /* =========================
@@ -108,14 +112,15 @@ table td {
 ========================= */
 
 .avatar {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
   object-fit: cover;
   display: block;
   margin: 20px auto;
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
 }
 
 /* =========================
@@ -179,4 +184,65 @@ table td {
 .certifications td:nth-child(5) {
   width: 12%;
   text-align: center;
+}
+
+/* =========================
+   ABOUT GRID LAYOUT
+========================= */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+/* Left column */
+.about-left {
+  text-align: justify;
+}
+
+/* Right column */
+.about-right h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Mobile fallback */
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-left {
+    margin-bottom: 2rem;
+  }
+}
+
+
+/* =========================
+   ABOUT SKILLS GRID
+========================= */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.75rem 2.5rem;
+}
+
+.skills-grid h3 {
+  margin-bottom: 0.35rem;
+}
+
+/* tighter button spacing */
+.about-skills a {
+  margin: 4px 5px;
+}
+
+/* mobile collapse */
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
