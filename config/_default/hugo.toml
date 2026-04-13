@@ -16,6 +16,8 @@ buildFuture = false
 
 enableEmoji = true
 
+favicon = "favicon.ico"
+
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
