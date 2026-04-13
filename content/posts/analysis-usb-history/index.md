@@ -1,7 +1,7 @@
 ---
 title: "Windows USB Forensics"
 date: "2025-12-20"
-summary: "Learn how to analyze the registry for USB storage history."
+summary: "Learn how to identify historical USB activity, including tracing connected devices and artifacts left behind."
 categories: "Forensics"
 ---
 

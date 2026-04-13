@@ -45,14 +45,16 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 
 <div>
 
-### Core Security Operations
+### Security Operations
 
 <div class="about-skills">
 
-{{< button >}}SOC Operations{{< /button >}}
+
 {{< button >}}SIEM Analysis{{< /button >}}
-{{< button >}}Incident Response{{< /button >}}
+{{< button >}}SOC Operations{{< /button >}}
 {{< button >}}Threat Hunting{{< /button >}}
+{{< button >}}Incident Response{{< /button >}}
+
 
 </div>
 
@@ -61,11 +63,12 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 
 <div>
 
-### Threat Intelligence & Investigation
+### Threat Intelligence
 
 <div class="about-skills">
 
-{{< button >}}Phishing Analysis{{< /button >}}
+{{< button >}}IOC Enrichment{{< /button >}}
+{{< button >}}Phishing Triage{{< /button >}}
 {{< button >}}Malware Analysis{{< /button >}}
 {{< button >}}IP Reputation Analysis{{< /button >}}
 
@@ -76,14 +79,13 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 
 <div>
 
-### Vulnerability & Cloud Security
+### Vulnerabilities
 
 <div class="about-skills">
-
-{{< button >}}Vulnerability Management{{< /button >}}
-{{< button >}}Security Hardening{{< /button >}}
+{{< button >}}System Hardening{{< /button >}}
+{{< button >}}Baseline Enforcement{{< /button >}}
 {{< button >}}Cloud Security Policies{{< /button >}}
-
+{{< button >}}Vulnerability Mitigation{{< /button >}}
 </div>
 
 </div>
@@ -96,8 +98,8 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 <div class="about-skills">
 
 {{< button >}}Endpoint Support{{< /button >}}
-{{< button >}}Windows Imaging{{< /button >}}
-{{< button >}}Hardware Replacement{{< /button >}}
+{{< button >}}Windows Deployment{{< /button >}}
+{{< button >}}Hardware Lifecycle{{< /button >}}
 {{< button >}}Workflow Automation{{< /button >}}
 
 </div>

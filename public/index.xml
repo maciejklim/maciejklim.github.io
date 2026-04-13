@@ -25,7 +25,7 @@
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-usb-history/</guid>
-      <description>Learn how to analyze the registry for USB storage history.</description>
+      <description>Learn how to identify historical USB activity, including tracing connected devices and artifacts left behind.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-usb-history/featured.jpg" />
     </item>
     
@@ -50,7 +50,7 @@
     </item>
     
     <item>
-      <title>Phishing Trends Observed in 2025: A Field Report</title>
+      <title>Phishing Trends Observed in 2025</title>
       <link>//localhost:1313/posts/phishing-trends-eoy-2025/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
       
@@ -106,21 +106,12 @@
 &lt;div class=&#34;skills-grid&#34;&gt;
 &lt;div&gt;
 
-&lt;h3 class=&#34;relative group&#34;&gt;Core Security Operations
-    &lt;div id=&#34;core-security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+&lt;h3 class=&#34;relative group&#34;&gt;Security Operations
+    &lt;div id=&#34;security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
 &lt;p&gt;&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  SOC Operations
-&lt;/a&gt;
-
-&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
   
@@ -135,7 +126,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Incident Response
+  SOC Operations
 &lt;/a&gt;
 
 &lt;a
@@ -146,13 +137,22 @@
   role=&#34;button&#34;&gt;
   Threat Hunting
 &lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Incident Response
+&lt;/a&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
 
-&lt;h3 class=&#34;relative group&#34;&gt;Threat Intelligence &amp;amp; Investigation
-    &lt;div id=&#34;threat-intelligence--investigation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+&lt;h3 class=&#34;relative group&#34;&gt;Threat Intelligence
+    &lt;div id=&#34;threat-intelligence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
@@ -162,7 +162,16 @@
   
   
   role=&#34;button&#34;&gt;
-  Phishing Analysis
+  IOC Enrichment
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Phishing Triage
 &lt;/a&gt;
 
 &lt;a
@@ -181,42 +190,6 @@
   
   role=&#34;button&#34;&gt;
   IP Reputation Analysis
-&lt;/a&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Vulnerability &amp;amp; Cloud Security
-    &lt;div id=&#34;vulnerability--cloud-security&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
-&lt;div class=&#34;about-skills&#34;&gt;
-&lt;p&gt;&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Vulnerability Management
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Security Hardening
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Cloud Security Policies
 &lt;/a&gt;
 &lt;/p&gt;</description>
       
