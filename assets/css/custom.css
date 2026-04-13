@@ -229,16 +229,12 @@ table td {
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.75rem 2.5rem;
-}
-
-.skills-grid h3 {
-  margin-bottom: 0.35rem;
+  gap: 1.0rem 1.0rem;
 }
 
 /* tighter button spacing */
 .about-skills a {
-  margin: 4px 5px;
+  margin: 4px 15px;
 }
 
 /* mobile collapse */
