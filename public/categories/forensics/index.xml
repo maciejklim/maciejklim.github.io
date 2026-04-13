@@ -25,7 +25,7 @@
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-usb-history/</guid>
-      <description>Learn how to analyze the registry for USB storage history.</description>
+      <description>Learn how to identify historical USB activity, including tracing connected devices and artifacts left behind.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-usb-history/featured.jpg" />
     </item>
     

@@ -28,7 +28,7 @@ lightbox: false
 
 <div class="about-left">
 
-<img src="/img/avatar.png" alt="Maciej" class="avatar">
+<!--<img src="/img/avatar.png" alt="Maciej" class="avatar">-->
 
 I’ve always had a strong curiosity for cybersecurity. Both how attacks happen and how defenders detect them. Over time that curiosity turned into a career working in security operations.
 

@@ -70,12 +70,12 @@
     </item>
     
     <item>
-      <title>CVE 2024-30080: Microsoft Message Queueing (MSMQ) Remote Code Execution</title>
+      <title>CVE 2024-30080: Microsoft Message Queueing Remote Code Execution</title>
       <link>//localhost:1313/posts/mitigiation-msmq-service/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigiation-msmq-service/</guid>
-      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how exposed MSMQ services listening on port 1801 put defenders at risk.</description>
+      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how MSMQ services can put defenders at risk.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigiation-msmq-service/featured.jpg" />
     </item>
     
@@ -97,7 +97,7 @@
       <guid>//localhost:1313/about/</guid>
       <description>&lt;div class=&#34;about-grid&#34;&gt;
 &lt;div class=&#34;about-left&#34;&gt;
-&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;
+&lt;!--&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;--&gt;
 &lt;p&gt;I’ve always had a strong curiosity for cybersecurity. Both how attacks happen and how defenders detect them. Over time that curiosity turned into a career working in security operations.&lt;/p&gt;
 &lt;p&gt;Early on I spent a lot of time studying offensive techniques used by modern attackers. Understanding how attackers operate, how phishing campaigns are built, how malware spreads, how access is established, made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.&lt;/p&gt;
 &lt;p&gt;My day-to-day work focuses on monitoring and investigating security alerts across client environments, analyzing phishing and malware activity, and helping remediate vulnerabilities before they turn into incidents.&lt;/p&gt;

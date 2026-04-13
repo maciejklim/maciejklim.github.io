@@ -20,12 +20,12 @@
     </item>
     
     <item>
-      <title>CVE 2024-30080: Microsoft Message Queueing (MSMQ) Remote Code Execution</title>
+      <title>CVE 2024-30080: Microsoft Message Queueing Remote Code Execution</title>
       <link>//localhost:1313/posts/mitigiation-msmq-service/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigiation-msmq-service/</guid>
-      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how exposed MSMQ services listening on port 1801 put defenders at risk.</description>
+      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how MSMQ services can put defenders at risk.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigiation-msmq-service/featured.jpg" />
     </item>
     
