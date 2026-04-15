@@ -32,7 +32,9 @@ lightbox: false
 | Certification                                            |                   | Issuer  |
 | -------------------------------------------------------- | ----------------- | ------- |
 | ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA |
-crosoft Trophies
+
+
+### Microsoft Trophies
 
 | Certification                                           |                                            | Issuer    |
 | ------------------------------------------------------- | ------------------------------------------ | --------- |
