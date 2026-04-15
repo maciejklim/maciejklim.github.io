@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Maciej Klim</title>
+    <link>//localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on Maciej Klim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 MACIEJ KLIM</copyright>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CVE-2019-14287: Sudo Shell Escaping</title>
+      <link>//localhost:1313/posts/sudo-shell-escaping/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/sudo-shell-escaping/</guid>
+      <description>A technique where a user with limited privledges is able to bypass restrictions.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/sudo-shell-escaping/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
