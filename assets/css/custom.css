@@ -157,19 +157,19 @@ table td {
 /* Column 1: Logo */
 .certifications th:nth-child(1),
 .certifications td:nth-child(1) {
-  width: 18%;
+  width: 20%;
 }
 
 /* Column 2: Certification Name */
 .certifications th:nth-child(2),
 .certifications td:nth-child(2) {
-  width: 42%;
+  width: 60%;
 }
 
 /* Column 3: Issuer */
 .certifications th:nth-child(3),
 .certifications td:nth-child(3) {
-  width: 18%;
+  width: 20%;
 }
 
 /* Column 4: Year */

@@ -213,8 +213,6 @@
           &lt;th&gt;Certification&lt;/th&gt;
           &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
-          &lt;th&gt;Year&lt;/th&gt;
-          &lt;th&gt;URL&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -234,27 +232,20 @@
 &lt;/td&gt;
           &lt;td&gt;CompTIA Security+&lt;/td&gt;
           &lt;td&gt;CompTIA&lt;/td&gt;
-          &lt;td&gt;TBA&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://www.comptia.org/en-us/certifications/security/&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;crosoft Trophies&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Microsoft Trophies
-    &lt;div id=&#34;microsoft-trophies&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;Certification&lt;/th&gt;
           &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
-          &lt;th&gt;Year&lt;/th&gt;
-          &lt;th&gt;URL&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -270,11 +261,6 @@
 &lt;/td&gt;
           &lt;td&gt;MS-102 Configure your Microsoft 365 tenant&lt;/td&gt;
           &lt;td&gt;Microsoft&lt;/td&gt;
-          &lt;td&gt;2025&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://learn.microsoft.com/en-us/users/maciejklim-1838/&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;figure&gt;&lt;img
@@ -288,11 +274,6 @@
 &lt;/td&gt;
           &lt;td&gt;Active Directory Domain Services&lt;/td&gt;
           &lt;td&gt;Microsoft&lt;/td&gt;
-          &lt;td&gt;2025&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://learn.microsoft.com/en-us/users/maciejklim-1838/&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -307,8 +288,6 @@
           &lt;th&gt;Certification&lt;/th&gt;
           &lt;th&gt;&lt;/th&gt;
           &lt;th&gt;Issuer&lt;/th&gt;
-          &lt;th&gt;Year&lt;/th&gt;
-          &lt;th&gt;URL&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -328,11 +307,6 @@
 &lt;/td&gt;
           &lt;td&gt;DNSFilter Certified&lt;/td&gt;
           &lt;td&gt;DNSFilter&lt;/td&gt;
-          &lt;td&gt;2024&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://dnsfilter.com&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;figure&gt;&lt;img
@@ -350,11 +324,6 @@
 &lt;/td&gt;
           &lt;td&gt;ConnectSecure Certified Administrator&lt;/td&gt;
           &lt;td&gt;ConnectSecure&lt;/td&gt;
-          &lt;td&gt;2024&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://connectsecure.com&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;figure&gt;&lt;img
@@ -372,11 +341,6 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://sophos.com&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;figure&gt;&lt;img
@@ -394,11 +358,6 @@
 &lt;/td&gt;
           &lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
           &lt;td&gt;SOPHOS&lt;/td&gt;
-          &lt;td&gt;2023&lt;/td&gt;
-          &lt;td&gt;&lt;a
-  href=&#34;https://sophos.com&#34;
-    target=&#34;_blank&#34;
-  &gt;Visit&lt;/a&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

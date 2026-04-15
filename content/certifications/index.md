@@ -29,24 +29,23 @@ lightbox: false
 
 ### Industry Certifications
 
-| Certification                                            |                   | Issuer  | Year |
-| -------------------------------------------------------- | ----------------- | ------- | ---- |
-| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA | TBA  |
+| Certification                                            |                   | Issuer  |
+| -------------------------------------------------------- | ----------------- | ------- |
+| ![Comptia Security Plus Logo](cert-comptia-sec-plus.png) | CompTIA Security+ | CompTIA |
+crosoft Trophies
 
-### Microsoft Trophies
-
-| Certification                                           |                                            | Issuer    | Year |
-| ------------------------------------------------------- | ------------------------------------------ | --------- | ---- |
-| ![MS-102 Logo](cert-ms-102.svg)                         | MS-102 Configure your Microsoft 365 tenant | Microsoft | 2025 |
-| ![Active Directory Domain Services Logo](cert-adds.svg) | Active Directory Domain Services           | Microsoft | 2025 |
+| Certification                                           |                                            | Issuer    |
+| ------------------------------------------------------- | ------------------------------------------ | --------- |
+| ![MS-102 Logo](cert-ms-102.svg)                         | MS-102 Configure your Microsoft 365 tenant | Microsoft |
+| ![Active Directory Domain Services Logo](cert-adds.svg) | Active Directory Domain Services           | Microsoft |
 
 ### Vendor Certifications
 
-| Certification                                 |                                       | Issuer        | Year    |
-| --------------------------------------------- | ------------------------------------- | ------------- | ------- |
-| ![DNSFilter Logo](cert-dnsfilter.png)         | DNSFilter Certified                   | DNSFilter     | 2024    |
-| ![Connectsecure Logo](cert-connectsecure.png) | ConnectSecure Certified Administrator | ConnectSecure | 2024    |
-| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Engineer              | SOPHOS        | 2023-25 |
-| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Technician            | SOPHOS        | 2023-25 |
+| Certification                                 |                                       | Issuer        |
+| --------------------------------------------- | ------------------------------------- | ------------- |
+| ![DNSFilter Logo](cert-dnsfilter.png)         | DNSFilter Certified                   | DNSFilter     |
+| ![Connectsecure Logo](cert-connectsecure.png) | ConnectSecure Certified Administrator | ConnectSecure |
+| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Engineer              | SOPHOS        |
+| ![Sophos Logo](cert-sophos.png)               | SOPHOS Firewall Technician            | SOPHOS        |
 
 </div>
