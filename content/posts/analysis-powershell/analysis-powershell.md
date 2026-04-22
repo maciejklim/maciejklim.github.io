@@ -6,7 +6,6 @@ categories: "Forensics"
 image: "featured.jpg"
 showTableOfContents: true
 draft: false
-
 ---
 
 # Intro
