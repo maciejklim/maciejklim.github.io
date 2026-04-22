@@ -5,7 +5,6 @@ summary: "Quick DFIR technique to review PowerShell command history on Windows e
 categories: "Forensics"
 image: "featured.jpg"
 showTableOfContents: true
-draft: false
 ---
 
 ## Intro
