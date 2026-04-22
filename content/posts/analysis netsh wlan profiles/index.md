@@ -3,7 +3,7 @@ title: "Windows WiFi Forensics"
 date: "2025-12-07"
 summary: "Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history."
 categories: "Forensics"
-image: "featured.jpg"
+image: "feature.jpg"
 showTableOfContents: true
 
 ---
