@@ -8,13 +8,13 @@ showTableOfContents: true
 draft: false
 ---
 
-# Intro
+## Intro
 
 When investigating suspicious activity on a Windows endpoint, one of the easiest wins is reviewing PowerShell command history.
 
 If an attacker or legitimate user interacted with the system via Powershell, their commands were quietly logged in a local artifact.
 
-# Where PowerShell Stores Command History
+## Where PowerShell Stores Command History
 
 PowerShell logs user command history into a plaintext file:
 
@@ -22,7 +22,7 @@ PowerShell logs user command history into a plaintext file:
 
 There's a unique file for every user. Enumerating users with ```net user``` can help identify additional locations to review.
 
-# What You'll Find Inside
+## What You'll Find Inside
 
 The file is simple but powerful. A list of all commands executed by the user.
 
@@ -79,7 +79,7 @@ Select-Object Count, Name -First 15
 Get-Item "$env:APPDATA\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" | Select LastWriteTime
 ```
 
-# Final Thoughts
+## Final Thoughts
 
 PowerShell history is one of those artifacts that easy to overlook, but extremely powerful when present.
 
