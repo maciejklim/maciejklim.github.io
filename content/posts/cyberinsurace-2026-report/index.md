@@ -21,7 +21,7 @@ Some findings that stood out:
 - 60% of victims already had enterprise EDR solutions in place.
 - The organizations that consistently avoided full ransomware encryption had 24/7 MDR monitoring in place.
 
-That last point matters. A lot of organizations still think security products are enough. Install EDR. Install a firewall. Install SIEM. Add MFA. Deploy vulnerability scanners. Buy email filtering. Check the compliance box. Half the industry runs on buying dashboards and hoping someone will notice if they turn off. The sales demo looked great, The powerpoint had everyone nodding their heads in agreement. Meanwhile the attackers are logging in at 2AM on a Sunday through a VPN appliance nobody secured.
+That last point matters. A lot of organizations still think security products are enough. Install EDR. Install a firewall. Install SIEM. Add MFA. Deploy vulnerability scanners. Buy email filtering. Check the compliance box.
 
 The report repeatedly points toward the same pattern for victims:
 
@@ -30,12 +30,10 @@ The report repeatedly points toward the same pattern for victims:
 - lateral movement
 - ransomware deployment before humans can react
 
-Do you know your average containment time once an intrusion begins?
+**Do you know your average containment time once an intrusion begins?**
 
 How long between initial access and your security team isolating the host, or disabling the account, or noticing the alert at all?
 
-An attacker can do a lot in that gap.
+**An attacker can do a lot in that gap.**
 
-Ransomware attacks do not start with encryption, that's closer to the finish line.  There is an entire attack chain that happens before hand, sometimes hours, or days. That is why the delta between initial access and containment is critical
-
-Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity.
+Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. That is why the delta between initial access and containment is critical
