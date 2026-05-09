@@ -8,7 +8,7 @@ draft: false
 showTableOfContents: false
 ---
 
-I spent some time reading through the 2026 InsurSec report from At-Bay recently.
+I spent some time reading through the 2026 InsurSec [report from At-Bay](https://anonymiz.com/?https%3A%2F%2Fwww.at-bay.com%2F2026-insursec-report%2F) recently.
 
 These reports are worth paying attention to. At-Bay processes 6,500 real-world cyber insurance claims annually, and safeguards over $800B in revenue.
 
@@ -32,8 +32,8 @@ That last point matters. A lot of organizations still think security products ar
 
 #### Do you know your average containment time once an intrusion begins?
 
-How long between initial access and your security team isolating the host, or disabling the account, or noticing the alert at all?
+How long after initial access does your security team isolate the host, or disable the account, or notice the alert at all?
 
 #### An attacker can do a lot in that gap.
 
-Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. That is why the delta between initial access and containment is critical
+Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. The delta between initial access and containment is critical.
