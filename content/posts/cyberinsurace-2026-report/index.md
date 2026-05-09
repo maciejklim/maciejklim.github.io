@@ -38,9 +38,7 @@ The organizations who constantly contained the risk and avoided compromise were 
 
 #### What's your containment time once an intrusion begins?
 
-!A The clock doesn't start when you see the dashboard notification. Or the delayed SIEM. It starts on the **initial access**. The gap between initial access and containment is where everything happens.
-
-!A This is not the time from your dashboard notification or delayed SIEM alert. It's initial access > awareness > action. That gap is where everything happens.
+The clock doesn't start when you see the dashboard notification. It starts on the **initial access** of the attacker, usually before the alert notified you. That gap between initial access and containment is where everything happens.
 
 How long after initial access does your security team isolate the host, or disable the account, or notice the alert at all? Does your tooling allow you to monitor initial access anomalies?
 
@@ -48,4 +46,4 @@ How long after initial access does your security team isolate the host, or disab
 
 Ransomware doesn't start with encryption, it ends with it. At that point you are seeing the final steps of a much longer chain of activity. You are responding to the end of an intrusion, not the start of one.
 
-What separates noise from a full-scale breach is the time it had to operate before the blue team reacted.
+What separates noise from a full-scale breach is the time threat actors had to operate in your infrastructure before the blue-team saw it and took action.
