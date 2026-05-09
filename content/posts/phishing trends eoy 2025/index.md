@@ -4,7 +4,7 @@ date: 2025-12-06
 image: terracotta-soldiers.jpg
 summary: From fake M365 login pages to QR-code scams. Discover the top phishing trends seen this year.
 categories:
-    - Phishing
+    - Cybersecurity
 ---
 
 
