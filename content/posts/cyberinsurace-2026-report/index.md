@@ -23,7 +23,7 @@ These reports are worth paying attention to. At-Bay processes 6,500 real-world c
 
 That last point matters. A lot of organizations still think security products are enough. Install EDR. Install a firewall. Install SIEM. Add MFA. Deploy vulnerability scanners. Buy email filtering. Check the compliance box.
 
-#### The report repeatedly points toward the same pattern for victims:
+#### The report repeatedly points toward the same pattern for victims
 
 - exposed RDP
 - credential abuse
@@ -34,6 +34,6 @@ That last point matters. A lot of organizations still think security products ar
 
 How long after initial access does your security team isolate the host, or disable the account, or notice the alert at all?
 
-#### An attacker can do a lot in that gap.
+#### An attacker can do a lot in that gap
 
 Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. The delta between initial access and containment is critical.
