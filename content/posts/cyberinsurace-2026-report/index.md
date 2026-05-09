@@ -36,4 +36,4 @@ How long after initial access does your security team isolate the host, or disab
 
 #### An attacker can do a lot in that gap
 
-Ransomwware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. The delta between initial access and containment is critical.
+Ransomware doesn't start with encryption, that's the end of the process. At that point you are seeing the final steps of a much longer chain of activity. The delta between initial access and containment is critical for defenders.
