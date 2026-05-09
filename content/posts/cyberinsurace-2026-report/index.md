@@ -5,7 +5,7 @@ summary: "A summary of the Insursec At-Bay report and key trends from one of the
 categories: ["Cybersecurity"]
 image: "feature.jpg"
 draft: false
-showTableOfContents: false
+showTableOfContents: true
 ---
 
 I spent some time reading through the 2026 InsurSec [report from At-Bay](https://anonymiz.com/?https%3A%2F%2Fwww.at-bay.com%2F2026-insursec-report%2F) recently.
