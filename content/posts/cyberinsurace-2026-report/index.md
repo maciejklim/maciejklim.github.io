@@ -22,7 +22,7 @@ They paid the cost of entry for you. When big organizations are hacked, eventual
 - SonicWall is linked to 33% of claims.
 - Akira accounted for 53% of claims.
 - Average ransomware demand $980K. Average payment $370K. 32% of ransoms paid.
-- Riskiest industry are manufacturing, law firms, and construction.
+- Riskiest industries are manufacturing, law firms, and construction.
 - 60% of victims already had EDR solutions in place.
 
 That last point matters. A lot of organizations still think security products are enough. Install EDR. Install a firewall. Deploy a vulnerability scanner. Check the compliance box... Buying more products is not the same as reducing risk.
