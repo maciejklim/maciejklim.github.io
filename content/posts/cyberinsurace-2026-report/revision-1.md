@@ -1,10 +1,10 @@
 ---
-title: "What Cyber Insurance Is Seeing In 2026"
+title: "Cybre Insurance Trends In 2026"
 date: 2026-05-09
-summary: "A summary of the Insursec At-Bay report and key trends from one of the largest cyber insurance agencies."
+summary: "One of the largest cyber insurance agencies in the world released their annual report."
 categories: ["Cybersecurity"]
 image: "feature.jpg"
-draft: false
+draft: true
 showTableOfContents: true
 ---
 
