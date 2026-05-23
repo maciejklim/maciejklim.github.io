@@ -18,7 +18,7 @@ enableEmoji = true
 
 favicon = "favicon.ico"
 
-# googleAnalytics = "G-XXXXXXXXX"
+# googleAnalytics = "G-14S07WL7HV"
 
 [pagination]
   pagerSize = 100
