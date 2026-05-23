@@ -1,7 +1,7 @@
 ---
 title: "Windows Powershell Forensics"
 date: "2026-04-22"
-summary: "Quick DFIR technique to review PowerShell command history on Windows endpoints"
+summary: "Quick DFIR technique to review PowerShell command history on Windows endpoints."
 categories: "Forensics"
 image: "feature.jpg"
 showTableOfContents: true
