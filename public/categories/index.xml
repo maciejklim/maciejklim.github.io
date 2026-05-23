@@ -6,25 +6,25 @@
     <description>Recent content in Categories on Maciej Klim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 MACIEJ KLIM</copyright>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Forensics</title>
-      <link>//localhost:1313/categories/forensics/</link>
-      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Cybersecurity</title>
+      <link>//localhost:1313/categories/cybersecurity/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/forensics/</guid>
+      <guid>//localhost:1313/categories/cybersecurity/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Phishing</title>
-      <link>//localhost:1313/categories/phishing/</link>
-      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Forensics</title>
+      <link>//localhost:1313/categories/forensics/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/phishing/</guid>
+      <guid>//localhost:1313/categories/forensics/</guid>
       <description></description>
       
     </item>

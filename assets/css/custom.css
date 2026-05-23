@@ -44,9 +44,9 @@ html.dark body {
   background-color: var(--color-bg-secondary);
 }
 
+
 /* =========================
-   GLOBAL TABLE STABILITY FIX
-   (IMPORTANT — prevents layout shift)
+   GLOBAL TABLE FIX (kept safe)
 ========================= */
 
 table {
@@ -58,137 +58,9 @@ table td {
   vertical-align: middle;
 }
 
-/* =========================
-   HOMEPAGE SECTIONS
-========================= */
-
-#projects {
-  margin-top: 4rem;
-}
-
-#certifications {
-  margin-top: 4rem;
-}
-
-#about {
-  padding-top: 4rem;
-}
 
 /* =========================
-   ABOUT SECTION TYPOGRAPHY
-========================= */
-
-#about .prose {
-  max-width: 100% !important;
-}
-
-#about .prose h2,
-#about .prose h3,
-#about .prose h4 {
-  margin-top: 0rem;
-}
-
-#about .prose p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.6;
-}
-
-/* =========================
-   ABOUT SKILLS BUTTONS
-========================= */
-
-.about-skills a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: default;
-  margin: 5px 6px;
-  opacity: 0.95;
-  font-weight: 400;
-}
-
-/* =========================
-   AVATAR
-========================= */
-/*
-.avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 20%;
-  object-fit: cover;
-  display: block;
-  margin: 20px auto;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-  pointer-events: none;
-}
-*/
-/* =========================
-   CERTIFICATIONS SECTION
-========================= */
-
-.certifications {
-  max-width: 100% !important;
-  display: block;
-}
-
-/* Center the markdown content container */
-.certifications .prose table {
-  width: 100% !important;
-  display: table !important;
-  table-layout: fixed !important;
-}
-
-/* Table itself */
-.certifications table {
-  width: 100%;
-  table-layout: fixed;
-}
-
-/* prevent image clicks */
-.certifications img {
-  pointer-events: none;
-  display: block;
-  margin: 0 auto;
-}
-
-
-/* Column 1: Logo */
-.certifications th:nth-child(1),
-.certifications td:nth-child(1) {
-  width: 20%;
-}
-
-/* Column 2: Certification Name */
-.certifications th:nth-child(2),
-.certifications td:nth-child(2) {
-  width: 60%;
-}
-
-/* Column 3: Issuer */
-.certifications th:nth-child(3),
-.certifications td:nth-child(3) {
-  width: 20%;
-}
-
-/* Column 4: Year */
-.certifications th:nth-child(4),
-.certifications td:nth-child(4) {
-  width: 20%;
-  text-align: center;
-  font-variant-numeric: tabular-nums;
-}
-
-/* Column 5: Link / URL */
-.certifications th:nth-child(5),
-.certifications td:nth-child(5) {
-  width: 12%;
-  text-align: center;
-}
-
-/* =========================
-   ABOUT GRID LAYOUT
+   ABOUT PAGE LAYOUT
 ========================= */
 
 .about-grid {
@@ -199,47 +71,114 @@ table td {
   margin-top: 2rem;
 }
 
-/* Left column */
 .about-left {
   text-align: justify;
 }
 
-/* Right column */
 .about-right h3 {
   margin-top: 1rem;
   margin-bottom: 0.4rem;
 }
 
-/* Mobile fallback */
-@media (max-width: 900px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-left {
-    margin-bottom: 2rem;
-  }
-}
-
 
 /* =========================
-   ABOUT SKILLS GRID
+   SKILLS GRID (UNCHANGED CORE)
 ========================= */
 
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.0rem 1.0rem;
+  gap: 1rem;
 }
 
-/* tighter button spacing */
 .about-skills a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
   margin: 4px 15px;
+  opacity: 0.95;
+  font-weight: 400;
 }
 
-/* mobile collapse */
+
+/* =========================
+   CERTIFICATIONS (FINAL FIX)
+========================= */
+
+.certifications {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+/* headings */
+.certifications h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* GRID FIX */
+.cert-grid {
+  display: grid;
+
+  /* auto-centers items instead of forcing columns */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 240px));
+
+  justify-content: center;
+  /* CRITICAL */
+  gap: 1rem;
+
+  margin-bottom: 2rem;
+}
+
+/* CARD */
+.cert-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+/* IMAGE CENTERING (bulletproof) */
+.cert-item img {
+  width: 80px;
+  height: 80px;
+
+  display: block;
+  margin: 0 auto 0.5rem auto;
+
+  pointer-events: none;
+}
+
+/* issuer text */
+.cert-item .issuer {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
 @media (max-width: 900px) {
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
   .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-grid {
     grid-template-columns: 1fr;
   }
 }

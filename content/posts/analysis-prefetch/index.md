@@ -3,6 +3,8 @@ title: "Windows Prefetch Forensics"
 date: "2025-12-20"
 summary: "Understanding binary execution artifacts and how to analyze them using PECmd.exe."
 categories: "Forensics"
+layout : "simple"
+
 ---
 
 ## Did you know?

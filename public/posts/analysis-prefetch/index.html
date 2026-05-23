@@ -266,6 +266,10 @@
 
 
 
+  
+    
+  
+
 
 
 
@@ -369,12 +373,16 @@
       
         
   <a
-  href=""
+  href="/about/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="About"
+  title="About Maciej">
   
-  title="">
   
+    <p class="text-base font-medium">
+      About
+    </p>
   
 </a>
 
@@ -731,12 +739,16 @@
               
   <li class="mt-1">
   <a
-    href=""
+    href="/about/"
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="About"
+    title="About Maciej">
     
-    title="">
     
+      <p class="text-bg font-bg">
+        About
+      </p>
     
   </a>
 </li>
@@ -782,341 +794,15 @@
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">
         
-  
-  <article>
-    
-    
-      
-      
-      
-      
-        
-
-
-
-
-
-
-
-  
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-
-
-
-
-
-  
-    
-    
-      
-      
-    
-  
-
-
-
-  
-  
-  
-  <div class="overflow-hidden h-36 md:h-56 lg:h-72">
-    <img
-      src="/posts/analysis-prefetch/feature_hu_2553dd7f7b08acce.jpg"
-      alt="Featured image for Windows Prefetch Forensics"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high"
-      class="w-full h-full nozoom object-cover"
-      >
-  </div>
-
-
-      
-    
-
-    
-    <header id="single_header" class="mt-5 max-w-prose">
+  <article class="max-w-full">
+    <header>
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         Windows Prefetch Forensics
       </h1>
-      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-        
-
-
-
-
-
-  
-  
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/forensics/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Forensics
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-      </div>
-      
-        
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-      
     </header>
-
-    
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    <section class="max-w-full mt-6 prose dark:prose-invert">
       
-      
-      
-      
-      
-        <div class="order-first lg:ml-auto px-0 lg:order-last lg:ps-8 lg:max-w-2xs">
-          <div class="toc ps-5 print:hidden lg:sticky lg:top-[140px]">
-            
-              <details
-  open
-  id="TOCView"
-  class="toc-right mt-0 overflow-y-auto overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg -ms-5 ps-5 pe-2 hidden lg:block">
-  <summary
-    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="min-w-[220px] py-2 border-dotted border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#did-you-know">Did you know?</a></li>
-    <li><a href="#whats-in-your-prefetch">What&rsquo;s in your prefetch?</a></li>
-    <li><a href="#analyzing-prefetch-files">Analyzing prefetch files</a></li>
-    <li><a href="#using-pecmd">Using PECmd</a></li>
-    <li><a href="#sample-pecmd-output">Sample PECmd Output</a>
-      <ul>
-        <li><a href="#what-to-look-for">What to look for</a></li>
-        <li><a href="#filtering-keywords">Filtering keywords</a></li>
-      </ul>
-    </li>
-    <li><a href="#applying-pecmd-to-malware-analysis">Applying PECmd to Malware Analysis</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-<details class="toc-inside mt-0 overflow-hidden rounded-lg -ms-5 ps-5 lg:hidden">
-  <summary
-    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 -ms-5 ps-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
-    Table of Contents
-  </summary>
-  <div
-    class="py-2 border-dotted border-neutral-300 border-s-1 -ms-5 ps-5 dark:border-neutral-600">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#did-you-know">Did you know?</a></li>
-    <li><a href="#whats-in-your-prefetch">What&rsquo;s in your prefetch?</a></li>
-    <li><a href="#analyzing-prefetch-files">Analyzing prefetch files</a></li>
-    <li><a href="#using-pecmd">Using PECmd</a></li>
-    <li><a href="#sample-pecmd-output">Sample PECmd Output</a>
-      <ul>
-        <li><a href="#what-to-look-for">What to look for</a></li>
-        <li><a href="#filtering-keywords">Filtering keywords</a></li>
-      </ul>
-    </li>
-    <li><a href="#applying-pecmd-to-malware-analysis">Applying PECmd to Malware Analysis</a></li>
-  </ul>
-</nav>
-  </div>
-</details>
-
-
-<script>
-  (function () {
-    'use strict'
-
-    const SCROLL_OFFSET_RATIO = 0.33
-    const TOC_SELECTOR = '#TableOfContents'
-    const ANCHOR_SELECTOR = '.anchor'
-    const TOC_LINK_SELECTOR = 'a[href^="#"]'
-    const NESTED_LIST_SELECTOR = 'li ul'
-    const ACTIVE_CLASS = 'active'
-    let isJumpingToAnchor = false
-
-    function getActiveAnchorId(anchors, offsetRatio) {
-      const threshold = window.scrollY + window.innerHeight * offsetRatio
-      const tocLinks = [...document.querySelectorAll('#TableOfContents a[href^="#"]')]
-      const tocIds = new Set(tocLinks.map(link => link.getAttribute('href').substring(1)))
-
-      if (isJumpingToAnchor) {
-        for (let i = 0; i < anchors.length; i++) {
-          const anchor = anchors[i]
-          if (!tocIds.has(anchor.id)) continue
-          const top = anchor.getBoundingClientRect().top + window.scrollY
-          if (Math.abs(window.scrollY - top) < 100) {
-            return anchor.id
-          }
-        }
-      }
-
-      for (let i = anchors.length - 1; i >= 0; i--) {
-        const top = anchors[i].getBoundingClientRect().top + window.scrollY
-        if (top <= threshold && tocIds.has(anchors[i].id)) {
-          return anchors[i].id
-        }
-      }
-      return anchors.find(anchor => tocIds.has(anchor.id))?.id || ''
-    }
-
-    function updateTOC({ toc, anchors, links, scrollOffset, collapseInactive }) {
-      const activeId = getActiveAnchorId(anchors, scrollOffset)
-      if (!activeId) return
-
-      links.forEach(link => {
-        const isActive = link.getAttribute('href') === `#${activeId}`
-        link.classList.toggle(ACTIVE_CLASS, isActive)
-
-        if (collapseInactive) {
-          const ul = link.closest('li')?.querySelector('ul')
-          if (ul) ul.style.display = isActive ? '' : 'none'
-        }
-      })
-
-      if (collapseInactive) {
-        const activeLink = toc.querySelector(`a[href="#${CSS.escape(activeId)}"]`)
-        let el = activeLink
-        while (el && el !== toc) {
-          if (el.tagName === 'UL') el.style.display = ''
-          if (el.tagName === 'LI') el.querySelector('ul')?.style.setProperty('display', '')
-          el = el.parentElement
-        }
-      }
-    }
-
-    function initTOC() {
-      const toc = document.querySelector(TOC_SELECTOR)
-      if (!toc) return
-
-      const collapseInactive = false
-      const anchors = [...document.querySelectorAll(ANCHOR_SELECTOR)]
-      const links = [...toc.querySelectorAll(TOC_LINK_SELECTOR)]
-
-      if (collapseInactive) {
-        toc.querySelectorAll(NESTED_LIST_SELECTOR).forEach(ul => ul.style.display = 'none')
-      }
-
-      links.forEach(link => {
-        link.addEventListener('click', () => {
-          isJumpingToAnchor = true
-        })
-      })
-
-      const config = {
-        toc,
-        anchors,
-        links,
-        scrollOffset: SCROLL_OFFSET_RATIO,
-        collapseInactive
-      }
-
-      window.addEventListener('scroll', () => updateTOC(config), { passive: true })
-      window.addEventListener('hashchange', () => updateTOC(config), { passive: true })
-
-      updateTOC(config)
-    }
-
-    document.readyState === 'loading'
-      ? document.addEventListener('DOMContentLoaded', initTOC)
-      : initTOC()
-  })()
-</script>
-
-
-            
-          </div>
-        </div>
-      
-
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-
-        <div class="article-content max-w-prose mb-20">
-          
 <h2 class="relative group">Did you know?
     <div id="did-you-know" class="anchor"></div>
     
@@ -1319,505 +1005,10 @@
 <p>This data lets analysis help reconstruct malware activity on the system, even if the binary itself is gone.</p>
 <p>Prefetch essentially acts like a &ldquo;ghost footprint&rdquo; of system activity, showing where it ran, and what it touched. Making it a key artifact in post-infection investigations.</p>
 
-          
-          
-          
-        </div>
-        
-        
-
-        
-
-        
-  
-  
-    <h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
-    <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-
-  
-  
-    
-      
-      
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="/posts/analysis-usb-history/featured_hu_94d7a7128967454c.jpg"
-        alt="Windows USB Forensics"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="px-6 py-4">
-    <header>
-      <a
-        
-          href="/posts/analysis-usb-history/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Windows USB Forensics
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/forensics/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Forensics
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">Learn how to identify historical USB activity, including tracing connected devices and artifacts left behind.</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-
-  
-  
-    
-      
-      
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="/posts/analysis-srubd/featured_hu_c2eb1c1f6b417469.jpg"
-        alt="Windows SRUM Forensics"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="px-6 py-4">
-    <header>
-      <a
-        
-          href="/posts/analysis-srubd/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Windows SRUM Forensics
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/forensics/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Forensics
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">Analyzing SRUM database to reconstruct per-process network usage and system activity.</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
-        
-
-
-
-
-
-
-
-  
-
-  
-  
-    
-    
-      
-    
-      
-    
-      
-    
-  
-
-  
-  
-
-  
-  
-    
-      
-      
-        
-      
-    
-  
-
-
-
-<article
-  class="relative min-h-full min-w-full overflow-hidden rounded border border-2 border-neutral-200 shadow-2xl dark:border-neutral-700">
-  
-    <div class="flex-none relative overflow-hidden thumbnail_card_related">
-      <img
-        src="/posts/analysis-netsh-wlan-profiles/featured_hu_63572f4c005df799.jpg"
-        alt="Windows WiFi Forensics"
-        loading="lazy"
-        decoding="async"
-        fetchpriority="low"
-        class="not-prose absolute inset-0 w-full h-full object-cover">
-    </div>
-  
-  
-  <div class="px-6 py-4">
-    <header>
-      <a
-        
-          href="/posts/analysis-netsh-wlan-profiles/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Windows WiFi Forensics
-          
-        </h2>
-      </a>
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        <a class="relative mt-[0.5rem] me-2" href="/categories/forensics/">
-          <span class="flex cursor-pointer">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Forensics
-  </span>
-</span>
-
-        </a>
-      
-    </div>
-  
-
-
-
-    </div>
-    
-      <div class="prose dark:prose-invert py-1">Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.</div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-      
     </section>
-  
-
-
-      </div>
-
+    <footer class="pt-8">
       
-      
-        
-        
-          
-          
-        
-        
-        
-        <script
-          type="text/javascript"
-          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
-          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_posts\analysis-prefetch\index.md"
-          data-oid-likes="likes_posts\analysis-prefetch\index.md"></script>
-      
-    </section>
 
-    
-    <footer class="pt-8 max-w-prose print:hidden">
-      
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
-      <div class="flex justify-between pt-3">
-        <span class="flex flex-col">
-          
-            <a
-              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/posts/analysis-usb-history/">
-              <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Windows USB Forensics
-              </span>
-            </a>
-            
-          
-        </span>
-        <span class="flex flex-col items-end">
-          
-        </span>
-      </div>
-    </div>
-  
-
-
-      
     </footer>
   </article>
 
@@ -1847,12 +1038,49 @@
   
   
     
+      
+      
+        
+      
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 overflow-x-auto py-2">
+        <ul class="flex list-none flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 me-4">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href=""
+                title="">
+                
+                
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
   
   <div class="flex items-center justify-between">
     
     
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          MACIEJ KLIM
+      </p>
+    
 
     
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
     
   </div>
   

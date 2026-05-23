@@ -6,8 +6,38 @@
     <description>Recent content in Posts on Maciej Klim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2026 MACIEJ KLIM</copyright>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AiTM Incident Response Case Study</title>
+      <link>//localhost:1313/posts/case-study-aitm-ir/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/case-study-aitm-ir/</guid>
+      <description>Understanding Adversary-in-the-Middle attacks against M365 in real-world scenarios.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/case-study-aitm-ir/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>What Cyber Insurance Is Seeing In 2026</title>
+      <link>//localhost:1313/posts/cyberinsurace-2026-report/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/cyberinsurace-2026-report/</guid>
+      <description>Learn key trends from one of the largest cyber insurance agencies annual reports.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cyberinsurace-2026-report/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Windows Powershell Forensics</title>
+      <link>//localhost:1313/posts/analysis-powershell/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-powershell/</guid>
+      <description>Quick DFIR technique to review PowerShell command history on Windows endpoints</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-powershell/feature.jpg" />
+    </item>
     
     <item>
       <title>Windows Prefetch Forensics</title>
@@ -46,7 +76,7 @@
       
       <guid>//localhost:1313/posts/analysis-netsh-wlan-profiles/</guid>
       <description>Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/feature.jpg" />
     </item>
     
     <item>

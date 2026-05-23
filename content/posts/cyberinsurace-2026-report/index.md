@@ -36,6 +36,8 @@ That last point matters. A lot of organizations still think security products ar
 
 The organizations who constantly contained the risk and avoided compromise were not the ones with the most tools. They were the ones with **continuous monitoring and response capability (MDR)** in place.
 
+> An MDR is an outsourced cybersecurity service that combines advanced analytics, technology, and 24/7 human expertise to proactively detect, analyze, and respond to threats.
+
 #### What's your containment time once an intrusion begins?
 
 The clock doesn't start when you see the dashboard notification. It starts on the **initial access** of the attacker, usually before the alert notified you. That gap between initial access and containment is where everything happens.
@@ -46,4 +48,4 @@ How long after initial access does your security team isolate the host, or disab
 
 Ransomware doesn't start with encryption, it ends with it. At that point you are seeing the final steps of a much longer chain of activity. You are responding to the end of an intrusion, not the start of one.
 
-What separates noise from a full-scale breach is the time threat actors had to operate in your infrastructure before the blue-team saw it and took action.
+What separates noise from a critical breach is the time-span threat actors had to operate before the blue-team could zap it.

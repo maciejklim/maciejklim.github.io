@@ -6,8 +6,38 @@
     <description>Recent content on Maciej Klim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <copyright>© 2026 MACIEJ KLIM</copyright>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AiTM Incident Response Case Study</title>
+      <link>//localhost:1313/posts/case-study-aitm-ir/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/case-study-aitm-ir/</guid>
+      <description>Understanding Adversary-in-the-Middle attacks against M365 in real-world scenarios.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/case-study-aitm-ir/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>What Cyber Insurance Is Seeing In 2026</title>
+      <link>//localhost:1313/posts/cyberinsurace-2026-report/</link>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/cyberinsurace-2026-report/</guid>
+      <description>Learn key trends from one of the largest cyber insurance agencies annual reports.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cyberinsurace-2026-report/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>Windows Powershell Forensics</title>
+      <link>//localhost:1313/posts/analysis-powershell/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/analysis-powershell/</guid>
+      <description>Quick DFIR technique to review PowerShell command history on Windows endpoints</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-powershell/feature.jpg" />
+    </item>
     
     <item>
       <title>Windows Prefetch Forensics</title>
@@ -46,7 +76,7 @@
       
       <guid>//localhost:1313/posts/analysis-netsh-wlan-profiles/</guid>
       <description>Use netsh to analyze saved WiFi profiles and reconstruct wifi connection history.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-netsh-wlan-profiles/feature.jpg" />
     </item>
     
     <item>
@@ -97,21 +127,16 @@
       <guid>//localhost:1313/about/</guid>
       <description>&lt;div class=&#34;about-grid&#34;&gt;
 &lt;div class=&#34;about-left&#34;&gt;
-&lt;!--&lt;img src=&#34;//localhost:1313/img/avatar.png&#34; alt=&#34;Maciej&#34; class=&#34;avatar&#34;&gt;--&gt;
-&lt;p&gt;I’ve always had a strong curiosity for cybersecurity. Both how attacks happen and how defenders detect them. Over time that curiosity turned into a career working in security operations.&lt;/p&gt;
-&lt;p&gt;Early on I spent a lot of time studying offensive techniques used by modern attackers. Understanding how attackers operate, how phishing campaigns are built, how malware spreads, how access is established, made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.&lt;/p&gt;
+&lt;p&gt;I’ve always had a strong curiosity for cybersecurity—both how attacks happen and how defenders detect them. Over time, that curiosity turned into a career working in security operations.&lt;/p&gt;
+&lt;p&gt;Early on, I spent a lot of time studying offensive techniques used by modern attackers. Understanding how phishing campaigns are built, how malware spreads, and how access is established made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.&lt;/p&gt;
 &lt;p&gt;My day-to-day work focuses on monitoring and investigating security alerts across client environments, analyzing phishing and malware activity, and helping remediate vulnerabilities before they turn into incidents.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;about-right&#34;&gt;
 &lt;div class=&#34;skills-grid&#34;&gt;
 &lt;div&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Security Operations
-    &lt;div id=&#34;security-operations&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
+&lt;h3&gt;Security Operations&lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
-&lt;p&gt;&lt;a
+&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
   
@@ -146,17 +171,13 @@
   role=&#34;button&#34;&gt;
   Incident Response
 &lt;/a&gt;
-&lt;/p&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Threat Intelligence
-    &lt;div id=&#34;threat-intelligence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
+&lt;h3&gt;Threat Intelligence&lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
-&lt;p&gt;&lt;a
+&lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
   
   
@@ -191,205 +212,140 @@
   role=&#34;button&#34;&gt;
   IP Reputation Analysis
 &lt;/a&gt;
-&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Certifications</title>
-      <link>//localhost:1313/certifications/</link>
-      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
-      
-      <guid>//localhost:1313/certifications/</guid>
-      <description>&lt;div class=&#34;certifications&#34;&gt;
 
-&lt;h3 class=&#34;relative group&#34;&gt;Industry Certifications
-    &lt;div id=&#34;industry-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Certification&lt;/th&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;Issuer&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;Comptia Security Plus Logo&#34;
-    width=&#34;80&#34;
-    height=&#34;80&#34;
-    src=&#34;//localhost:1313/cert-comptia-sec-plus.png&#34;
-    srcset=&#34;//localhost:1313/cert-comptia-sec-plus.png 800w, //localhost:1313/cert-comptia-sec-plus.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/cert-comptia-sec-plus.png&#34;&gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;CompTIA Security+&lt;/td&gt;
-          &lt;td&gt;CompTIA&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;crosoft Trophies&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Certification&lt;/th&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;Issuer&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;low&#34;
-    alt=&#34;MS-102 Logo&#34;
-    src=&#34;//localhost:1313/cert-ms-102.svg&#34;
-    &gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;MS-102 Configure your Microsoft 365 tenant&lt;/td&gt;
-          &lt;td&gt;Microsoft&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;low&#34;
-    alt=&#34;Active Directory Domain Services Logo&#34;
-    src=&#34;//localhost:1313/cert-adds.svg&#34;
-    &gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;Active Directory Domain Services&lt;/td&gt;
-          &lt;td&gt;Microsoft&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h3&gt;Vulnerabilities&lt;/h3&gt;
+&lt;div class=&#34;about-skills&#34;&gt;
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  System Hardening
+&lt;/a&gt;
 
-&lt;h3 class=&#34;relative group&#34;&gt;Vendor Certifications
-    &lt;div id=&#34;vendor-certifications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Certification&lt;/th&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;Issuer&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;DNSFilter Logo&#34;
-    width=&#34;80&#34;
-    height=&#34;80&#34;
-    src=&#34;//localhost:1313/cert-dnsfilter.png&#34;
-    srcset=&#34;//localhost:1313/cert-dnsfilter.png 800w, //localhost:1313/cert-dnsfilter.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/cert-dnsfilter.png&#34;&gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;DNSFilter Certified&lt;/td&gt;
-          &lt;td&gt;DNSFilter&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;Connectsecure Logo&#34;
-    width=&#34;80&#34;
-    height=&#34;73&#34;
-    src=&#34;//localhost:1313/cert-connectsecure.png&#34;
-    srcset=&#34;//localhost:1313/cert-connectsecure.png 800w, //localhost:1313/cert-connectsecure.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/cert-connectsecure.png&#34;&gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;ConnectSecure Certified Administrator&lt;/td&gt;
-          &lt;td&gt;ConnectSecure&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;Sophos Logo&#34;
-    width=&#34;79&#34;
-    height=&#34;80&#34;
-    src=&#34;//localhost:1313/cert-sophos.png&#34;
-    srcset=&#34;//localhost:1313/cert-sophos.png 800w, //localhost:1313/cert-sophos.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/cert-sophos.png&#34;&gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;SOPHOS Firewall Engineer&lt;/td&gt;
-          &lt;td&gt;SOPHOS&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;figure&gt;&lt;img
-    class=&#34;my-0 rounded-md&#34;
-    loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    fetchpriority=&#34;auto&#34;
-    alt=&#34;Sophos Logo&#34;
-    width=&#34;79&#34;
-    height=&#34;80&#34;
-    src=&#34;//localhost:1313/cert-sophos.png&#34;
-    srcset=&#34;//localhost:1313/cert-sophos.png 800w, //localhost:1313/cert-sophos.png 1280w&#34;
-    sizes=&#34;(min-width: 768px) 50vw, 65vw&#34;
-    data-zoom-src=&#34;//localhost:1313/cert-sophos.png&#34;&gt;&lt;/figure&gt;
-&lt;/td&gt;
-          &lt;td&gt;SOPHOS Firewall Technician&lt;/td&gt;
-          &lt;td&gt;SOPHOS&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Baseline Enforcement
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Cloud Security Policies
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Vulnerability Mitigation
+&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;h3&gt;IT Operations&lt;/h3&gt;
+&lt;div class=&#34;about-skills&#34;&gt;
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Endpoint Support
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Windows Deployment
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Hardware Lifecycle
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Workflow Automation
+&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;certifications&#34;&gt;
+&lt;h3&gt;Industry Certifications&lt;/h3&gt;
+&lt;div class=&#34;cert-grid&#34;&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;../cert-comptia-sec-plus.png&#34;&gt;
+&lt;div&gt;CompTIA Security+&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;CompTIA&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Microsoft Certifications&lt;/h3&gt;
+&lt;div class=&#34;cert-grid&#34;&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-ms-102.svg&#34;&gt;
+&lt;div&gt;MS-102 Configure your Microsoft 365 tenant&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;Microsoft&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-adds.svg&#34;&gt;
+&lt;div&gt;Active Directory Domain Services&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;Microsoft&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Vendor Certifications&lt;/h3&gt;
+&lt;div class=&#34;cert-grid&#34;&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-dnsfilter.png&#34;&gt;
+&lt;div&gt;DNSFilter Certified&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;DNSFilter&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-connectsecure.png&#34;&gt;
+&lt;div&gt;ConnectSecure Certified Administrator&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;ConnectSecure&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-sophos.png&#34;&gt;
+&lt;div&gt;Sophos Firewall Engineer&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-sophos.png&#34;&gt;
+&lt;div&gt;Sophos Firewall Technician&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>//localhost:1313/projects/</link>
-      <pubDate>Mon, 13 Jun 2022 20:55:37 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/</guid>
-      <description>&lt;p&gt;&lt;div class=&#34;github-card-wrapper&#34;&gt;
-    &lt;a id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9&#34; target=&#34;_blank&#34; href=&#34;https://github.com/maciejklim/m365-phishing-email-removal-tool&#34; class=&#34;cursor-pointer&#34;&gt;
-      &lt;div
-        class=&#34;w-full md:w-auto p-0 m-0 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl&#34;&gt;&lt;div class=&#34;w-full md:w-auto pt-3 p-5&#34;&gt;
-          &lt;div class=&#34;flex items-center&#34;&gt;
-            &lt;span class=&#34;text-2xl text-neutral-800 dark:text-neutral me-2&#34;&gt;
-              &lt;span class=&#34;relative block icon&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 496 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-            &lt;/span&gt;
-            &lt;div
-              id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9-full_name&#34;
-              class=&#34;m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral&#34;&gt;
-              maciejklim/m365-phishing-email-removal-tool
-            &lt;/div&gt;
-          &lt;/div&gt;
-
-          &lt;p id=&#34;github-9ef766b6fdae229f3b0804e0266c66d9-description&#34; class=&#34;m-0 mt-2 text-md text-neutral-800 dark:text-neutral&#34;&gt;
-            GUI to perform M365 Compliance search &amp;amp; purge jobs against phishing emails.
-          &lt;/p&gt;</description>
       
     </item>
     

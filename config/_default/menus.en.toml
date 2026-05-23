@@ -63,7 +63,7 @@
 #   pageRef = "tags"
 #   weight = 10
 
-# [[footer]]
+[[footer]]
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
@@ -80,16 +80,17 @@
   weight = 20
 
 [[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+#[[main]]
 #  name = "Projects"
 #  pageRef = "projects"
 #  weight = 30
 
-[[main]]
+#[[main]]
 #  name = "Certs"
 #  pageRef = "certifications"
 #  Weight = 40
 
-[[main]]
-# name = "About"
-#  pageRef = "about"
-#  weight = 50
