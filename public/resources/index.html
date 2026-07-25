@@ -1,0 +1,1561 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="dark"
+  data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>OSINT & Security Resources &middot; Maciej Klim</title>
+    <meta name="title" content="OSINT & Security Resources &middot; Maciej Klim">
+  
+
+  
+  
+    <meta name="description" content="Maciej Klim - Cybersecurity Professional">
+  
+  
+  
+  
+  <link rel="canonical" href="//localhost:1313/resources/">
+  
+
+  
+  
+    <meta name="author" content="MACIEJ KLIM">
+  
+  
+    
+      
+        
+          <link href="https://maciejklim.github.io/index.xml" rel="me">
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <link href="https://github.com/maciejklim" rel="me">
+        
+      
+    
+  
+
+  
+  <meta property="og:url" content="//localhost:1313/resources/">
+	<meta property="og:site_name" content="Maciej Klim">
+	<meta property="og:title" content="OSINT & Security Resources">
+	<meta property="og:description" content="A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.
+Categories # Categories Threat Intelligence Domain &amp; DNS Intelligence IP &amp; Infrastructure Intelligence Malware Analysis Malware Samples &amp; IOC Feeds Threat Maps Vulnerability Research Email Analysis Utilities &amp; Investigative Tools Red Team Resources Threat Intelligence # Tool Description GreyNoise Analyze internet-wide scanning activity and identify known scanners. ThreatFeeds.io Free threat intelligence feeds and indicators. AlienVault OTX Community-driven threat intelligence exchange. ThreatFox IOC repository focused on malware indicators. Cisco Talos Reputation Center Domain, IP, and reputation intelligence. Sophos Intelix File, URL, and IOC reputation analysis. FireHOL IP Lists Aggregated IP blocklists and threat feeds. Domain &amp; DNS Intelligence # Tool Description DNSTwist Detect phishing, typo-squatting, and impersonation domains. MXToolbox DNS, MX, blacklist, and mail infrastructure diagnostics. DNSDumpster DNS reconnaissance and domain mapping. SSL Labs SSL Test Analyze SSL/TLS configurations and security posture. IP &amp; Infrastructure Intelligence # Tool Description Shodan Search internet-connected devices and services. Censys Internet asset discovery and attack surface intelligence. Netlas Infrastructure search engine and reconnaissance platform. LeakIX Exposure and infrastructure visualization. URLScan Website scanning and analysis. URLVoid Website reputation and blacklist checks. AbuseIPDB IP reputation and abuse reporting. Sophos IP Lookup Sophos IP reputation and classification lookup. GrayHatWarfare Public cloud bucket discovery and investigation. Malware Analysis # Tool Description ANY.RUN Interactive malware sandbox and behavioral analysis. VirusTotal File, URL, domain, and IP reputation scanning. IOC Parser Extract indicators from threat reports and text. Sophos Intelix File and malware reputation analysis. Malware Samples &amp; IOC Feeds # Tool Description MalwareBazaar Malware sample repository. URLHaus Malicious URL repository and malware distribution tracking. ThreatFox IOC collection and malware indicators. Threat Maps # Tool Description Bitdefender Threat Map Global cyberattack visualization. Check Point Live Cyber Threat Map Real-time attack monitoring. OpenText Threat Map Worldwide threat activity dashboard. SonicWall Threat Map Live attack telemetry. Shadowserver Dashboard Internet exposure and threat intelligence dashboards. Ransomware Map Tracking ransomware activity geographically. Vulnerability Research # Tool Description Vulners CVE, exploit, and vulnerability intelligence. Ransomware.Live Current ransomware incidents and victim tracking. Email Analysis # Tool Description Microsoft Message Header Analyzer Decode and analyze email headers. MXToolbox Email Header Analyzer Email routing and header inspection. EmailRep Email reputation intelligence. Utilities &amp; Investigative Tools # Tool Description CyberChef Encoding, decoding, encryption, and data transformations. Dencode Multi-purpose encoding and decoding toolkit. Intelligence X Leak, breach, and OSINT search engine. Grep.app Search public source code repositories. DorkSearch Search engine dork discovery. BadFiles File extension and malware-related file reference. User-Agent Parser Decode browser user-agent strings. Should I Block It? Process and application reputation lookup. IPLogger URL shortening and visitor tracking analysis. Red Team Resources # Tool Description Exploit Database Public exploit archive and vulnerability references.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:published_time" content="2026-06-15T20:55:37+01:00">
+		<meta property="article:modified_time" content="2026-06-15T20:55:37+01:00">
+
+  
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="OSINT & Security Resources">
+	<meta name="twitter:description" content="A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.
+Categories # Categories Threat Intelligence Domain &amp; DNS Intelligence IP &amp; Infrastructure Intelligence Malware Analysis Malware Samples &amp; IOC Feeds Threat Maps Vulnerability Research Email Analysis Utilities &amp; Investigative Tools Red Team Resources Threat Intelligence # Tool Description GreyNoise Analyze internet-wide scanning activity and identify known scanners. ThreatFeeds.io Free threat intelligence feeds and indicators. AlienVault OTX Community-driven threat intelligence exchange. ThreatFox IOC repository focused on malware indicators. Cisco Talos Reputation Center Domain, IP, and reputation intelligence. Sophos Intelix File, URL, and IOC reputation analysis. FireHOL IP Lists Aggregated IP blocklists and threat feeds. Domain &amp; DNS Intelligence # Tool Description DNSTwist Detect phishing, typo-squatting, and impersonation domains. MXToolbox DNS, MX, blacklist, and mail infrastructure diagnostics. DNSDumpster DNS reconnaissance and domain mapping. SSL Labs SSL Test Analyze SSL/TLS configurations and security posture. IP &amp; Infrastructure Intelligence # Tool Description Shodan Search internet-connected devices and services. Censys Internet asset discovery and attack surface intelligence. Netlas Infrastructure search engine and reconnaissance platform. LeakIX Exposure and infrastructure visualization. URLScan Website scanning and analysis. URLVoid Website reputation and blacklist checks. AbuseIPDB IP reputation and abuse reporting. Sophos IP Lookup Sophos IP reputation and classification lookup. GrayHatWarfare Public cloud bucket discovery and investigation. Malware Analysis # Tool Description ANY.RUN Interactive malware sandbox and behavioral analysis. VirusTotal File, URL, domain, and IP reputation scanning. IOC Parser Extract indicators from threat reports and text. Sophos Intelix File and malware reputation analysis. Malware Samples &amp; IOC Feeds # Tool Description MalwareBazaar Malware sample repository. URLHaus Malicious URL repository and malware distribution tracking. ThreatFox IOC collection and malware indicators. Threat Maps # Tool Description Bitdefender Threat Map Global cyberattack visualization. Check Point Live Cyber Threat Map Real-time attack monitoring. OpenText Threat Map Worldwide threat activity dashboard. SonicWall Threat Map Live attack telemetry. Shadowserver Dashboard Internet exposure and threat intelligence dashboards. Ransomware Map Tracking ransomware activity geographically. Vulnerability Research # Tool Description Vulners CVE, exploit, and vulnerability intelligence. Ransomware.Live Current ransomware incidents and victim tracking. Email Analysis # Tool Description Microsoft Message Header Analyzer Decode and analyze email headers. MXToolbox Email Header Analyzer Email routing and header inspection. EmailRep Email reputation intelligence. Utilities &amp; Investigative Tools # Tool Description CyberChef Encoding, decoding, encryption, and data transformations. Dencode Multi-purpose encoding and decoding toolkit. Intelligence X Leak, breach, and OSINT search engine. Grep.app Search public source code repositories. DorkSearch Search engine dork discovery. BadFiles File extension and malware-related file reference. User-Agent Parser Decode browser user-agent strings. Should I Block It? Process and application reputation lookup. IPLogger URL shortening and visitor tracking analysis. Red Team Resources # Tool Description Exploit Database Public exploit archive and vulnerability references.">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.56fd677cc3703750ec8ffe02fbb4838c48f209eb0e86e31a6826922a7d37242e2282dc7abd66dc9f69918cd7288af492976dadab8b71501dca47cf544dae2186.css"
+    integrity="sha512-Vv1nfMNwN1Dsj/4C&#43;7SDjEjyCesOhuMaaCaSKn03JC4igtx6vWbcn2mRjNcoivSSl22tq4txUB3KR89UTa4hhg==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+    
+    <script src="/js/a11y.min.7eeed9f7a6fe7c8aa3b999966484369eb1b5380455116fc15c2b407140f3c2e3b174fc00201797dba34e4d4013213736ae375c9bcf2d7ad1fadb224355d8d54d.js" integrity="sha512-fu7Z96b&#43;fIqjuZmWZIQ2nrG1OARVEW/BXCtAcUDzwuOxdPwAIBeX26NOTUATITc2rjdcm88tetH62yJDVdjVTQ=="></script>
+  
+  
+  
+  
+    
+    <script
+      type="text/javascript"
+      src="/js/zen-mode.min.9814dee9614d32aeb56239d118edfe20acd6231424f9b19c2dd48835038414130a5e946c0d1c9087d60e60e31840c9babfd217e3d4b95643dc8d651a71ccdf4a.js"
+      integrity="sha512-mBTe6WFNMq61YjnRGO3&#43;IKzWIxQk&#43;bGcLdSINQOEFBMKXpRsDRyQh9YOYOMYQMm6v9IX49S5VkPcjWUacczfSg=="></script>
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.c586c752b99483da1d0b024cb91220f5defda40000f3549b073a52dea6c99c78c50d376eb71e78969112c5dbc24bc4001182bd096c47d2e025053efd92d91b4c.js"
+      integrity="sha512-xYbHUrmUg9odCwJMuRIg9d79pAAA81SbBzpS3qbJnHjFDTdutx54lpESxdvCS8QAEYK9CWxH0uAlBT79ktkbTA=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Maciej Klim",
+    "name": "OSINT \u0026 Security Resources",
+    "headline": "OSINT \u0026 Security Resources",
+    
+    "abstract": "\u003cp\u003eA curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.\u003c\/p\u003e\n\u003chr\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eCategories\n    \u003cdiv id=\u0022categories\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#categories\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#categories\u0022\u003eCategories\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#threat-intelligence\u0022\u003eThreat Intelligence\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#domain--dns-intelligence\u0022\u003eDomain \u0026amp; DNS Intelligence\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#ip--infrastructure-intelligence\u0022\u003eIP \u0026amp; Infrastructure Intelligence\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#malware-analysis\u0022\u003eMalware Analysis\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#malware-samples--ioc-feeds\u0022\u003eMalware Samples \u0026amp; IOC Feeds\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#threat-maps\u0022\u003eThreat Maps\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#vulnerability-research\u0022\u003eVulnerability Research\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#email-analysis\u0022\u003eEmail Analysis\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#utilities--investigative-tools\u0022\u003eUtilities \u0026amp; Investigative Tools\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#red-team-resources\u0022\u003eRed Team Resources\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003chr\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eThreat Intelligence\n    \u003cdiv id=\u0022threat-intelligence\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#threat-intelligence\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/viz.greynoise.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eGreyNoise\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eAnalyze internet-wide scanning activity and identify known scanners.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatfeeds.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eThreatFeeds.io\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eFree threat intelligence feeds and indicators.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/otx.alienvault.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eAlienVault OTX\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eCommunity-driven threat intelligence exchange.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatfox.abuse.ch\/\u0022\n    target=\u0022_blank\u0022\n  \u003eThreatFox\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eIOC repository focused on malware indicators.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/talosintelligence.com\/reputation_center\u0022\n    target=\u0022_blank\u0022\n  \u003eCisco Talos Reputation Center\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDomain, IP, and reputation intelligence.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/intelix.sophos.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eSophos Intelix\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eFile, URL, and IOC reputation analysis.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/iplists.firehol.org\/\u0022\n    target=\u0022_blank\u0022\n  \u003eFireHOL IP Lists\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eAggregated IP blocklists and threat feeds.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eDomain \u0026amp; DNS Intelligence\n    \u003cdiv id=\u0022domain--dns-intelligence\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#domain--dns-intelligence\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/dnstwist.it\/\u0022\n    target=\u0022_blank\u0022\n  \u003eDNSTwist\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDetect phishing, typo-squatting, and impersonation domains.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/mxtoolbox.com\/supertool.aspx\u0022\n    target=\u0022_blank\u0022\n  \u003eMXToolbox\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDNS, MX, blacklist, and mail infrastructure diagnostics.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/dnsdumpster.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eDNSDumpster\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDNS reconnaissance and domain mapping.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/ssllabs.com\/ssltest\/index.html\u0022\n    target=\u0022_blank\u0022\n  \u003eSSL Labs SSL Test\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eAnalyze SSL\/TLS configurations and security posture.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eIP \u0026amp; Infrastructure Intelligence\n    \u003cdiv id=\u0022ip--infrastructure-intelligence\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#ip--infrastructure-intelligence\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.shodan.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eShodan\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eSearch internet-connected devices and services.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/search.censys.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eCensys\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eInternet asset discovery and attack surface intelligence.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/app.netlas.io\/host\/\u0022\n    target=\u0022_blank\u0022\n  \u003eNetlas\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eInfrastructure search engine and reconnaissance platform.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/leakix.net\/graph\u0022\n    target=\u0022_blank\u0022\n  \u003eLeakIX\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eExposure and infrastructure visualization.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/urlscan.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eURLScan\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eWebsite scanning and analysis.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.urlvoid.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eURLVoid\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eWebsite reputation and blacklist checks.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.abuseipdb.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eAbuseIPDB\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eIP reputation and abuse reporting.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.sophos.com\/en-us\/support\/ip-address-lookup\/\u0022\n    target=\u0022_blank\u0022\n  \u003eSophos IP Lookup\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eSophos IP reputation and classification lookup.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/buckets.grayhatwarfare.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eGrayHatWarfare\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003ePublic cloud bucket discovery and investigation.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eMalware Analysis\n    \u003cdiv id=\u0022malware-analysis\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#malware-analysis\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/app.any.run\/\u0022\n    target=\u0022_blank\u0022\n  \u003eANY.RUN\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eInteractive malware sandbox and behavioral analysis.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.virustotal.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eVirusTotal\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eFile, URL, domain, and IP reputation scanning.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/iocparser.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eIOC Parser\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eExtract indicators from threat reports and text.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/intelix.sophos.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eSophos Intelix\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eFile and malware reputation analysis.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eMalware Samples \u0026amp; IOC Feeds\n    \u003cdiv id=\u0022malware-samples--ioc-feeds\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#malware-samples--ioc-feeds\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/bazaar.abuse.ch\/browse\/\u0022\n    target=\u0022_blank\u0022\n  \u003eMalwareBazaar\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eMalware sample repository.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/urlhaus.abuse.ch\/browse\/\u0022\n    target=\u0022_blank\u0022\n  \u003eURLHaus\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eMalicious URL repository and malware distribution tracking.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatfox.abuse.ch\/\u0022\n    target=\u0022_blank\u0022\n  \u003eThreatFox\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eIOC collection and malware indicators.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eThreat Maps\n    \u003cdiv id=\u0022threat-maps\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#threat-maps\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatmap.bitdefender.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eBitdefender Threat Map\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eGlobal cyberattack visualization.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatmap.checkpoint.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eCheck Point Live Cyber Threat Map\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eReal-time attack monitoring.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/threatmap.zix.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eOpenText Threat Map\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eWorldwide threat activity dashboard.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/securitycenter.sonicwall.com\/m\/page\/worldwide-attacks\u0022\n    target=\u0022_blank\u0022\n  \u003eSonicWall Threat Map\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eLive attack telemetry.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/dashboard.shadowserver.org\/\u0022\n    target=\u0022_blank\u0022\n  \u003eShadowserver Dashboard\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eInternet exposure and threat intelligence dashboards.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/statescoop.com\/ransomware-map\/\u0022\n    target=\u0022_blank\u0022\n  \u003eRansomware Map\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eTracking ransomware activity geographically.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eVulnerability Research\n    \u003cdiv id=\u0022vulnerability-research\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#vulnerability-research\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/vulners.com\/search\u0022\n    target=\u0022_blank\u0022\n  \u003eVulners\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eCVE, exploit, and vulnerability intelligence.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.ransomware.live\/\u0022\n    target=\u0022_blank\u0022\n  \u003eRansomware.Live\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eCurrent ransomware incidents and victim tracking.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eEmail Analysis\n    \u003cdiv id=\u0022email-analysis\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#email-analysis\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/mha.azurewebsites.net\/\u0022\n    target=\u0022_blank\u0022\n  \u003eMicrosoft Message Header Analyzer\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDecode and analyze email headers.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/mxtoolbox.com\/EmailHeaders.aspx\u0022\n    target=\u0022_blank\u0022\n  \u003eMXToolbox Email Header Analyzer\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eEmail routing and header inspection.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/emailrep.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eEmailRep\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eEmail reputation intelligence.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eUtilities \u0026amp; Investigative Tools\n    \u003cdiv id=\u0022utilities--investigative-tools\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#utilities--investigative-tools\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/gchq.github.io\/CyberChef\/\u0022\n    target=\u0022_blank\u0022\n  \u003eCyberChef\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eEncoding, decoding, encryption, and data transformations.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/dencode.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eDencode\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eMulti-purpose encoding and decoding toolkit.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/intelx.io\/\u0022\n    target=\u0022_blank\u0022\n  \u003eIntelligence X\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eLeak, breach, and OSINT search engine.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/grep.app\/\u0022\n    target=\u0022_blank\u0022\n  \u003eGrep.app\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eSearch public source code repositories.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/dorksearch.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eDorkSearch\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eSearch engine dork discovery.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/badfiles.ch\/\u0022\n    target=\u0022_blank\u0022\n  \u003eBadFiles\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eFile extension and malware-related file reference.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/explore.whatismybrowser.com\/useragents\/parse\/\u0022\n    target=\u0022_blank\u0022\n  \u003eUser-Agent Parser\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eDecode browser user-agent strings.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.shouldiblockit.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eShould I Block It?\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eProcess and application reputation lookup.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/iplogger.org\/\u0022\n    target=\u0022_blank\u0022\n  \u003eIPLogger\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003eURL shortening and visitor tracking analysis.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e\n\n\u003ch1 class=\u0022relative group\u0022\u003eRed Team Resources\n    \u003cdiv id=\u0022red-team-resources\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#red-team-resources\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h1\u003e\n\u003ctable\u003e\n\t\u003cthead\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003cth\u003eTool\u003c\/th\u003e\n\t\t\t\t\t\u003cth\u003eDescription\u003c\/th\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/thead\u003e\n\t\u003ctbody\u003e\n\t\t\t\u003ctr\u003e\n\t\t\t\t\t\u003ctd\u003e\u003ca\n  href=\u0022https:\/\/www.exploit-db.com\/\u0022\n    target=\u0022_blank\u0022\n  \u003eExploit Database\u003c\/a\u003e\u003c\/td\u003e\n\t\t\t\t\t\u003ctd\u003ePublic exploit archive and vulnerability references.\u003c\/td\u003e\n\t\t\t\u003c\/tr\u003e\n\t\u003c\/tbody\u003e\n\u003c\/table\u003e",
+    "inLanguage": "en",
+    "url" : "//localhost:1313/resources/",
+    "author" : {
+      "@type": "Person",
+      "name": "MACIEJ KLIM"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-06-15T20:55:37\u002b01:00",
+    "datePublished": "2026-06-15T20:55:37\u002b01:00",
+    
+    "dateModified": "2026-06-15T20:55:37\u002b01:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "451"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="min-h-[148px]"></div>
+<div
+  class="fixed inset-x-0 min-h-[130px] opacity-65 bg-gradient-to-b from-neutral from-60% dark:from-neutral-800 to-transparent mix-blend-normal z-80"></div>
+<div class="fixed inset-x-0 z-100">
+  <div
+    id="menu-blur"
+    class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
+  
+  
+    
+    
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
+      
+        <a href="/" class="text-base font-medium">
+          Maciej Klim
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="🏠︎ Home"
+  title="Maciej Klim">
+  
+  
+    <p class="text-base font-medium">
+      🏠︎ Home
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/posts/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Blog"
+  title="Posts">
+  
+  
+    <p class="text-base font-medium">
+      Blog
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/about/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="About"
+  title="About Maciej">
+  
+  
+    <p class="text-base font-medium">
+      About
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/resources/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Resources"
+  title="OSINT &amp; Security Resources">
+  
+  
+    <p class="text-base font-medium">
+      Resources
+    </p>
+  
+</a>
+
+
+
+      
+    
+
+    
+
+    
+      <div class="flex items-center">
+    <button
+      id="desktop-a11y-toggle"
+      aria-label="Open accessibility panel"
+      aria-expanded="false"
+      type="button"
+      class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+      role="button"
+      aria-pressed="false">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm161.5-86.1c-12.2-5.2-26.3 .4-31.5 12.6s.4 26.3 12.6 31.5l11.9 5.1c17.3 7.4 35.2 12.9 53.6 16.3l0 50.1c0 4.3-.7 8.6-2.1 12.6l-28.7 86.1c-4.2 12.6 2.6 26.2 15.2 30.4s26.2-2.6 30.4-15.2l24.4-73.2c1.3-3.8 4.8-6.4 8.8-6.4s7.6 2.6 8.8 6.4l24.4 73.2c4.2 12.6 17.8 19.4 30.4 15.2s19.4-17.8 15.2-30.4l-28.7-86.1c-1.4-4.1-2.1-8.3-2.1-12.6l0-50.1c18.4-3.5 36.3-8.9 53.6-16.3l11.9-5.1c12.2-5.2 17.8-19.3 12.6-31.5s-19.3-17.8-31.5-12.6L338.7 175c-26.1 11.2-54.2 17-82.7 17s-56.5-5.8-82.7-17l-11.9-5.1zM256 160a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
+</span>
+    </button>
+
+    <div id="desktop-a11y-overlay" class="fixed inset-0 z-500 hidden"></div>
+
+    <div
+      id="desktop-a11y-panel"
+      role="dialog"
+      aria-labelledby="desktop-a11y-panel-title"
+      class="a11y-panel-enter fixed hidden z-500 p-6 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 rounded-lg shadow-xl bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700"
+      style="min-width: 20rem;">
+      <div class="flex items-center justify-between mb-6">
+        <h3
+          id="desktop-a11y-panel-title"
+          class="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
+          Accessibility settings
+        </h3>
+        <button
+          id="desktop-a11y-close"
+          class="text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200"
+          aria-label="Close a11y panel">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="space-y-5">
+        
+        
+        
+        
+          
+        
+        
+          <div class="flex items-center justify-between">
+            <label for="desktop-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Disable blur
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="desktop-disable-blur">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <label for="desktop-underline-links" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Show link underline
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="desktop-underline-links">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <label for="desktop-zen-mode" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Enable zen mode
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="desktop-zen-mode">
+            </div>
+          </div>
+
+
+        <div class="flex items-center justify-between">
+          <label
+            for="desktop-font-size-select"
+            class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Font size
+          </label>
+          <select
+            id="desktop-font-size-select"
+            class="border rounded-lg px-3 py-1.5 pr-8 text-neutral-900 text-sm dark:bg-neutral-700 dark:text-neutral-200 focus:ring-primary-500 focus:border-primary-500">
+            
+            
+              <option value="default">default</option>
+            
+              <option value="12px">12px</option>
+            
+              <option value="14px">14px</option>
+            
+              <option value="16px">16px</option>
+            
+              <option value="18px">18px</option>
+            
+              <option value="20px">20px</option>
+            
+              <option value="22px">22px</option>
+            
+              <option value="24px">24px</option>
+            
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+    
+      <button
+        id="search-button"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+      <div class="flex items-center">
+    <button
+      id="mobile-a11y-toggle"
+      aria-label="Open accessibility panel"
+      aria-expanded="false"
+      type="button"
+      class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+      role="button"
+      aria-pressed="false">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm161.5-86.1c-12.2-5.2-26.3 .4-31.5 12.6s.4 26.3 12.6 31.5l11.9 5.1c17.3 7.4 35.2 12.9 53.6 16.3l0 50.1c0 4.3-.7 8.6-2.1 12.6l-28.7 86.1c-4.2 12.6 2.6 26.2 15.2 30.4s26.2-2.6 30.4-15.2l24.4-73.2c1.3-3.8 4.8-6.4 8.8-6.4s7.6 2.6 8.8 6.4l24.4 73.2c4.2 12.6 17.8 19.4 30.4 15.2s19.4-17.8 15.2-30.4l-28.7-86.1c-1.4-4.1-2.1-8.3-2.1-12.6l0-50.1c18.4-3.5 36.3-8.9 53.6-16.3l11.9-5.1c12.2-5.2 17.8-19.3 12.6-31.5s-19.3-17.8-31.5-12.6L338.7 175c-26.1 11.2-54.2 17-82.7 17s-56.5-5.8-82.7-17l-11.9-5.1zM256 160a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"/></svg>
+</span>
+    </button>
+
+    <div id="mobile-a11y-overlay" class="fixed inset-0 z-500 hidden"></div>
+
+    <div
+      id="mobile-a11y-panel"
+      role="dialog"
+      aria-labelledby="mobile-a11y-panel-title"
+      class="a11y-panel-enter fixed hidden z-500 p-6 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 rounded-lg shadow-xl bg-neutral-50 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700"
+      style="min-width: 20rem;">
+      <div class="flex items-center justify-between mb-6">
+        <h3
+          id="mobile-a11y-panel-title"
+          class="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
+          Accessibility settings
+        </h3>
+        <button
+          id="mobile-a11y-close"
+          class="text-neutral-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-200"
+          aria-label="Close a11y panel">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="space-y-5">
+        
+        
+        
+        
+          
+        
+        
+          <div class="flex items-center justify-between">
+            <label for="mobile-disable-blur" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Disable blur
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="mobile-disable-blur">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <label for="mobile-underline-links" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Show link underline
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="mobile-underline-links">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <label for="mobile-zen-mode" class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+              Enable zen mode
+            </label>
+            <div class="ios-toggle">
+              <input type="checkbox" id="mobile-zen-mode">
+            </div>
+          </div>
+
+
+        <div class="flex items-center justify-between">
+          <label
+            for="mobile-font-size-select"
+            class="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+            Font size
+          </label>
+          <select
+            id="mobile-font-size-select"
+            class="border rounded-lg px-3 py-1.5 pr-8 text-neutral-900 text-sm dark:bg-neutral-700 dark:text-neutral-200 focus:ring-primary-500 focus:border-primary-500">
+            
+            
+              <option value="default">default</option>
+            
+              <option value="12px">12px</option>
+            
+              <option value="14px">14px</option>
+            
+              <option value="16px">16px</option>
+            
+              <option value="18px">18px</option>
+            
+              <option value="20px">20px</option>
+            
+              <option value="22px">22px</option>
+            
+              <option value="24px">24px</option>
+            
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+    
+      <button
+        id="search-button-mobile"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="🏠︎ Home"
+    title="Maciej Klim">
+    
+    
+      <p class="text-bg font-bg">
+        🏠︎ Home
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/posts/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Blog"
+    title="Posts">
+    
+    
+      <p class="text-bg font-bg">
+        Blog
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/about/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="About"
+    title="About Maciej">
+    
+    
+      <p class="text-bg font-bg">
+        About
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/resources/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Resources"
+    title="OSINT &amp; Security Resources">
+    
+    
+      <p class="text-bg font-bg">
+        Resources
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
+
+  </div>
+</div>
+
+
+<script
+  type="text/javascript"
+  src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
+  integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
+  data-blur-id="menu-blur"></script>
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article class="max-w-full">
+    <header>
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        OSINT & Security Resources
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      <p>A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.</p>
+<hr>
+
+<h1 class="relative group">Categories
+    <div id="categories" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#categories" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<ul>
+<li><a
+  href="#categories">Categories</a></li>
+<li><a
+  href="#threat-intelligence">Threat Intelligence</a></li>
+<li><a
+  href="#domain--dns-intelligence">Domain &amp; DNS Intelligence</a></li>
+<li><a
+  href="#ip--infrastructure-intelligence">IP &amp; Infrastructure Intelligence</a></li>
+<li><a
+  href="#malware-analysis">Malware Analysis</a></li>
+<li><a
+  href="#malware-samples--ioc-feeds">Malware Samples &amp; IOC Feeds</a></li>
+<li><a
+  href="#threat-maps">Threat Maps</a></li>
+<li><a
+  href="#vulnerability-research">Vulnerability Research</a></li>
+<li><a
+  href="#email-analysis">Email Analysis</a></li>
+<li><a
+  href="#utilities--investigative-tools">Utilities &amp; Investigative Tools</a></li>
+<li><a
+  href="#red-team-resources">Red Team Resources</a></li>
+</ul>
+<hr>
+
+<h1 class="relative group">Threat Intelligence
+    <div id="threat-intelligence" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#threat-intelligence" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://viz.greynoise.io/"
+    target="_blank"
+  >GreyNoise</a></td>
+					<td>Analyze internet-wide scanning activity and identify known scanners.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://threatfeeds.io/"
+    target="_blank"
+  >ThreatFeeds.io</a></td>
+					<td>Free threat intelligence feeds and indicators.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://otx.alienvault.com/"
+    target="_blank"
+  >AlienVault OTX</a></td>
+					<td>Community-driven threat intelligence exchange.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://threatfox.abuse.ch/"
+    target="_blank"
+  >ThreatFox</a></td>
+					<td>IOC repository focused on malware indicators.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://talosintelligence.com/reputation_center"
+    target="_blank"
+  >Cisco Talos Reputation Center</a></td>
+					<td>Domain, IP, and reputation intelligence.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://intelix.sophos.com/"
+    target="_blank"
+  >Sophos Intelix</a></td>
+					<td>File, URL, and IOC reputation analysis.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://iplists.firehol.org/"
+    target="_blank"
+  >FireHOL IP Lists</a></td>
+					<td>Aggregated IP blocklists and threat feeds.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Domain &amp; DNS Intelligence
+    <div id="domain--dns-intelligence" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#domain--dns-intelligence" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://dnstwist.it/"
+    target="_blank"
+  >DNSTwist</a></td>
+					<td>Detect phishing, typo-squatting, and impersonation domains.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://mxtoolbox.com/supertool.aspx"
+    target="_blank"
+  >MXToolbox</a></td>
+					<td>DNS, MX, blacklist, and mail infrastructure diagnostics.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://dnsdumpster.com/"
+    target="_blank"
+  >DNSDumpster</a></td>
+					<td>DNS reconnaissance and domain mapping.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://ssllabs.com/ssltest/index.html"
+    target="_blank"
+  >SSL Labs SSL Test</a></td>
+					<td>Analyze SSL/TLS configurations and security posture.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">IP &amp; Infrastructure Intelligence
+    <div id="ip--infrastructure-intelligence" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ip--infrastructure-intelligence" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://www.shodan.io/"
+    target="_blank"
+  >Shodan</a></td>
+					<td>Search internet-connected devices and services.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://search.censys.io/"
+    target="_blank"
+  >Censys</a></td>
+					<td>Internet asset discovery and attack surface intelligence.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://app.netlas.io/host/"
+    target="_blank"
+  >Netlas</a></td>
+					<td>Infrastructure search engine and reconnaissance platform.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://leakix.net/graph"
+    target="_blank"
+  >LeakIX</a></td>
+					<td>Exposure and infrastructure visualization.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://urlscan.io/"
+    target="_blank"
+  >URLScan</a></td>
+					<td>Website scanning and analysis.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.urlvoid.com/"
+    target="_blank"
+  >URLVoid</a></td>
+					<td>Website reputation and blacklist checks.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.abuseipdb.com/"
+    target="_blank"
+  >AbuseIPDB</a></td>
+					<td>IP reputation and abuse reporting.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.sophos.com/en-us/support/ip-address-lookup/"
+    target="_blank"
+  >Sophos IP Lookup</a></td>
+					<td>Sophos IP reputation and classification lookup.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://buckets.grayhatwarfare.com/"
+    target="_blank"
+  >GrayHatWarfare</a></td>
+					<td>Public cloud bucket discovery and investigation.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Malware Analysis
+    <div id="malware-analysis" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#malware-analysis" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://app.any.run/"
+    target="_blank"
+  >ANY.RUN</a></td>
+					<td>Interactive malware sandbox and behavioral analysis.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.virustotal.com/"
+    target="_blank"
+  >VirusTotal</a></td>
+					<td>File, URL, domain, and IP reputation scanning.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://iocparser.com/"
+    target="_blank"
+  >IOC Parser</a></td>
+					<td>Extract indicators from threat reports and text.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://intelix.sophos.com/"
+    target="_blank"
+  >Sophos Intelix</a></td>
+					<td>File and malware reputation analysis.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Malware Samples &amp; IOC Feeds
+    <div id="malware-samples--ioc-feeds" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#malware-samples--ioc-feeds" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://bazaar.abuse.ch/browse/"
+    target="_blank"
+  >MalwareBazaar</a></td>
+					<td>Malware sample repository.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://urlhaus.abuse.ch/browse/"
+    target="_blank"
+  >URLHaus</a></td>
+					<td>Malicious URL repository and malware distribution tracking.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://threatfox.abuse.ch/"
+    target="_blank"
+  >ThreatFox</a></td>
+					<td>IOC collection and malware indicators.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Threat Maps
+    <div id="threat-maps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#threat-maps" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://threatmap.bitdefender.com/"
+    target="_blank"
+  >Bitdefender Threat Map</a></td>
+					<td>Global cyberattack visualization.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://threatmap.checkpoint.com/"
+    target="_blank"
+  >Check Point Live Cyber Threat Map</a></td>
+					<td>Real-time attack monitoring.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://threatmap.zix.com/"
+    target="_blank"
+  >OpenText Threat Map</a></td>
+					<td>Worldwide threat activity dashboard.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://securitycenter.sonicwall.com/m/page/worldwide-attacks"
+    target="_blank"
+  >SonicWall Threat Map</a></td>
+					<td>Live attack telemetry.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://dashboard.shadowserver.org/"
+    target="_blank"
+  >Shadowserver Dashboard</a></td>
+					<td>Internet exposure and threat intelligence dashboards.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://statescoop.com/ransomware-map/"
+    target="_blank"
+  >Ransomware Map</a></td>
+					<td>Tracking ransomware activity geographically.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Vulnerability Research
+    <div id="vulnerability-research" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vulnerability-research" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://vulners.com/search"
+    target="_blank"
+  >Vulners</a></td>
+					<td>CVE, exploit, and vulnerability intelligence.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.ransomware.live/"
+    target="_blank"
+  >Ransomware.Live</a></td>
+					<td>Current ransomware incidents and victim tracking.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Email Analysis
+    <div id="email-analysis" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#email-analysis" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://mha.azurewebsites.net/"
+    target="_blank"
+  >Microsoft Message Header Analyzer</a></td>
+					<td>Decode and analyze email headers.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://mxtoolbox.com/EmailHeaders.aspx"
+    target="_blank"
+  >MXToolbox Email Header Analyzer</a></td>
+					<td>Email routing and header inspection.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://emailrep.io/"
+    target="_blank"
+  >EmailRep</a></td>
+					<td>Email reputation intelligence.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Utilities &amp; Investigative Tools
+    <div id="utilities--investigative-tools" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#utilities--investigative-tools" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://gchq.github.io/CyberChef/"
+    target="_blank"
+  >CyberChef</a></td>
+					<td>Encoding, decoding, encryption, and data transformations.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://dencode.com/"
+    target="_blank"
+  >Dencode</a></td>
+					<td>Multi-purpose encoding and decoding toolkit.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://intelx.io/"
+    target="_blank"
+  >Intelligence X</a></td>
+					<td>Leak, breach, and OSINT search engine.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://grep.app/"
+    target="_blank"
+  >Grep.app</a></td>
+					<td>Search public source code repositories.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://dorksearch.com/"
+    target="_blank"
+  >DorkSearch</a></td>
+					<td>Search engine dork discovery.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://badfiles.ch/"
+    target="_blank"
+  >BadFiles</a></td>
+					<td>File extension and malware-related file reference.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://explore.whatismybrowser.com/useragents/parse/"
+    target="_blank"
+  >User-Agent Parser</a></td>
+					<td>Decode browser user-agent strings.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://www.shouldiblockit.com/"
+    target="_blank"
+  >Should I Block It?</a></td>
+					<td>Process and application reputation lookup.</td>
+			</tr>
+			<tr>
+					<td><a
+  href="https://iplogger.org/"
+    target="_blank"
+  >IPLogger</a></td>
+					<td>URL shortening and visitor tracking analysis.</td>
+			</tr>
+	</tbody>
+</table>
+
+<h1 class="relative group">Red Team Resources
+    <div id="red-team-resources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#red-team-resources" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<table>
+	<thead>
+			<tr>
+					<th>Tool</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><a
+  href="https://www.exploit-db.com/"
+    target="_blank"
+  >Exploit Database</a></td>
+					<td>Public exploit archive and vulnerability references.</td>
+			</tr>
+	</tbody>
+</table>
+
+    </section>
+    <footer class="pt-8">
+      
+
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+      
+      
+        
+      
+      
+      
+      
+      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 overflow-x-auto py-2">
+        <ul class="flex list-none flex-row">
+          
+            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 me-4">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+                href=""
+                title="">
+                
+                
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          MACIEJ KLIM
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="//localhost:1313/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>

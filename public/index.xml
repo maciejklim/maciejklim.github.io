@@ -7,7 +7,589 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 MACIEJ KLIM</copyright>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Jun 2026 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OSINT &amp; Security Resources</title>
+      <link>//localhost:1313/resources/</link>
+      <pubDate>Mon, 15 Jun 2026 20:55:37 +0100</pubDate>
+      
+      <guid>//localhost:1313/resources/</guid>
+      <description>&lt;p&gt;A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Categories
+    &lt;div id=&#34;categories&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#categories&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#categories&#34;&gt;Categories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#threat-intelligence&#34;&gt;Threat Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#domain--dns-intelligence&#34;&gt;Domain &amp;amp; DNS Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#ip--infrastructure-intelligence&#34;&gt;IP &amp;amp; Infrastructure Intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#malware-analysis&#34;&gt;Malware Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#malware-samples--ioc-feeds&#34;&gt;Malware Samples &amp;amp; IOC Feeds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#threat-maps&#34;&gt;Threat Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#vulnerability-research&#34;&gt;Vulnerability Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#email-analysis&#34;&gt;Email Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#utilities--investigative-tools&#34;&gt;Utilities &amp;amp; Investigative Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+  href=&#34;#red-team-resources&#34;&gt;Red Team Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Threat Intelligence
+    &lt;div id=&#34;threat-intelligence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#threat-intelligence&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://viz.greynoise.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;GreyNoise&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Analyze internet-wide scanning activity and identify known scanners.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatfeeds.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;ThreatFeeds.io&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Free threat intelligence feeds and indicators.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://otx.alienvault.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;AlienVault OTX&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Community-driven threat intelligence exchange.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatfox.abuse.ch/&#34;
+    target=&#34;_blank&#34;
+  &gt;ThreatFox&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;IOC repository focused on malware indicators.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://talosintelligence.com/reputation_center&#34;
+    target=&#34;_blank&#34;
+  &gt;Cisco Talos Reputation Center&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Domain, IP, and reputation intelligence.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://intelix.sophos.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Sophos Intelix&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;File, URL, and IOC reputation analysis.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://iplists.firehol.org/&#34;
+    target=&#34;_blank&#34;
+  &gt;FireHOL IP Lists&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Aggregated IP blocklists and threat feeds.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Domain &amp;amp; DNS Intelligence
+    &lt;div id=&#34;domain--dns-intelligence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#domain--dns-intelligence&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://dnstwist.it/&#34;
+    target=&#34;_blank&#34;
+  &gt;DNSTwist&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Detect phishing, typo-squatting, and impersonation domains.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://mxtoolbox.com/supertool.aspx&#34;
+    target=&#34;_blank&#34;
+  &gt;MXToolbox&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;DNS, MX, blacklist, and mail infrastructure diagnostics.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://dnsdumpster.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;DNSDumpster&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;DNS reconnaissance and domain mapping.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://ssllabs.com/ssltest/index.html&#34;
+    target=&#34;_blank&#34;
+  &gt;SSL Labs SSL Test&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Analyze SSL/TLS configurations and security posture.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;IP &amp;amp; Infrastructure Intelligence
+    &lt;div id=&#34;ip--infrastructure-intelligence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#ip--infrastructure-intelligence&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.shodan.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;Shodan&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Search internet-connected devices and services.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://search.censys.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;Censys&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Internet asset discovery and attack surface intelligence.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://app.netlas.io/host/&#34;
+    target=&#34;_blank&#34;
+  &gt;Netlas&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Infrastructure search engine and reconnaissance platform.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://leakix.net/graph&#34;
+    target=&#34;_blank&#34;
+  &gt;LeakIX&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Exposure and infrastructure visualization.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://urlscan.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;URLScan&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Website scanning and analysis.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.urlvoid.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;URLVoid&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Website reputation and blacklist checks.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.abuseipdb.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;AbuseIPDB&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;IP reputation and abuse reporting.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.sophos.com/en-us/support/ip-address-lookup/&#34;
+    target=&#34;_blank&#34;
+  &gt;Sophos IP Lookup&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Sophos IP reputation and classification lookup.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://buckets.grayhatwarfare.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;GrayHatWarfare&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Public cloud bucket discovery and investigation.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Malware Analysis
+    &lt;div id=&#34;malware-analysis&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#malware-analysis&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://app.any.run/&#34;
+    target=&#34;_blank&#34;
+  &gt;ANY.RUN&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Interactive malware sandbox and behavioral analysis.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.virustotal.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;VirusTotal&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;File, URL, domain, and IP reputation scanning.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://iocparser.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;IOC Parser&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Extract indicators from threat reports and text.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://intelix.sophos.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Sophos Intelix&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;File and malware reputation analysis.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Malware Samples &amp;amp; IOC Feeds
+    &lt;div id=&#34;malware-samples--ioc-feeds&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#malware-samples--ioc-feeds&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://bazaar.abuse.ch/browse/&#34;
+    target=&#34;_blank&#34;
+  &gt;MalwareBazaar&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Malware sample repository.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://urlhaus.abuse.ch/browse/&#34;
+    target=&#34;_blank&#34;
+  &gt;URLHaus&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Malicious URL repository and malware distribution tracking.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatfox.abuse.ch/&#34;
+    target=&#34;_blank&#34;
+  &gt;ThreatFox&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;IOC collection and malware indicators.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Threat Maps
+    &lt;div id=&#34;threat-maps&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#threat-maps&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatmap.bitdefender.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Bitdefender Threat Map&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Global cyberattack visualization.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatmap.checkpoint.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Check Point Live Cyber Threat Map&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Real-time attack monitoring.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://threatmap.zix.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;OpenText Threat Map&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Worldwide threat activity dashboard.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://securitycenter.sonicwall.com/m/page/worldwide-attacks&#34;
+    target=&#34;_blank&#34;
+  &gt;SonicWall Threat Map&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Live attack telemetry.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://dashboard.shadowserver.org/&#34;
+    target=&#34;_blank&#34;
+  &gt;Shadowserver Dashboard&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Internet exposure and threat intelligence dashboards.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://statescoop.com/ransomware-map/&#34;
+    target=&#34;_blank&#34;
+  &gt;Ransomware Map&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Tracking ransomware activity geographically.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Vulnerability Research
+    &lt;div id=&#34;vulnerability-research&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#vulnerability-research&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://vulners.com/search&#34;
+    target=&#34;_blank&#34;
+  &gt;Vulners&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;CVE, exploit, and vulnerability intelligence.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.ransomware.live/&#34;
+    target=&#34;_blank&#34;
+  &gt;Ransomware.Live&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Current ransomware incidents and victim tracking.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Email Analysis
+    &lt;div id=&#34;email-analysis&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#email-analysis&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://mha.azurewebsites.net/&#34;
+    target=&#34;_blank&#34;
+  &gt;Microsoft Message Header Analyzer&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Decode and analyze email headers.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://mxtoolbox.com/EmailHeaders.aspx&#34;
+    target=&#34;_blank&#34;
+  &gt;MXToolbox Email Header Analyzer&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Email routing and header inspection.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://emailrep.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;EmailRep&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Email reputation intelligence.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Utilities &amp;amp; Investigative Tools
+    &lt;div id=&#34;utilities--investigative-tools&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#utilities--investigative-tools&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://gchq.github.io/CyberChef/&#34;
+    target=&#34;_blank&#34;
+  &gt;CyberChef&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Encoding, decoding, encryption, and data transformations.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://dencode.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Dencode&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Multi-purpose encoding and decoding toolkit.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://intelx.io/&#34;
+    target=&#34;_blank&#34;
+  &gt;Intelligence X&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Leak, breach, and OSINT search engine.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://grep.app/&#34;
+    target=&#34;_blank&#34;
+  &gt;Grep.app&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Search public source code repositories.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://dorksearch.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;DorkSearch&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Search engine dork discovery.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://badfiles.ch/&#34;
+    target=&#34;_blank&#34;
+  &gt;BadFiles&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;File extension and malware-related file reference.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://explore.whatismybrowser.com/useragents/parse/&#34;
+    target=&#34;_blank&#34;
+  &gt;User-Agent Parser&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Decode browser user-agent strings.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.shouldiblockit.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Should I Block It?&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Process and application reputation lookup.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://iplogger.org/&#34;
+    target=&#34;_blank&#34;
+  &gt;IPLogger&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;URL shortening and visitor tracking analysis.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 class=&#34;relative group&#34;&gt;Red Team Resources
+    &lt;div id=&#34;red-team-resources&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#red-team-resources&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Tool&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+  href=&#34;https://www.exploit-db.com/&#34;
+    target=&#34;_blank&#34;
+  &gt;Exploit Database&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Public exploit archive and vulnerability references.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;</description>
+      
+    </item>
     
     <item>
       <title>AiTM Incident Response Case Study</title>
@@ -35,7 +617,7 @@
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/analysis-powershell/</guid>
-      <description>Quick DFIR technique to review PowerShell command history on Windows endpoints</description>
+      <description>Quick DFIR technique to review PowerShell command history on Windows endpoints.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/analysis-powershell/feature.jpg" />
     </item>
     
@@ -105,7 +687,7 @@
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/mitigiation-msmq-service/</guid>
-      <description>Unused Windows features can quietly become RCE&amp;rsquo;s. See how MSMQ services can put defenders at risk.</description>
+      <description>Unused Windows features can quietly become RCE&amp;rsquo;s.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigiation-msmq-service/featured.jpg" />
     </item>
     
@@ -127,9 +709,9 @@
       <guid>//localhost:1313/about/</guid>
       <description>&lt;div class=&#34;about-grid&#34;&gt;
 &lt;div class=&#34;about-left&#34;&gt;
-&lt;p&gt;I’ve always had a strong curiosity for cybersecurity—both how attacks happen and how defenders detect them. Over time, that curiosity turned into a career working in security operations.&lt;/p&gt;
-&lt;p&gt;Early on, I spent a lot of time studying offensive techniques used by modern attackers. Understanding how phishing campaigns are built, how malware spreads, and how access is established made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.&lt;/p&gt;
-&lt;p&gt;My day-to-day work focuses on monitoring and investigating security alerts across client environments, analyzing phishing and malware activity, and helping remediate vulnerabilities before they turn into incidents.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve always been interested in cybersecurity, but I&amp;rsquo;ve never been particularly interested in fear, hype, or buzzwords. What interests me is understanding how things actually work. How attackers gain access, why defenses fail, and what security teams can do to improve their odds.&lt;/p&gt;
+&lt;p&gt;My work spans security operations, Microsoft 365 security, vulnerability management, incident investigation, and automation. Wherever possible, I look for opportunities to automate repetitive tasks so security teams can focus on the work that requires human judgment.&lt;/p&gt;
+&lt;p&gt;This blog is where I document incident response case studies, forensic investigations, security research, and notes from the webinars and conferences I attend. Topics range from phishing and malware analysis to cyber insurance trends, attacker tradecraft, and observations from organizations that operate at scale. Think of it as a collection of field notes, lessons learned, and practical techniques gathered along the way.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;about-right&#34;&gt;
 &lt;div class=&#34;skills-grid&#34;&gt;
@@ -151,15 +733,6 @@
   
   
   role=&#34;button&#34;&gt;
-  SOC Operations
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
   Threat Hunting
 &lt;/a&gt;
 
@@ -172,10 +745,19 @@
   Incident Response
 &lt;/a&gt;
 
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Threat Investigation
+&lt;/a&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
-&lt;h3&gt;Threat Intelligence&lt;/h3&gt;
+&lt;h3&gt;Security Posture&lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
 &lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
@@ -183,7 +765,7 @@
   
   
   role=&#34;button&#34;&gt;
-  IOC Enrichment
+  Tenant Hardening
 &lt;/a&gt;
 
 &lt;a
@@ -192,7 +774,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Phishing Triage
+  Security Baselines
 &lt;/a&gt;
 
 &lt;a
@@ -201,7 +783,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Malware Analysis
+  Conditional Access
 &lt;/a&gt;
 
 &lt;a
@@ -210,13 +792,13 @@
   
   
   role=&#34;button&#34;&gt;
-  IP Reputation Analysis
+  Configuration Drift
 &lt;/a&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
-&lt;h3&gt;Vulnerabilities&lt;/h3&gt;
+&lt;h3&gt;Defensive Security&lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
 &lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
@@ -224,7 +806,7 @@
   
   
   role=&#34;button&#34;&gt;
-  System Hardening
+  Threat Prevention
 &lt;/a&gt;
 
 &lt;a
@@ -233,7 +815,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Baseline Enforcement
+  Identity Security
 &lt;/a&gt;
 
 &lt;a
@@ -242,7 +824,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Cloud Security Policies
+  Vulnerability Management
 &lt;/a&gt;
 
 &lt;a
@@ -251,13 +833,13 @@
   
   
   role=&#34;button&#34;&gt;
-  Vulnerability Mitigation
+  Attack Surface Reduction
 &lt;/a&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div&gt;
-&lt;h3&gt;IT Operations&lt;/h3&gt;
+&lt;h3&gt;Automation&lt;/h3&gt;
 &lt;div class=&#34;about-skills&#34;&gt;
 &lt;a
   class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
@@ -265,7 +847,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Endpoint Support
+  REST APIs
 &lt;/a&gt;
 
 &lt;a
@@ -274,16 +856,7 @@
   
   
   role=&#34;button&#34;&gt;
-  Windows Deployment
-&lt;/a&gt;
-
-&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  
-  
-  
-  role=&#34;button&#34;&gt;
-  Hardware Lifecycle
+  PowerShell
 &lt;/a&gt;
 
 &lt;a
@@ -293,6 +866,15 @@
   
   role=&#34;button&#34;&gt;
   Workflow Automation
+&lt;/a&gt;
+
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  
+  
+  
+  role=&#34;button&#34;&gt;
+  Desktop Applications
 &lt;/a&gt;
 
 &lt;/div&gt;
@@ -343,6 +925,11 @@
 &lt;img src=&#34;..\cert-sophos.png&#34;&gt;
 &lt;div&gt;Sophos Firewall Technician&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;cert-item&#34;&gt;
+&lt;img src=&#34;..\cert-lastpass.png&#34;&gt;
+&lt;div&gt;Lastpass Deployment Specialist&lt;/div&gt;
+&lt;div class=&#34;issuer&#34;&gt;Lastpass&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>

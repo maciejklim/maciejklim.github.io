@@ -3,7 +3,7 @@
   lang="en"
   dir="ltr"
   class="scroll-smooth"
-  data-default-appearance="light"
+  data-default-appearance="dark"
   data-auto-appearance="false"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   
@@ -41,25 +41,35 @@
         
       
     
+      
+        
+      
+    
+      
+        
+          <link href="https://github.com/maciejklim" rel="me">
+        
+      
+    
   
 
   
   <meta property="og:url" content="//localhost:1313/posts/analysis-prefetch/">
-  <meta property="og:site_name" content="Maciej Klim">
-  <meta property="og:title" content="Windows Prefetch Forensics">
-  <meta property="og:description" content="Understanding binary execution artifacts and how to analyze them using PECmd.exe.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-12-20T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-12-20T00:00:00+00:00">
-    <meta property="og:image" content="//localhost:1313/posts/analysis-prefetch/feature.jpg">
+	<meta property="og:site_name" content="Maciej Klim">
+	<meta property="og:title" content="Windows Prefetch Forensics">
+	<meta property="og:description" content="Understanding binary execution artifacts and how to analyze them using PECmd.exe.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2025-12-20T00:00:00+00:00">
+		<meta property="article:modified_time" content="2025-12-20T00:00:00+00:00">
+		<meta property="og:image" content="//localhost:1313/posts/analysis-prefetch/feature.jpg">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/posts/analysis-prefetch/feature.jpg">
-  <meta name="twitter:title" content="Windows Prefetch Forensics">
-  <meta name="twitter:description" content="Understanding binary execution artifacts and how to analyze them using PECmd.exe.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="//localhost:1313/posts/analysis-prefetch/feature.jpg">
+	<meta name="twitter:title" content="Windows Prefetch Forensics">
+	<meta name="twitter:description" content="Understanding binary execution artifacts and how to analyze them using PECmd.exe.">
 
   
   
@@ -106,8 +116,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.358c942186e38d5640c9ae0ddc64b2bf5ba14e5f63605e6ba8f63a5666d20829cc95f44ac373ec78dd2d318f3c86f46ff283af981bead8a940d51db7f1b4799f.css"
-    integrity="sha512-NYyUIYbjjVZAya4N3GSyv1uhTl9jYF5rqPY6VmbSCCnMlfRKw3PseN0tMY88hvRv8oOvmBvq2KlA1R238bR5nw==">
+    href="/css/main.bundle.min.9924adca673aa5fb26c5a8e02cebbec5386ce4c2e7b24122afc96e22bf8649c09760ff7315b38c14f1d86b9aebee8f43f9d37af44acf57823d4db27f1c93eab2.css"
+    integrity="sha512-mSStymc6pfsmxajgLOu&#43;xThs5MLnskEir8luIr&#43;GScCXYP9zFbOMFPHYa5rr7o9D&#43;dN69ErPV4I9TbJ/HJPqsg==">
 
   
   
@@ -358,12 +368,12 @@
   href="/posts/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Posts"
+  aria-label="Blog"
   title="Posts">
   
   
     <p class="text-base font-medium">
-      Posts
+      Blog
     </p>
   
 </a>
@@ -382,6 +392,24 @@
   
     <p class="text-base font-medium">
       About
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/resources/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Resources"
+  title="OSINT &amp; Security Resources">
+  
+  
+    <p class="text-base font-medium">
+      Resources
     </p>
   
 </a>
@@ -722,12 +750,12 @@
     href="/posts/"
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Posts"
+    aria-label="Blog"
     title="Posts">
     
     
       <p class="text-bg font-bg">
-        Posts
+        Blog
       </p>
     
   </a>
@@ -748,6 +776,26 @@
     
       <p class="text-bg font-bg">
         About
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/resources/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Resources"
+    title="OSINT &amp; Security Resources">
+    
+    
+      <p class="text-bg font-bg">
+        Resources
       </p>
     
   </a>
@@ -980,8 +1028,8 @@
     alt="PECmd Keyword Highlighting"
     width="1112"
     height="476"
-    src="/posts/analysis-prefetch/Vn9opP9vCU_hu_f91f5018cd52e746.png"
-    srcset="/posts/analysis-prefetch/Vn9opP9vCU_hu_f91f5018cd52e746.png 800w, /posts/analysis-prefetch/Vn9opP9vCU.png 1280w"
+    src="/posts/analysis-prefetch/Vn9opP9vCU_hu_92a9f777c100aa4d.png"
+    srcset="/posts/analysis-prefetch/Vn9opP9vCU_hu_92a9f777c100aa4d.png 800w, /posts/analysis-prefetch/Vn9opP9vCU.png 1280w"
     sizes="(min-width: 768px) 50vw, 65vw"
     data-zoom-src="/posts/analysis-prefetch/Vn9opP9vCU.png"><figcaption>We see Excel was used to open file related to <em>SRUM-DUMP.xlsx</em></figcaption></figure>
 

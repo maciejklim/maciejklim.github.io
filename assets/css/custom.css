@@ -9,7 +9,7 @@ html:not(.dark) body {
 
 /* Dark mode */
 html.dark body {
-  background-color: #333333;
+  background-color: #0d1117;
 }
 
 /* Remove background gradients */
@@ -145,7 +145,7 @@ table td {
   border-radius: 12px;
 }
 
-/* IMAGE CENTERING (bulletproof) */
+/* CERTIFICATION BADGES */
 .cert-item img {
   width: 80px;
   height: 80px;

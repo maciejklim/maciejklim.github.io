@@ -12,11 +12,11 @@ maxWidth: "full"
 
 <div class="about-left">
 
-I’ve always had a strong curiosity for cybersecurity—both how attacks happen and how defenders detect them. Over time, that curiosity turned into a career working in security operations.
+I've always been interested in cybersecurity, but I've never been particularly interested in fear, hype, or buzzwords. What interests me is understanding how things actually work. How attackers gain access, why defenses fail, and what security teams can do to improve their odds.
 
-Early on, I spent a lot of time studying offensive techniques used by modern attackers. Understanding how phishing campaigns are built, how malware spreads, and how access is established made it easier to recognize those same patterns when investigating real alerts. That perspective continues to shape how I approach defensive work today.
+My work spans security operations, Microsoft 365 security, vulnerability management, incident investigation, and automation. Wherever possible, I look for opportunities to automate repetitive tasks so security teams can focus on the work that requires human judgment.
 
-My day-to-day work focuses on monitoring and investigating security alerts across client environments, analyzing phishing and malware activity, and helping remediate vulnerabilities before they turn into incidents.
+This blog is where I document incident response case studies, forensic investigations, security research, and notes from the webinars and conferences I attend. Topics range from phishing and malware analysis to cyber insurance trends, attacker tradecraft, and observations from organizations that operate at scale. Think of it as a collection of field notes, lessons learned, and practical techniques gathered along the way.
 
 </div>
 
@@ -28,39 +28,39 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 <h3>Security Operations</h3>
 <div class="about-skills">
 {{< button >}}SIEM Analysis{{< /button >}}
-{{< button >}}SOC Operations{{< /button >}}
 {{< button >}}Threat Hunting{{< /button >}}
 {{< button >}}Incident Response{{< /button >}}
+{{< button >}}Threat Investigation{{< /button >}}
 </div>
 </div>
 
 <div>
-<h3>Threat Intelligence</h3>
+<h3>Security Posture</h3>
 <div class="about-skills">
-{{< button >}}IOC Enrichment{{< /button >}}
-{{< button >}}Phishing Triage{{< /button >}}
-{{< button >}}Malware Analysis{{< /button >}}
-{{< button >}}IP Reputation Analysis{{< /button >}}
+{{< button >}}Tenant Hardening{{< /button >}}
+{{< button >}}Security Baselines{{< /button >}}
+{{< button >}}Conditional Access{{< /button >}}
+{{< button >}}Configuration Drift{{< /button >}}
 </div>
 </div>
 
 <div>
-<h3>Vulnerabilities</h3>
+<h3>Defensive Security</h3>
 <div class="about-skills">
-{{< button >}}System Hardening{{< /button >}}
-{{< button >}}Baseline Enforcement{{< /button >}}
-{{< button >}}Cloud Security Policies{{< /button >}}
-{{< button >}}Vulnerability Mitigation{{< /button >}}
+{{< button >}}Threat Prevention{{< /button >}}
+{{< button >}}Identity Security{{< /button >}}
+{{< button >}}Vulnerability Management{{< /button >}}
+{{< button >}}Attack Surface Reduction{{< /button >}}
 </div>
 </div>
 
 <div>
-<h3>IT Operations</h3>
+<h3>Automation</h3>
 <div class="about-skills">
-{{< button >}}Endpoint Support{{< /button >}}
-{{< button >}}Windows Deployment{{< /button >}}
-{{< button >}}Hardware Lifecycle{{< /button >}}
+{{< button >}}REST APIs{{< /button >}}
+{{< button >}}PowerShell{{< /button >}}
 {{< button >}}Workflow Automation{{< /button >}}
+{{< button >}}Desktop Applications{{< /button >}}
 </div>
 </div>
 
@@ -131,6 +131,12 @@ My day-to-day work focuses on monitoring and investigating security alerts acros
 <img src="..\cert-sophos.png">
 <div>Sophos Firewall Technician</div>
 <div class="issuer">Sophos</div>
+</div>
+
+<div class="cert-item">
+<img src="..\cert-lastpass.png">
+<div>Lastpass Deployment Specialist</div>
+<div class="issuer">Lastpass</div>
 </div>
 
 </div>
