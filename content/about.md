@@ -78,7 +78,7 @@ This blog is where I document incident response case studies, forensic investiga
 <div class="cert-grid">
 
 <div class="cert-item">
-<img src="../cert-comptia-sec-plus.png">
+<img src="img/cert-comptia-sec-plus.png">
 <div>CompTIA Security+</div>
 <div class="issuer">CompTIA</div>
 </div>
