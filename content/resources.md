@@ -8,13 +8,12 @@ showTableOfContents: true
 maxWidth: "full"
 ---
 
-A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.
+A curated collection of frequently used tools.
 
 ---
 
-# Categories
+> Table of Contents
 
-- [Categories](#categories)
 - [Threat Intelligence](#threat-intelligence)
 - [Domain \& DNS Intelligence](#domain--dns-intelligence)
 - [IP \& Infrastructure Intelligence](#ip--infrastructure-intelligence)
