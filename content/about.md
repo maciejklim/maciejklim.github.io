@@ -78,7 +78,7 @@ This blog is where I document incident response case studies, forensic investiga
 <div class="cert-grid">
 
 <div class="cert-item">
-<img src="img/cert-comptia-sec-plus.png">
+<img src="/img/cert-comptia-sec-plus.png">
 <div>CompTIA Security+</div>
 <div class="issuer">CompTIA</div>
 </div>
@@ -91,13 +91,13 @@ This blog is where I document incident response case studies, forensic investiga
 <div class="cert-grid">
 
 <div class="cert-item">
-<img src="..\cert-ms-102.svg">
+<img src="/img/cert-ms-102.svg">
 <div>MS-102 Configure your Microsoft 365 tenant</div>
 <div class="issuer">Microsoft</div>
 </div>
 
 <div class="cert-item">
-<img src="..\cert-adds.svg">
+<img src="/img/cert-adds.svg">
 <div>Active Directory Domain Services</div>
 <div class="issuer">Microsoft</div>
 </div>
@@ -110,25 +110,25 @@ This blog is where I document incident response case studies, forensic investiga
 <div class="cert-grid">
 
 <div class="cert-item">
-<img src="..\cert-dnsfilter.png">
+<img src="/img/cert-dnsfilter.png">
 <div>DNSFilter Certified</div>
 <div class="issuer">DNSFilter</div>
 </div>
 
 <div class="cert-item">
-<img src="..\cert-connectsecure.png">
+<img src="/img/cert-connectsecure.png">
 <div>ConnectSecure Certified Administrator</div>
 <div class="issuer">ConnectSecure</div>
 </div>
 
 <div class="cert-item">
-<img src="..\cert-sophos.png">
+<img src="/img/cert-sophos.png">
 <div>Sophos Firewall Engineer</div>
 <div class="issuer">Sophos</div>
 </div>
 
 <div class="cert-item">
-<img src="img/cert-sophos.png">
+<img src="/img/cert-sophos.png">
 <div>Sophos Firewall Technician</div>
 <div class="issuer">Sophos</div>
 </div>
