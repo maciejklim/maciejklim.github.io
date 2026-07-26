@@ -128,13 +128,13 @@ This blog is where I document incident response case studies, forensic investiga
 </div>
 
 <div class="cert-item">
-<img src="..\cert-sophos.png">
+<img src="img/cert-sophos.png">
 <div>Sophos Firewall Technician</div>
 <div class="issuer">Sophos</div>
 </div>
 
 <div class="cert-item">
-<img src="../img/cert-lastpass.png">
+<img src="img\cert-lastpass.png">
 <div>Lastpass Deployment Specialist</div>
 <div class="issuer">Lastpass</div>
 </div>

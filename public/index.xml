@@ -922,12 +922,12 @@
 &lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-sophos.png&#34;&gt;
+&lt;img src=&#34;img/cert-sophos.png&#34;&gt;
 &lt;div&gt;Sophos Firewall Technician&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;../img/cert-lastpass.png&#34;&gt;
+&lt;img src=&#34;img\cert-lastpass.png&#34;&gt;
 &lt;div&gt;Lastpass Deployment Specialist&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Lastpass&lt;/div&gt;
 &lt;/div&gt;
