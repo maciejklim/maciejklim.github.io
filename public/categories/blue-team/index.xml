@@ -11,32 +11,32 @@
     
     <item>
       <title>CVE 2013-3900: WinVerifyTrust Signature Validation</title>
-      <link>//localhost:1313/posts/mitigation-winverifytrustsignature/</link>
+      <link>//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/mitigation-winverifytrustsignature/</guid>
+      <guid>//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/</guid>
       <description>When signature validation is lax, detection breaks. See what defenders must do to close that gap.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-winverifytrustsignature/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/featured.PNG" />
     </item>
     
     <item>
       <title>CVE 2024-30080: Microsoft Message Queueing Remote Code Execution</title>
-      <link>//localhost:1313/posts/mitigiation-msmq-service/</link>
+      <link>//localhost:1313/posts/cve-2024-30080-microsoft-message-queueing-remote-code-execution/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/mitigiation-msmq-service/</guid>
+      <guid>//localhost:1313/posts/cve-2024-30080-microsoft-message-queueing-remote-code-execution/</guid>
       <description>Unused Windows features can quietly become RCE&amp;rsquo;s.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigiation-msmq-service/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2024-30080-microsoft-message-queueing-remote-code-execution/featured.PNG" />
     </item>
     
     <item>
       <title>CVE-2023-3438: Unquoted Service Path</title>
-      <link>//localhost:1313/posts/mitigation-unquoted-service-paths/</link>
+      <link>//localhost:1313/posts/cve-2023-3438-unquoted-service-path/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/mitigation-unquoted-service-paths/</guid>
+      <guid>//localhost:1313/posts/cve-2023-3438-unquoted-service-path/</guid>
       <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mitigation-unquoted-service-paths/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2023-3438-unquoted-service-path/featured.PNG" />
     </item>
     
   </channel>

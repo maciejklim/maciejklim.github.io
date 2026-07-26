@@ -15,7 +15,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/case-study-aitm-ir/</loc>
+    <loc>//localhost:1313/posts/incident-response-case-study-1/</loc>
     <lastmod>2026-05-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -27,61 +27,61 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/cyberinsurace-2026-report/</loc>
+    <loc>//localhost:1313/posts/what-cyber-insurance-is-seeing-in-2026/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/analysis-powershell/</loc>
+    <loc>//localhost:1313/posts/windows-powershell-forensics/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/analysis-prefetch/</loc>
+    <loc>//localhost:1313/posts/windows-prefetch-forensics/</loc>
     <lastmod>2025-12-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/analysis-usb-history/</loc>
+    <loc>//localhost:1313/posts/windows-usb-forensics/</loc>
     <lastmod>2025-12-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/analysis-srubd/</loc>
+    <loc>//localhost:1313/posts/windows-srum-forensics/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/analysis-netsh-wlan-profiles/</loc>
+    <loc>//localhost:1313/posts/windows-wifi-forensics/</loc>
     <lastmod>2025-12-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/phishing-trends-eoy-2025/</loc>
+    <loc>//localhost:1313/posts/phishing-trends-observed-in-2025/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/mitigation-winverifytrustsignature/</loc>
+    <loc>//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/mitigiation-msmq-service/</loc>
+    <loc>//localhost:1313/posts/cve-2024-30080-microsoft-message-queueing-remote-code-execution/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/mitigation-unquoted-service-paths/</loc>
+    <loc>//localhost:1313/posts/cve-2023-3438-unquoted-service-path/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -89,6 +89,11 @@
   <url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/drafts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

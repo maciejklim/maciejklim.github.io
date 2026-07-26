@@ -20,6 +20,8 @@ html.dark body {
 }
 
 
+
+
 /* =========================
    CATEGORY BUTTONS
 ========================= */
@@ -181,4 +183,228 @@ table td {
   .cert-grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* Full width page */
+.article-content.max-w-prose {
+  max-width: 950px !important;
+}
+
+/* =============================================================================
+   Chroma Theme
+   Windows Terminal / PowerShell Inspired
+   ============================================================================= */
+
+/* --------------------------------------------------------------------------
+   Code Block
+-------------------------------------------------------------------------- */
+
+.chroma {
+  background: #1b1f24;
+  color: #d6d6d6;
+
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.6;
+
+  border: 1px solid #30363d;
+  border-left: 4px solid #014c89;
+  border-radius: 8px;
+
+  padding: 1rem;
+  margin: 1.5rem 0;
+
+  overflow: hidden;
+}
+
+/* --------------------------------------------------------------------------
+   Everything inside uses Consolas
+-------------------------------------------------------------------------- */
+
+.chroma,
+.chroma pre,
+.chroma code,
+.chroma *,
+.highlight,
+.highlight pre,
+.highlight code {
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace !important;
+  background: transparent;
+}
+
+/* --------------------------------------------------------------------------
+   Inline Code
+-------------------------------------------------------------------------- */
+
+:not(pre)>code {
+
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace !important;
+
+  background: rgba(255, 255, 255, .05);
+  color: #e6edf3;
+
+  border: 1px solid #30363d;
+  border-radius: 4px;
+
+  padding: .15rem .35rem;
+}
+
+/* =============================================================================
+   DEFAULT TERMINAL TEXT
+   ============================================================================= */
+
+.chroma .n,
+.chroma .na,
+.chroma .nc,
+.chroma .nd,
+.chroma .ne,
+.chroma .nf,
+.chroma .ni,
+.chroma .nl,
+.chroma .nn,
+.chroma .no,
+.chroma .nx,
+.chroma .nv,
+.chroma .vc,
+.chroma .vg,
+.chroma .vi,
+.chroma .vm,
+.chroma .py,
+
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt,
+
+.chroma .o,
+.chroma .ow,
+.chroma .or,
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo,
+
+.chroma .l {
+
+  color: #d6d6d6 !important;
+}
+
+/* =============================================================================
+   POWERSHELL PROMPT
+   ============================================================================= */
+
+.chroma .nb {
+
+  color: #47ff84 !important;
+  font-weight: 400;
+}
+
+/* =============================================================================
+   STRINGS
+   ============================================================================= */
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .sd,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sr,
+.chroma .ss,
+.chroma .sx,
+.chroma .s1,
+.chroma .s2 {
+
+  color: #ececec !important;
+}
+
+/* =============================================================================
+   COMMENTS
+   ============================================================================= */
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs,
+.chroma .cp,
+.chroma .cpf {
+
+  color: #8b949e !important;
+  font-style: italic;
+}
+
+/* =============================================================================
+   ERRORS
+   ============================================================================= */
+
+.chroma .err {
+
+  color: #d6d6d6 !important;
+}
+
+/* =============================================================================
+   LINE NUMBERS
+   ============================================================================= */
+
+.chroma .ln,
+.chroma .lnt {
+
+  color: #666 !important;
+}
+
+/* =============================================================================
+   HIGHLIGHTED LINE
+   ============================================================================= */
+
+.chroma .hl {
+
+  background: rgba(1, 76, 137, .15);
+}
+
+/* =============================================================================
+   WORD WRAPPING
+   ============================================================================= */
+
+.chroma pre {
+
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  overflow-x: hidden !important;
+}
+
+.chroma code {
+
+  white-space: pre-wrap !important;
+}
+
+/* =============================================================================
+   TEXT SELECTION
+   ============================================================================= */
+
+.chroma ::selection {
+
+  background: rgba(1, 76, 137, .35);
+}
+
+/* =============================================================================
+   REMOVE RANDOM TOKEN BACKGROUNDS
+   ============================================================================= */
+
+.chroma span,
+.chroma td,
+.chroma tr {
+
+  background: transparent !important;
 }
