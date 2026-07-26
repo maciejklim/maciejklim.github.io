@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 MACIEJ KLIM</copyright>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inside the Supply Chain Blind Spot</title>
+      <link>//localhost:1313/posts/inside-the-supply-chain-blind-spot/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/inside-the-supply-chain-blind-spot/</guid>
+      <description>Why trusted developer tools are becoming a new enterprise attack surface.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/inside-the-supply-chain-blind-spot/featured.PNG" />
+    </item>
     
     <item>
       <title>Incident Response Case Study #1</title>
@@ -16,7 +26,7 @@
       
       <guid>//localhost:1313/posts/incident-response-case-study-1/</guid>
       <description>Understanding Adversary-in-the-Middle attacks against M365 in real-world scenarios.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/incident-response-case-study-1/featured.PNG" />
+      
     </item>
     
     <item>

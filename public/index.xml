@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 MACIEJ KLIM</copyright>
-    <lastBuildDate>Mon, 15 Jun 2026 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inside the Supply Chain Blind Spot</title>
+      <link>//localhost:1313/posts/inside-the-supply-chain-blind-spot/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/inside-the-supply-chain-blind-spot/</guid>
+      <description>Why trusted developer tools are becoming a new enterprise attack surface.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/inside-the-supply-chain-blind-spot/featured.PNG" />
+    </item>
     
     <item>
       <title>OSINT &amp; Security Resources</title>
@@ -15,21 +25,12 @@
       <pubDate>Mon, 15 Jun 2026 20:55:37 +0100</pubDate>
       
       <guid>//localhost:1313/resources/</guid>
-      <description>&lt;p&gt;A curated collection of cybersecurity, threat intelligence, OSINT, malware analysis, and reconnaissance tools frequently used by security professionals.&lt;/p&gt;
+      <description>&lt;p&gt;A curated collection of frequently used tools.&lt;/p&gt;
 &lt;hr&gt;
-
-&lt;h1 class=&#34;relative group&#34;&gt;Categories
-    &lt;div id=&#34;categories&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#categories&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Table of Contents&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a
-  href=&#34;#categories&#34;&gt;Categories&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a
   href=&#34;#threat-intelligence&#34;&gt;Threat Intelligence&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a
@@ -886,7 +887,7 @@
 &lt;h3&gt;Industry Certifications&lt;/h3&gt;
 &lt;div class=&#34;cert-grid&#34;&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;img/cert-comptia-sec-plus.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-comptia-sec-plus.png&#34;&gt;
 &lt;div&gt;CompTIA Security+&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;CompTIA&lt;/div&gt;
 &lt;/div&gt;
@@ -894,12 +895,12 @@
 &lt;h3&gt;Microsoft Certifications&lt;/h3&gt;
 &lt;div class=&#34;cert-grid&#34;&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-ms-102.svg&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-ms-102.svg&#34;&gt;
 &lt;div&gt;MS-102 Configure your Microsoft 365 tenant&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Microsoft&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-adds.svg&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-adds.svg&#34;&gt;
 &lt;div&gt;Active Directory Domain Services&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Microsoft&lt;/div&gt;
 &lt;/div&gt;
@@ -907,27 +908,27 @@
 &lt;h3&gt;Vendor Certifications&lt;/h3&gt;
 &lt;div class=&#34;cert-grid&#34;&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-dnsfilter.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-dnsfilter.png&#34;&gt;
 &lt;div&gt;DNSFilter Certified&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;DNSFilter&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-connectsecure.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-connectsecure.png&#34;&gt;
 &lt;div&gt;ConnectSecure Certified Administrator&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;ConnectSecure&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;..\cert-sophos.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-sophos.png&#34;&gt;
 &lt;div&gt;Sophos Firewall Engineer&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;img/cert-sophos.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-sophos.png&#34;&gt;
 &lt;div&gt;Sophos Firewall Technician&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Sophos&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;cert-item&#34;&gt;
-&lt;img src=&#34;img\cert-lastpass.png&#34;&gt;
+&lt;img src=&#34;//localhost:1313/img/cert-lastpass.png&#34;&gt;
 &lt;div&gt;Lastpass Deployment Specialist&lt;/div&gt;
 &lt;div class=&#34;issuer&#34;&gt;Lastpass&lt;/div&gt;
 &lt;/div&gt;

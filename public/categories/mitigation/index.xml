@@ -16,7 +16,7 @@
       
       <guid>//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/</guid>
       <description>When signature validation is lax, detection breaks. See what defenders must do to close that gap.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/featured.PNG" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2013-3900-winverifytrust-signature-validation/old_featured.jpg" />
     </item>
     
     <item>
