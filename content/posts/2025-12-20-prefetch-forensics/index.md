@@ -133,9 +133,9 @@ Directories referenced: 88
 
 * **Executable Name:** Confirms what program was run.
 * **Run Count:** Tells you how many times it was executed. Great for spotting repeated or suspicious activity.
-* **Last Run Timestamp**: Used for for timeline reconstruction in investigations. _Times are in UTC_
-* **Other Run Times Timestamp:**: Shows the last times the file was executed. _Times are in UTC_
-* **Volume Information:**: Confirms which disk the file was from and help verify file integrity.
+* **Last Run Timestamp:** Used for for timeline reconstruction in investigations. _Times are in UTC_
+* **Other Run Times Timestamp:** Shows the last times the file was executed. _Times are in UTC_
+* **Volume Information:** Confirms which disk the file was from and help verify file integrity.
 * **Directories/Files Referenced:** Demonstrates all the directories and files that the binary has touched.
 
 ### Filtering keywords
