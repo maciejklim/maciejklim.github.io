@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maciejklim.github.io/sitemap.xml
