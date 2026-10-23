@@ -48,6 +48,35 @@ html.dark body {
 
 
 /* =========================
+   ARTICLE LIST (layouts/partials/article-link/simple.html)
+========================= */
+
+.article-list-item {
+  padding: 0.625rem 0;
+  border-bottom: 1px solid rgb(var(--color-neutral-300));
+}
+
+html.dark .article-list-item {
+  border-bottom-color: rgb(var(--color-neutral-800));
+}
+
+.article-list-item__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.article-list-item__title {
+  line-height: 1.25;
+}
+
+.article-list-item__title a {
+  transition: color 150ms ease;
+}
+
+
+/* =========================
    GLOBAL TABLE FIX (kept safe)
 ========================= */
 

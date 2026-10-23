@@ -1,0 +1,55 @@
+{{/* Used by
+1. list.html and term.html (when the cardView option is not enabled)
+2. Recent articles template (when the cardView option is not enabled)
+3. Shortcode list.html
+
+Minimal text-only override of the Blowfish partial: title, date, categories
+and optional summary. Feature images are intentionally not rendered.
+*/}}
+{{ $constrainItemsWidth := site.Params.list.constrainItemsWidth | default false }}
+
+{{ $cardClasses := "article-list-item" }}
+{{ if $constrainItemsWidth }}
+{{ $cardClasses = printf "%s max-w-prose" $cardClasses }}
+{{ end }}
+
+{{ $page := .Page }}
+
+<article class="{{ $cardClasses }}">
+
+    <div class="article-list-item__header">
+
+        <h2 class="article-list-item__title text-2xl font-semibold">
+            <a {{ with $page.Params.externalUrl }} href="{{ . }}" target="_blank" rel="external" {{ else }}
+                href="{{ $page.RelPermalink }}" {{ end }} class="hover:text-primary-500">
+                {{ .Title | emojify }}
+            </a>
+        </h2>
+
+        <div class="shrink-0 text-right text-sm text-neutral-500">
+
+            <time class="block" datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+
+            {{ with .Params.categories }}
+            <div class="text-xs text-neutral-400">
+                {{ if reflect.IsSlice . }}
+                {{ delimit . ", " }}
+                {{ else }}
+                {{ . }}
+                {{ end }}
+            </div>
+            {{ end }}
+
+        </div>
+
+    </div>
+
+    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
+    <p class="mt-2 max-w-3xl text-neutral-400 leading-7">
+        {{ .Summary | plainify }}
+    </p>
+    {{ end }}
+
+</article>
