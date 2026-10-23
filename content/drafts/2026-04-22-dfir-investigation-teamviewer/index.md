@@ -2,8 +2,8 @@
 title: "TeamView Forensics Challenge"
 date: "2026-04-22"
 summary: "Lets investigate a compromised endpoint"
-categories: "Forensics"
-image: "feature.jpg"
+categories: ["Digital Forensics"]
+tags: ["Windows", "Remote Access", "TeamViewer"]
 showTableOfContents: true
 draft: true
 # https://stumblesec.com/letsdefend-teamviewer-forensics-challenge-walkthrough-652049d9b863

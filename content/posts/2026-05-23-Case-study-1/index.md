@@ -2,8 +2,8 @@
 title: "Incident Response Case Study #1"
 date: 2026-05-23
 summary: "Understanding Adversary-in-the-Middle attacks against M365 in real-world scenarios."
-categories: ["Cybersecurity"]
-image: "featured.jpg"
+categories: ["Incident Response"]
+tags: ["Microsoft 365", "Entra ID", "AiTM", "Phishing", "Identity"]
 slug: "Incident Response Case Study-1"
 ---
 

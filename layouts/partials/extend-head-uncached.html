@@ -1,0 +1,12 @@
+{{/* Social preview image for posts that use a category thumbnail
+   (partials/functions/feature-image.html). Hugo's opengraph template only
+   sees images inside the page bundle, so it would emit none for these. */}}
+{{ if .IsPage }}
+  {{ $featureImage := partial "functions/feature-image.html" . }}
+  {{ if and $featureImage (strings.HasPrefix $featureImage "img/thumbnails/") }}
+    {{ with resources.Get $featureImage }}
+      <meta property="og:image" content="{{ .Permalink }}">
+      <meta name="twitter:image" content="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
+{{ end }}

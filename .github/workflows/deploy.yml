@@ -3,8 +3,14 @@ name: Deploy to Github Pages
 on:
     push:
         branches: [master]
+    # Pull requests only build the site as a check; they never deploy.
     pull_request:
         branches: [master]
+
+concurrency:
+    group: pages-${{ github.ref }}
+    # Superseded PR builds are cancelled; deploys from master always finish.
+    cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
     build:
@@ -16,25 +22,19 @@ jobs:
             contents: write
 
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   fetch-depth: 0
 
             - name: Cache Hugo resources
-              uses: actions/cache@v4
-              env:
-                  cache-name: cache-hugo-resources
+              uses: actions/cache@v6
               with:
                   path: resources
-                  key: ${{ env.cache-name }}
-
-            - uses: actions/setup-go@v5
-              with:
-                  go-version: "^1.17.0"
-            - run: go version
+                  key: hugo-resources-${{ hashFiles('assets/**', 'content/**') }}
+                  restore-keys: hugo-resources-
 
             - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
+              uses: peaceiris/actions-hugo@v3
               with:
                   hugo-version: "latest"
                   extended: true
@@ -43,6 +43,7 @@ jobs:
               run: hugo --minify --gc --cleanDestinationDir
 
             - name: Deploy 🚀
+              if: github.event_name == 'push'
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                   branch: gh-pages

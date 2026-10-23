@@ -2,8 +2,8 @@
 title: "What Cyber Insurance Is Seeing In 2026"
 date: 2026-05-09
 summary: "Learn key trends from one of the largest cyber insurance agencies annual reports."
-categories: ["Cybersecurity"]
-image: "feature.jpg"
+categories: ["Industry Trends"]
+tags: ["Cyber Insurance", "Threat Landscape"]
 draft: false
 slug: "What Cyber Insurance Is Seeing In 2026"
 ---

@@ -2,8 +2,8 @@
 title: "Windows Active Directory Checkup"
 date: "2026-04-12"
 summary: "A practical Active Directory health checklist covering user accounts, domain controllers, replication, Group Policy, and security best practices."
-categories: "Blue Team"
-image: "featured.jpg"
+categories: ["Identity and Access"]
+tags: ["Active Directory", "Hardening", "Blue Team"]
 draft: true
 slug: "Windows Active Directory Checkup"
 ---

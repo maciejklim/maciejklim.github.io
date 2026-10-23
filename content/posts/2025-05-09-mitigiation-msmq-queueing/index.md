@@ -2,9 +2,8 @@
 title: "CVE 2024-30080: Microsoft Message Queueing Remote Code Execution"
 date: "2025-05-09"
 summary: "Unused Windows features can quietly become RCE's."
-categories:
-    - Mitigation
-    - Blue Team
+categories: ["Mitigation"]
+tags: ["Windows", "RCE", "Vulnerability Management", "Blue Team"]
 slug: "CVE-2024-30080-Microsoft-Message-Queueing-Remote-Code-Execution"
 ---
 

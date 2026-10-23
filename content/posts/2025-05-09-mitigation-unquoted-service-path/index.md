@@ -2,9 +2,8 @@
 title: "CVE-2023-3438: Unquoted Service Path"
 date: "2025-05-09"
 summary: "Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM."
-categories:
-    - Mitigation
-    - Blue Team
+categories: ["Mitigation"]
+tags: ["Windows", "Privilege Escalation", "Vulnerability Management", "Blue Team"]
 slug: "CVE-2023-3438-Unquoted-Service-Path"
 ---
 > Table of Contents

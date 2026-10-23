@@ -1,9 +1,9 @@
 ---
 title: "Phishing Trends Observed in 2025"
 date: 2025-12-06
-image: cat-industry-trends.PNG
 summary: From fake M365 login pages to QR-code scams. Discover the top phishing trends seen this year.
-categories: ["Cybersecurity"]
+categories: ["Industry Trends"]
+tags: ["Phishing", "Microsoft 365", "Threat Landscape"]
 slug: "Phishing Trends Observed in 2025"
 ---
 

@@ -2,7 +2,8 @@
 title: "Windows USB Forensics"
 date: "2025-12-20"
 summary: "Learn how to identify historical USB activity, including tracing connected devices and artifacts left behind."
-categories: "Forensics"
+categories: ["Digital Forensics"]
+tags: ["Windows", "Artifacts", "USB", "Registry"]
 slug: "Windows USB Forensics"
 ---
 

@@ -86,10 +86,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTableOfContents = false
   showRelatedContent = false
   relatedContentLimit = 3
-  # Blowfish v3 removed showCategoryOnly; showTaxonomies + showTags = false gives the same category-only badges
+  # Blowfish v3 removed showCategoryOnly; showTaxonomies shows categories and tags
   showTaxonomies = true
   showCategories = true
-  showTags = false
+  showTags = true
   showAuthorsBadges = true
   showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "bluesky", "mastodon", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram", "line"]

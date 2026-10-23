@@ -2,8 +2,8 @@
 title: "Inside the Supply Chain Blind Spot"
 date: 2026-07-26
 summary: "Why trusted developer tools are becoming a new enterprise attack surface."
-categories: ["Cybersecurity"]
-image: "featured.jpg"
+categories: ["Industry Trends"]
+tags: ["Supply Chain", "Threat Landscape"]
 slug: "Inside the Supply Chain Blind Spot"
 ---
 

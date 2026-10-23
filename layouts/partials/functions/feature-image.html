@@ -1,0 +1,24 @@
+{{/* Blowfish v3.9.0 feature-image.html plus a site fallback: posts without
+   their own feature image (front matter featureimage, or a *feature*,
+   *cover* or *thumbnail* image in the bundle) use the standard thumbnail of
+   their first category, assets/img/thumbnails/<category-slug>.png, made by
+   tools/thumbnails/make_thumbnails.py. */}}
+{{ $featureImage := .Params.featureimage }}
+{{ if not $featureImage }}
+  {{ range .Translations }}
+    {{ with .Params.featureimage }}{{ $featureImage = . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $featureImage }}
+  {{ $ownImage := false }}
+  {{ range slice "*feature*" "*cover*" "*thumbnail*" }}
+    {{ if $.Resources.GetMatch . }}{{ $ownImage = true }}{{ end }}
+  {{ end }}
+  {{ if not $ownImage }}
+    {{ with .GetTerms "categories" }}
+      {{ $thumbnail := printf "img/thumbnails/%s.png" (path.Base (index . 0).RelPermalink) }}
+      {{ if resources.Get $thumbnail }}{{ $featureImage = $thumbnail }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $featureImage }}

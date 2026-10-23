@@ -2,7 +2,8 @@
 title: "Windows SRUM Forensics"
 date: "2025-12-07"
 summary: "Analyzing SRUM database to reconstruct per-process network usage and system activity."
-categories: "Forensics"
+categories: ["Digital Forensics"]
+tags: ["Windows", "Artifacts", "SRUM"]
 slug: "Windows SRUM Forensics"
 ---
 
