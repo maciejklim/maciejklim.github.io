@@ -1,0 +1,18 @@
+{{/* Blowfish 2.x taxonomy term link (v3 renders terms as pills).
+Grid widths live in assets/css/custom.css (.term-list-item) because the
+sm:/md:/lg: width utilities are missing from the v3 prebuilt CSS. */}}
+<article class="term-list-item">
+  <h2 class="flex items-center">
+    <a
+      class="text-xl font-medium decoration-primary-500 hover:underline hover:underline-offset-2"
+      href="{{ .Page.RelPermalink }}"
+      >{{ .Page.Title }}</a
+    >
+    {{ if site.Params.taxonomy.showTermCount | default true }}
+      <span class="px-2 text-base text-primary-500">&middot;</span>
+      <span class="text-base text-neutral-400">
+        {{ .Count }}
+      </span>
+    {{ end }}
+  </h2>
+</article>

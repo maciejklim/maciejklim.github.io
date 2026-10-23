@@ -1,0 +1,4 @@
+# Site-level overrides of themes/blowfish/i18n/en.yaml.
+# Empty "Recent" heading on the home page (was previously commented out in the vendored theme).
+shortcode:
+  recent_articles: ""
