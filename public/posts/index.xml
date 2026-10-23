@@ -126,7 +126,7 @@
       
       <guid>//localhost:1313/posts/cve-2023-3438-unquoted-service-path/</guid>
       <description>Windows doesn’t forgive sloppy service paths. Learn how a single missing quote lets attackers hijack execution flow and escalate to SYSTEM.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2023-3438-unquoted-service-path/old_featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/cve-2023-3438-unquoted-service-path/featured.PNG" />
     </item>
     
   </channel>

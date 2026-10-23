@@ -1,7 +1,7 @@
 ---
 title: "Windows Active Directory Checkup"
 date: "2026-04-12"
-summary: "xx"
+summary: "A practical Active Directory health checklist covering user accounts, domain controllers, replication, Group Policy, and security best practices."
 categories: "Blue Team"
 image: "featured.jpg"
 draft: true
